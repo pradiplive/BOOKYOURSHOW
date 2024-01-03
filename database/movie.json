@@ -1,0 +1,1230 @@
+{
+    "movies": [
+        {
+            "id": 0,
+            "name": "Aquaman And The Lost Kingdom",
+            "category": "UA",
+            "banner_img": "../assets/salar.jfif",
+            "main_img": "../assets/aquaman-and-the-lost-kingdom-.webp",
+            "duration": "124min",
+            "description": "When an ancient power is unleashed, Aquaman must forge an uneasy alliance with an unlikely ally to protect Atlantis, and the world, from irreversible devastation.",
+            "cast": [
+                {
+                    "id": 0,
+                    "actor_name": "Jason Momoa",
+                    "actor_image": "../assets/acters/jason-momoa.webp",
+                    "occupation": "Actor • Writer",
+                    "born": "August 1, 1979",
+                    "birthplace": "Honolulu, Hawaii, United States",
+                    "spouse": "Lisa Bonet",
+                    "description": "Jason Momoa is an American model, writer, producer, director, and actor. He is best known for his performance as Khal Drogo in the HBO fantasy television series Game of Thrones (2011-2012). Road to Paloma (2014) was his first film as a writer, actor, producer, and director. In 2016, he was seen in Batman V Superman: Dawn of Justice. His 2017 releases include Once Upon a Time in Venice, The Bad Batch, and Justice League. He was also seen in Aquaman (2018), directed by James Wan. His 2021 release includes Zack Snyder's Justice League. His other notable works include Dune (2021), Slumberland (2022), Fast X (2023), and Aquaman and the Lost Kingdom (2023)."
+                },
+                {
+                    "id": 1,
+                    "actor_name": "Amber Heard",
+                    "actor_image": "../assets/acters/amber-heard.webp",
+                    "occupation": "Actress",
+                    "born": "April 22, 1986",
+                    "birthplace": "Austin, Texas, United States",
+                    "spouse": "Johnny Depp",
+                    "description": "Amber Heard is an American actress. She made her film debut in 2004 in the sports drama Friday Night Lights. After small roles in North Country and Alpha Dog, Heard played her first leading role in All the Boys Love Mandy Lane (2006) and appeared in The CW television show Hidden Palms (2007)."
+                },
+                {
+                    "id": 2,
+                    "actor_name": "Patrick Wilson",
+                    "actor_image": "../assets/acters/patrick-wilson.webp",
+                    "occupation": "Actor",
+                    "born": "July 3, 1973",
+                    "birthplace": "Norfolk, Virginia, United States",
+                    "spouse": "Dagmara Domińczyk",
+                    "description": "Patrick Joseph Wilson is an American actor and singer. He spent his early career starring in Broadway musicals, beginning in 1995. Wilson has appeared in feature films such as The Phantom of the Opera (2004), Little Children (2006), Watchmen (2009), Insidious (2010), The Conjuring (2013), and Aquaman (2018)."
+                },
+                {
+                    "id": 3,
+                    "actor_name": "Dolph Lundgren",
+                    "actor_image": "../assets/acters/dolph-lundgren.webp",
+                    "occupation": "Actor",
+                    "born": "November 3, 1957",
+                    "birthplace": "Stockholm, Sweden",
+                    "spouse": "Anette Qviberg",
+                    "description": "Dolph Lundgren is a Swedish actor, filmmaker, and martial artist. Lundgren's breakthrough came in 1985 when he starred in Rocky IV as the imposing Soviet boxer Ivan Drago. He has since starred in more than 40 films, almost all of them in the action genre."
+                },
+                {
+                    "id": 4,
+                    "actor_name": "Indya Moore",
+                    "actor_image": "../assets/acters/indya-moore.webp",
+                    "occupation": "Actor • Model",
+                    "born": "January 17, 1995",
+                    "birthplace": "New York City, New York, United States",
+                    "spouse": "Single",
+                    "description": "Indya Adrianna Moore is an American actor, model, and social activist. They are best known for their role as Angel Evangelista in the television series Pose, making them the first openly transgender person to be nominated for a Primetime Emmy Award in any acting category."
+                },
+                {
+                    "id": 5,
+                    "actor_name": "Nicole Kidman",
+                    "actor_image": "../assets/acters/nicole-kidman.webp",
+                    "occupation": "Actor • Producer",
+                    "born": "June 20, 1967",
+                    "birthplace": "Honolulu, Hawaii, United States",
+                    "spouse": "Keith Urban",
+                    "description": "Nicole Mary Kidman AC is an Australian actress and producer. She is the recipient of various accolades, including an Academy Award, two Primetime Emmy Awards, and five Golden Globe Awards. Kidman began her acting career in Australia with the 1983 film Bush Christmas."
+                },
+                {
+                    "id": 6,
+                    "actor_name": "Peter Safran",
+                    "actor_image": "../assets/acters/peter-safran.webp",
+                    "occupation": "Producer",
+                    "born": "October 15, 1965",
+                    "birthplace": "Los Angeles, California, United States",
+                    "spouse": "Lisa Safran",
+                    "description": "Peter Safran is an American film producer. He is best known for his collaborations with filmmaker James Wan, producing the highly successful horror films The Conjuring (2013) and The Conjuring 2 (2016), as well as the superhero film Aquaman (2018)."
+                }
+            ],
+            "start_date": "21-12-2023",
+            "language": "English, Hindi, Tamil, Telugu",
+            "genre": "Action, Adventure, Fantasy, Superhero ",
+            "reviews": [
+                {
+                    "id":0,
+                    "userProfilePhoto": "../assets/Aquaman2.jfif",
+                    "rating": 4,
+                    "title": "Good",
+                    "description": "Very good movie",
+                    "reviewer": "employe1"
+                },
+                {
+                    "id":1,
+                    "userProfilePhoto": "../assets/acters/patrick-wilson.webp",
+                    "rating": 5,
+                    "title": "Good",
+                    "description": "Very good movie",
+                    "reviewer": "employe1"
+                },
+                {
+                    "id":2,
+                    "userProfilePhoto": "../assets/Aquaman2.jfif",
+                    "rating": 2,
+                    "title": "Good",
+                    "description": "Very good movie",
+                    "reviewer": "employe1"
+                },
+                {
+                    "id":3,
+                    "userProfilePhoto": "../assets/acters/patrick-wilson.webp",
+                    "rating": 3,
+                    "title": "Good",
+                    "description": "Very good movie",
+                    "reviewer": "employe1"
+                },
+                {
+                    "id":4,
+                    "userProfilePhoto": "../assets/acters/patrick-wilson.webp",
+                    "rating": 4,
+                    "title": "Good",
+                    "description": "Very good movie",
+                    "reviewer": "employe1"
+                }
+            ]
+        },
+        {
+            "id": 1,
+            "name": "Salaar: Cease Fire - Part 1",
+            "category": "A",
+            "banner_img": "../assets/salar.jfif",
+            "main_img": "../assets/salaar-cease-fire--part-1.webp",
+            "duration": "175min",
+            "description": "Brace yourself for an extraordinary tale of rebellion filled with power-packed action.",
+            "cast": [
+                {
+                    "id": 0,
+                    "actor_name": "Prabhas",
+                    "actor_image": "../assets/acters/prabhas.webp",
+                    "occupation": "Actor",
+                    "born": "October 23, 1979",
+                    "birthplace": "Chennai, Tamil Nadu, India",
+                    "spouse": "Single",
+                    "description": "Prabhas, also known as 'Rebel Star,' is an Indian film actor known for his work in Telugu and Hindi cinema. He gained international fame for his role in the Baahubali series. Prabhas is one of the highest-paid actors in the Indian film industry."
+                  },
+                  {
+                    "id": 1,
+                    "actor_name": "Prithviraj Sukumaran",
+                    "actor_image": "../assets/acters/prithviraj-sukumaran.webp",
+                    "occupation": "Actor • Director",
+                    "born": "October 16, 1982",
+                    "birthplace": "Thiruvananthapuram, Kerala, India",
+                    "spouse": "Supriya Menon",
+                    "description": "Prithviraj Sukumaran is an Indian actor, director, playback singer, and producer who works mainly in the Malayalam film industry. He has also appeared in Tamil, Hindi, and Telugu films. Prithviraj is regarded as one of the leading actors in the South Indian film industry."
+                  },
+                  {
+                    "id": 2,
+                    "actor_name": "Shruti Haasan",
+                    "actor_image": "../assets/acters/shruti-haasan.webp",
+                    "occupation": "Actor • Singer",
+                    "born": "January 28, 1986",
+                    "birthplace": "Chennai, Tamil Nadu, India",
+                    "spouse": "Single",
+                    "description": "Shruti Haasan is an Indian actress and singer who works predominantly in the Tamil, Telugu, and Hindi film industries. She is the daughter of actors Kamal Haasan and Sarika Thakur. In addition to her acting career, Shruti is a talented playback singer and has released her own music."
+                  },
+                  {
+                    "id": 3,
+                    "actor_name": "Tinnu Anand",
+                    "actor_image": "../assets/acters/tinnu-anand.webp",
+                    "occupation": "Actor • Director",
+                    "born": "May 4, 1953",
+                    "birthplace": "Mumbai, Maharashtra, India",
+                    "spouse": "Single",
+                    "description": "Tinnu Anand is an Indian actor, writer, and director known for his work in Hindi cinema. He has appeared in numerous Bollywood films and is recognized for his versatile performances. Tinnu Anand has also directed several successful films in his career."
+                  },
+                  {
+                    "id": 4,
+                    "actor_name": "Jagapati Babu",
+                    "actor_image": "../assets/acters/jagapati-babu.webp",
+                    "occupation": "Actor",
+                    "born": "February 12, 1962",
+                    "birthplace": "Machilipatnam, Andhra Pradesh, India",
+                    "spouse": "Lakshmi Yarlagadda",
+                    "description": "Jagapati Babu is an Indian actor known for his work in Telugu cinema. He has received critical acclaim for his versatile roles and has appeared in numerous successful films. Jagapati Babu is also a film producer and playback singer."
+                  },
+                  {
+                    "id": 5,
+                    "actor_name": "Easwari Rao",
+                    "actor_image": "../assets/acters/easwari-rao.webp",
+                    "occupation": "Actor",
+                    "born": "July 5, 1974",
+                    "birthplace": "Bangalore, Karnataka, India",
+                    "spouse": "Single",
+                    "description": "Easwari Rao is an Indian actress who has worked in various South Indian films. She is known for her strong performances and has garnered appreciation for her contributions to Indian cinema. Easwari Rao continues to be a respected figure in the film industry."
+                  }
+            ],
+            "start_date": "22-12-2023",
+            "end_date": "25-01-2024",
+            "language": "Hindi , Tamil, Telugu",
+            "genre": "Action, Triller",
+            "reviews": [
+                {
+                    "id":0,
+                    "userProfilePhoto": "../assets/Aquaman2.jfif",
+                    "rating": 4,
+                    "title": "Good",
+                    "description": "Very good movie",
+                    "reviewer": "employe1"
+                },
+                {
+                    "id":1,
+                    "userProfilePhoto": "../assets/acters/patrick-wilson.webp",
+                    "rating": 5,
+                    "title": "Good",
+                    "description": "Very good movie",
+                    "reviewer": "employe1"
+                },
+                {
+                    "id":2,
+                    "userProfilePhoto": "../assets/Aquaman2.jfif",
+                    "rating": 2,
+                    "title": "Good",
+                    "description": "Very good movie",
+                    "reviewer": "employe1"
+                },
+                {
+                    "id":3,
+                    "userProfilePhoto": "../assets/acters/patrick-wilson.webp",
+                    "rating": 3,
+                    "title": "Good",
+                    "description": "Very good movie",
+                    "reviewer": "employe1"
+                },
+                {
+                    "id":4,
+                    "userProfilePhoto": "../assets/acters/patrick-wilson.webp",
+                    "rating": 4,
+                    "title": "Good",
+                    "description": "Very good movie",
+                    "reviewer": "employe1"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Dunki",
+            "category": "UA",
+            "banner_img": "../assets/Dunki-Cover.jpg",
+            "main_img": "../assets/dunki.webp",
+            "duration": "161min",
+            "description": "Four friends from a sleepy little village in Punjab share a common dream: to go to England. Their problem is that they have neither the visa nor the ticket. A soldier alights from a train one day, and their lives change. He gives them a soldier`s promise: He will take them to the land of their dreams. What follows is a hilarious and heartwarming tale of a perilous journey through the desert and the sea, but most crucially through the hinterlands of their mind. A journey that tests and defines them: their courage, their smarts, and the strain of their conflicting ideologies. Dunki is a saga of friendships, borders, nostalgia for home and love that towers above it all.",
+            "cast": [
+                {
+                    "id": 0,
+                    "actor_name": "Shah Rukh Khan",
+                    "actor_image": "../assets/acters/shah-rukh-khan.webp",
+                    "occupation": "Actor • Producer",
+                    "born": "November 2, 1965",
+                    "birthplace": "New Delhi, India",
+                    "spouse": "Gauri Khan",
+                    "description": "Shah Rukh Khan, also known as the 'King of Bollywood,' is an Indian actor and film producer. He has appeared in more than 80 Bollywood films and earned numerous awards for his contributions to the Indian film industry. Shah Rukh Khan is recognized globally for his charisma and versatile performances."
+                  },
+                  {
+                    "id": 1,
+                    "actor_name": "Taapsee Pannu",
+                    "actor_image": "../assets/acters/taapsee-pannu.webp",
+                    "occupation": "Actor",
+                    "born": "August 1, 1987",
+                    "birthplace": "New Delhi, India",
+                    "spouse": "Single",
+                    "description": "Taapsee Pannu is an Indian actress who works predominantly in Hindi, Tamil, and Telugu cinema. Known for her strong and impactful roles, Taapsee has garnered critical acclaim for her performances. In addition to acting, she is also involved in modeling and various social causes."
+                  },
+                  {
+                    "id": 2,
+                    "actor_name": "Boman Irani",
+                    "actor_image": "../assets/acters/boman-irani.webp",
+                    "occupation": "Actor • Photographer",
+                    "born": "December 2, 1959",
+                    "birthplace": "Mumbai, Maharashtra, India",
+                    "spouse": "Zenobia Irani",
+                    "description": "Boman Irani is an Indian film and stage actor, voice artist, and photographer. He has appeared in numerous Bollywood films and is known for his versatility as an actor. Boman Irani has also contributed to the field of photography and is a respected figure in the entertainment industry."
+                  },
+                  {
+                    "id": 3,
+                    "actor_name": "Vicky Kaushal",
+                    "actor_image": "../assets/acters/vicky-kaushal.webp",
+                    "occupation": "Actor",
+                    "born": "May 16, 1988",
+                    "birthplace": "Mumbai, Maharashtra, India",
+                    "spouse": "Single",
+                    "description": "Vicky Kaushal is an Indian actor known for his work in Hindi films. He gained recognition for his performances in critically acclaimed movies like 'Masaan,' 'Raazi,' and 'Uri: The Surgical Strike.' Vicky Kaushal has received several awards for his impactful roles and continues to be a prominent figure in Bollywood."
+                  },
+                  {
+                    "id": 4,
+                    "actor_name": "Vikram Kochhar",
+                    "actor_image": "../assets/acters/vikram-kochhar.webp",
+                    "occupation": "Actor",
+                    "born": "August 27, 1983",
+                    "birthplace": "Delhi, India",
+                    "spouse": "Single",
+                    "description": "Vikram Kochhar is an Indian actor who has appeared in various films and television shows. Known for his versatile roles, Vikram has carved a niche for himself in the entertainment industry. He continues to contribute to the world of cinema with his talent and dedication."
+                  },
+                  {
+                    "id": 5,
+                    "actor_name": "Anil Grover",
+                    "actor_image": "../assets/acters/anil-grover.webp",
+                    "occupation": "Actor",
+                    "born": "January 3, 1977",
+                    "birthplace": "Mandi, Himachal Pradesh, India",
+                    "spouse": "Single",
+                    "description": "Anil Grover is an Indian actor known for his work in Bollywood films and television. With a career spanning several years, Anil has showcased his acting prowess in various genres. He is admired for his natural performances and versatility as an actor."
+                  }
+            ],
+            "start_date": "21-12-2023",
+            "end_date": "10-01-2024",
+            "language": "Hindi , Tamil, Telugu",
+            "genre": "Comedy, Drama"
+        },
+        {
+            "id": 3,
+            "name": "Sam Bahadur",
+            "category": "UA",
+            "banner_img": "../assets/Vicky-Kaushal-Sam-Bahadur.jpg",
+            "main_img": "../assets/sam-bahadur.webp",
+            "duration": "150min",
+            "description": "Sam Bahadur is a tribute to Field Marshal Sam HFJ Manekshaw, MC, India`s first Field Marshal and a legendary Army General. His career witnessed the shaping of India`s geopolitical borders, and his life was marked by significant milestones, from fighting in World War II to being the Chief of Army Staff during the 1971 Indo-Pakistan war, that led to the creation of Bangladesh.This RSVP film explores his dynamic personality and his unparalleled military career, offering a glimpse into the life of a no-nonsense Army Commander, also known as `Sam Bahadur` by the soldiers he led",
+            "cast": [
+                {
+                    "id": 0,
+                    "actor_name": "Vicky Kaushal",
+                    "actor_image": "../assets/acters/vicky-kaushal.webp",
+                    "occupation": "Actor",
+                    "born": "May 16, 1988",
+                    "birthplace": "Mumbai, Maharashtra, India",
+                    "spouse": "Single",
+                    "description": "Vicky Kaushal is an Indian actor known for his work in Hindi films. He gained recognition for his performances in critically acclaimed movies like 'Masaan,' 'Raazi,' and 'Uri: The Surgical Strike.' Vicky Kaushal has received several awards for his impactful roles and continues to be a prominent figure in Bollywood."
+                  },
+                  {
+                    "id": 1,
+                    "actor_name": "Fatima Sana Shaikh",
+                    "actor_image": "../assets/acters/fatima-sana-shaikh.webp",
+                    "occupation": "Actor",
+                    "born": "January 11, 1992",
+                    "birthplace": "Hyderabad, Telangana, India",
+                    "spouse": "Single",
+                    "description": "Fatima Sana Shaikh is an Indian actress who has worked in Bollywood films and television. She gained widespread recognition for her role as Geeta Phogat in the sports drama 'Dangal.' Fatima is known for her dedication to her craft and her ability to portray diverse characters with authenticity."
+                  },
+                  {
+                    "id": 2,
+                    "actor_name": "Sanya Malhotra",
+                    "actor_image": "../assets/acters/sanya-malhotra.webp",
+                    "occupation": "Actor • Dancer",
+                    "born": "February 25, 1992",
+                    "birthplace": "Delhi, India",
+                    "spouse": "Single",
+                    "description": "Sanya Malhotra is an Indian actress and dancer who made her debut with the film 'Dangal.' Known for her vibrant personality and impressive dance skills, Sanya has become a popular figure in the Indian entertainment industry. She continues to captivate audiences with her performances in various projects."
+                  },
+                  {
+                    "id": 3,
+                    "actor_name": "Shantanu Srivastava",
+                    "actor_image": "../assets/acters/shantanu-srivastava.webp",
+                    "occupation": "Actor",
+                    "born": "April 20, 1989",
+                    "birthplace": "Lucknow, Uttar Pradesh, India",
+                    "spouse": "Single",
+                    "description": "Shantanu Srivastava is an Indian actor who has made a mark in the film industry with his talent and dedication. With a background in acting, Shantanu has delivered noteworthy performances in various roles. He continues to explore new avenues in the world of cinema."
+                  },
+                  {
+                    "id": 4,
+                    "actor_name": "Kalki Koechlin",
+                    "actor_image": "../assets/acters/kalki-koechlin.webp",
+                    "occupation": "Actor • Writer",
+                    "born": "January 10, 1984",
+                    "birthplace": "Pondicherry, India",
+                    "spouse": "Guy Hershberg",
+                    "description": "Kalki Koechlin is an Indian actress known for her work in Bollywood films and on stage. Apart from acting, she is also recognized for her writing and activism. Kalki has received critical acclaim for her performances in films that explore unconventional themes and characters."
+                  },
+                  {
+                    "id": 5,
+                    "actor_name": "Mohammed Zeeshan Ayyub",
+                    "actor_image": "../assets/acters/mohammed-zeeshan-ayyub.webp",
+                    "occupation": "Actor",
+                    "born": "October 20, 1983",
+                    "birthplace": "Delhi, India",
+                    "spouse": "Rasika Agashe",
+                    "description": "Mohammed Zeeshan Ayyub is an Indian actor known for his versatile roles in Hindi films and television. He has gained recognition for his impactful performances in various genres, showcasing his range as an actor. Mohammed Zeeshan Ayyub is admired for his dedication to his craft and the authenticity he brings to his characters."
+                  }
+            ],
+            "start_date": "1-12-2023",
+            "end_date": "10-01-2024",
+            "language": "Hindi",
+            "genre": "Biography, Drama"
+        }
+    ],
+    "theatre": [
+        {
+            "id": "theatre1",
+            "city_id": "city1",
+            "movies": [
+                {
+                    "id": "movie1",
+                    "ticket_price": 280,
+                    "showtimes": [
+                        "15:30",
+                        "16:30",
+                        "20:10"
+                    ],
+                    "total_capacity": 100,
+                    "remaining_capacity": 100
+                },
+                {
+                    "id": "movie2",
+                    "ticket_price": 380,
+                    "showtimes": [
+                        "18:00",
+                        "19:30",
+                        "21:45"
+                    ],
+                    "total_capacity": 100,
+                    "remaining_capacity": 100
+                },
+                {
+                    "id": "movie3",
+                    "ticket_price": 400,
+                    "showtimes": [
+                        "13:45",
+                        "17:15",
+                        "22:30"
+                    ],
+                    "total_capacity": 100,
+                    "remaining_capacity": 100
+                },
+                {
+                    "id": "movie4",
+                    "ticket_price": 400,
+                    "showtimes": [
+                        "13:45",
+                        "17:15",
+                        "22:30"
+                    ],
+                    "total_capacity": 100,
+                    "remaining_capacity": 100
+                }
+            ],
+            "name": "INOX: Elpro City Square",
+            "loc_name": "Chinchwad 2nd Floor, Elpro City Square Mall, Pimpri Chinchwad Link Road, Pune, Maharashtra 411033, India"
+        },
+        {
+            "id": "theatre2",
+            "city_id": "city1",
+            "movies": [
+                {
+                    "id": "movie1",
+                    "ticket_price": 280,
+                    "showtimes": [
+                        "15:30",
+                        "16:30",
+                        "20:10"
+                    ],
+                    "total_capacity": 100,
+                    "remaining_capacity": 100
+                },
+                {
+                    "id": "movie2",
+                    "ticket_price": 380,
+                    "showtimes": [
+                        "18:00",
+                        "19:30",
+                        "21:45"
+                    ],
+                    "total_capacity": 100,
+                    "remaining_capacity": 100
+                },
+                {
+                    "id": "movie3",
+                    "ticket_price": 400,
+                    "showtimes": [
+                        "13:45",
+                        "17:15",
+                        "22:30"
+                    ],
+                    "total_capacity": 100,
+                    "remaining_capacity": 100
+                },
+                {
+                    "id": "movie4",
+                    "ticket_price": 400,
+                    "showtimes": [
+                        "13:45",
+                        "17:15",
+                        "22:30"
+                    ],
+                    "total_capacity": 100,
+                    "remaining_capacity": 100
+                }
+            ],
+            "name": "Cinepolis: Seasons Mall",
+            "loc_name": "Pune 3rd Floor, Seasons Mall, Magarpatta Police Station Road, Magarpatta City, Hadapsar, Pune, Maharashtra 411028, India"
+        },
+        {
+            "id": "theatre3",
+            "city_id": "city1",
+            "movies": [
+                {
+                    "id": "movie1",
+                    "ticket_price": 280,
+                    "showtimes": [
+                        "15:30",
+                        "16:30",
+                        "20:10"
+                    ],
+                    "total_capacity": 100,
+                    "remaining_capacity": 100
+                },
+                {
+                    "id": "movie2",
+                    "ticket_price": 380,
+                    "showtimes": [
+                        "18:00",
+                        "19:30",
+                        "21:45"
+                    ],
+                    "total_capacity": 100,
+                    "remaining_capacity": 100
+                },
+                {
+                    "id": "movie3",
+                    "ticket_price": 400,
+                    "showtimes": [
+                        "13:45",
+                        "17:15",
+                        "22:30"
+                    ],
+                    "total_capacity": 100,
+                    "remaining_capacity": 100
+                },
+                {
+                    "id": "movie4",
+                    "ticket_price": 400,
+                    "showtimes": [
+                        "13:45",
+                        "17:15",
+                        "22:30"
+                    ],
+                    "total_capacity": 100,
+                    "remaining_capacity": 100
+                }
+            ],
+            "name": "INOX: Royal Heritage Mall",
+            "loc_name": "NIBM Ext Royale Heritage Mall, Mohammed Wadi, Next to Vibgyor International School, Pune, Maharashtra 411048, India"
+        },
+        {
+            "id": "theatre4",
+            "city_id": "city1",
+            "movies": [
+                {
+                    "id": "movie1",
+                    "ticket_price": 280,
+                    "showtimes": [
+                        "15:30",
+                        "16:30",
+                        "20:10"
+                    ],
+                    "total_capacity": 100,
+                    "remaining_capacity": 100
+                },
+                {
+                    "id": "movie2",
+                    "ticket_price": 380,
+                    "showtimes": [
+                        "18:00",
+                        "19:30",
+                        "21:45"
+                    ],
+                    "total_capacity": 100,
+                    "remaining_capacity": 100
+                },
+                {
+                    "id": "movie3",
+                    "ticket_price": 400,
+                    "showtimes": [
+                        "13:45",
+                        "17:15",
+                        "22:30"
+                    ],
+                    "total_capacity": 100,
+                    "remaining_capacity": 100
+                },
+                {
+                    "id": "movie4",
+                    "ticket_price": 400,
+                    "showtimes": [
+                        "13:45",
+                        "17:15",
+                        "22:30"
+                    ],
+                    "total_capacity": 100,
+                    "remaining_capacity": 100
+                }
+            ],
+            "name": "PVR: Phoenix Market City",
+            "loc_name": "Gold, Pune 2nd Floor, Phoenix Market City, Nagar Road, Viman Nagar, Near Baker Gauges, Pune, Maharashtra 411014, India"
+        },
+        {
+            "id": "theatre5",
+            "city_id": "city2",
+            "movies": [
+                {
+                    "id": "movie1",
+                    "ticket_price": 280,
+                    "showtimes": [
+                        "15:30",
+                        "16:30",
+                        "20:10"
+                    ],
+                    "total_capacity": 100,
+                    "remaining_capacity": 100
+                },
+                {
+                    "id": "movie2",
+                    "ticket_price": 380,
+                    "showtimes": [
+                        "18:00",
+                        "19:30",
+                        "21:45"
+                    ],
+                    "total_capacity": 100,
+                    "remaining_capacity": 100
+                },
+                {
+                    "id": "movie3",
+                    "ticket_price": 400,
+                    "showtimes": [
+                        "13:45",
+                        "17:15",
+                        "22:30"
+                    ],
+                    "total_capacity": 100,
+                    "remaining_capacity": 100
+                },
+                {
+                    "id": "movie4",
+                    "ticket_price": 400,
+                    "showtimes": [
+                        "13:45",
+                        "17:15",
+                        "22:30"
+                    ],
+                    "total_capacity": 100,
+                    "remaining_capacity": 100
+                }
+            ],
+            "name": "Cinepolis: Viviana Mall, Thane",
+            "loc_name": "Viviana Mall, Eastern Express Highway, Laxmi Nagar, Thane (West), Thane, Maharashtra 400606, India"
+        },
+        {
+            "id": "theatre6",
+            "movies": [
+                {
+                    "id": "movie1",
+                    "ticket_price": 280,
+                    "showtimes": [
+                        "15:30",
+                        "16:30",
+                        "20:10"
+                    ],
+                    "total_capacity": 100,
+                    "remaining_capacity": 100
+                },
+                {
+                    "id": "movie2",
+                    "ticket_price": 380,
+                    "showtimes": [
+                        "18:00",
+                        "19:30",
+                        "21:45"
+                    ],
+                    "total_capacity": 100,
+                    "remaining_capacity": 100
+                },
+                {
+                    "id": "movie3",
+                    "ticket_price": 400,
+                    "showtimes": [
+                        "13:45",
+                        "17:15",
+                        "22:30"
+                    ],
+                    "total_capacity": 100,
+                    "remaining_capacity": 100
+                },
+                {
+                    "id": "movie4",
+                    "ticket_price": 400,
+                    "showtimes": [
+                        "13:45",
+                        "17:15",
+                        "22:30"
+                    ],
+                    "total_capacity": 100,
+                    "remaining_capacity": 100
+                }
+            ],
+            "name": "PVR ICON: Phoenix Palladium",
+            "loc_name": "Lower Parel Mumbai High Street Phoenix, Extension of Entry Road to Phoenix, Senapati Bapat Marg, Lower Parel (W), Mumbai, Maharashtra 400013, India"
+        },
+        {
+            "id": "theatre7",
+            "city_id": "city2",
+            "movies": [
+                {
+                    "id": "movie1",
+                    "ticket_price": 280,
+                    "showtimes": [
+                        "15:30",
+                        "16:30",
+                        "20:10"
+                    ],
+                    "total_capacity": 100,
+                    "remaining_capacity": 100
+                },
+                {
+                    "id": "movie2",
+                    "ticket_price": 380,
+                    "showtimes": [
+                        "18:00",
+                        "19:30",
+                        "21:45"
+                    ],
+                    "total_capacity": 100,
+                    "remaining_capacity": 100
+                },
+                {
+                    "id": "movie3",
+                    "ticket_price": 400,
+                    "showtimes": [
+                        "13:45",
+                        "17:15",
+                        "22:30"
+                    ],
+                    "total_capacity": 100,
+                    "remaining_capacity": 100
+                },
+                {
+                    "id": "movie4",
+                    "ticket_price": 400,
+                    "showtimes": [
+                        "13:45",
+                        "17:15",
+                        "22:30"
+                    ],
+                    "total_capacity": 100,
+                    "remaining_capacity": 100
+                }
+            ],
+            "name": "PVR: Market City, Kurla (Premiere)",
+            "loc_name": "Phoenix Market City, LBS Marg, Ashok Nagar, Near Kamani Junction, Kurla (W), Mumbai, Maharashtra 400072, India"
+        },
+        {
+            "id": "theatre8",
+            "city_id": "city2",
+            "movies": [
+                {
+                    "id": "movie1",
+                    "ticket_price": 280,
+                    "showtimes": [
+                        "15:30",
+                        "16:30",
+                        "20:10"
+                    ],
+                    "total_capacity": 100,
+                    "remaining_capacity": 100
+                },
+                {
+                    "id": "movie2",
+                    "ticket_price": 380,
+                    "showtimes": [
+                        "18:00",
+                        "19:30",
+                        "21:45"
+                    ],
+                    "total_capacity": 100,
+                    "remaining_capacity": 100
+                },
+                {
+                    "id": "movie3",
+                    "ticket_price": 400,
+                    "showtimes": [
+                        "13:45",
+                        "17:15",
+                        "22:30"
+                    ],
+                    "total_capacity": 100,
+                    "remaining_capacity": 100
+                },
+                {
+                    "id": "movie4",
+                    "ticket_price": 400,
+                    "showtimes": [
+                        "13:45",
+                        "17:15",
+                        "22:30"
+                    ],
+                    "total_capacity": 100,
+                    "remaining_capacity": 100
+                }
+            ],
+            "name": "INOX: Megaplex, Inorbit Mall",
+            "loc_name": "Malad Inorbit Mall, Goregaon Malad Link Road, Near Shoppers Stop, Malad West, Mumbai, Maharashtra 400064, India"
+        },
+        {
+            "id": "theatre9",
+            "city_id": "city3",
+            "movies": [
+                {
+                    "id": "movie1",
+                    "ticket_price": 280,
+                    "showtimes": [
+                        "15:30",
+                        "16:30",
+                        "20:10"
+                    ],
+                    "total_capacity": 100,
+                    "remaining_capacity": 100
+                },
+                {
+                    "id": "movie2",
+                    "ticket_price": 380,
+                    "showtimes": [
+                        "18:00",
+                        "19:30",
+                        "21:45"
+                    ],
+                    "total_capacity": 100,
+                    "remaining_capacity": 100
+                },
+                {
+                    "id": "movie3",
+                    "ticket_price": 400,
+                    "showtimes": [
+                        "13:45",
+                        "17:15",
+                        "22:30"
+                    ],
+                    "total_capacity": 100,
+                    "remaining_capacity": 100
+                },
+                {
+                    "id": "movie4",
+                    "ticket_price": 400,
+                    "showtimes": [
+                        "13:45",
+                        "17:15",
+                        "22:30"
+                    ],
+                    "total_capacity": 100,
+                    "remaining_capacity": 100
+                }
+            ],
+            "name": "PVR: Vegas Dwarka ",
+            "loc_name": "Vegas Mall, Sector 14 Road, Pocket 1, Sector 14 Dwarka, Kakrola, Delhi, NCR 110078, India"
+        },
+        {
+            "id": "theatre10",
+            "city_id": "city3",
+            "movies": [
+                {
+                    "id": "movie1",
+                    "ticket_price": 280,
+                    "showtimes": [
+                        "15:30",
+                        "16:30",
+                        "20:10"
+                    ],
+                    "total_capacity": 100,
+                    "remaining_capacity": 100
+                },
+                {
+                    "id": "movie2",
+                    "ticket_price": 380,
+                    "showtimes": [
+                        "18:00",
+                        "19:30",
+                        "21:45"
+                    ],
+                    "total_capacity": 100,
+                    "remaining_capacity": 100
+                },
+                {
+                    "id": "movie3",
+                    "ticket_price": 400,
+                    "showtimes": [
+                        "13:45",
+                        "17:15",
+                        "22:30"
+                    ],
+                    "total_capacity": 100,
+                    "remaining_capacity": 100
+                },
+                {
+                    "id": "movie4",
+                    "ticket_price": 400,
+                    "showtimes": [
+                        "13:45",
+                        "17:15",
+                        "22:30"
+                    ],
+                    "total_capacity": 100,
+                    "remaining_capacity": 100
+                }
+            ],
+            "name": "PVR: Select City Walk, Delhi",
+            "loc_name": "A-3, 1st Floor, Select City Walk Mall, District Center, Saket, Sector 6, Pushp Vihar, Delhi, NCR 110017, India"
+        },
+        {
+            "id": "theatre11",
+            "city_id": "city3",
+            "movies": [
+                {
+                    "id": "movie1",
+                    "ticket_price": 280,
+                    "showtimes": [
+                        "15:30",
+                        "16:30",
+                        "20:10"
+                    ],
+                    "total_capacity": 100,
+                    "remaining_capacity": 100
+                },
+                {
+                    "id": "movie2",
+                    "ticket_price": 380,
+                    "showtimes": [
+                        "18:00",
+                        "19:30",
+                        "21:45"
+                    ],
+                    "total_capacity": 100,
+                    "remaining_capacity": 100
+                },
+                {
+                    "id": "movie3",
+                    "ticket_price": 400,
+                    "showtimes": [
+                        "13:45",
+                        "17:15",
+                        "22:30"
+                    ],
+                    "total_capacity": 100,
+                    "remaining_capacity": 100
+                },
+                {
+                    "id": "movie4",
+                    "ticket_price": 400,
+                    "showtimes": [
+                        "13:45",
+                        "17:15",
+                        "22:30"
+                    ],
+                    "total_capacity": 100,
+                    "remaining_capacity": 100
+                }
+            ],
+            "name": "Cinepolis: Cross River Mall, Shahdara",
+            "loc_name": "Cross River Mall, Central Business,Shahdara, Near Karkardooma Court, Delhi, NCR 110032, India"
+        },
+        {
+            "id": "theatre12",
+            "city_id": "city3",
+            "movies": [
+                {
+                    "id": "movie1",
+                    "ticket_price": 280,
+                    "showtimes": [
+                        "15:30",
+                        "16:30",
+                        "20:10"
+                    ],
+                    "total_capacity": 100,
+                    "remaining_capacity": 100
+                },
+                {
+                    "id": "movie2",
+                    "ticket_price": 380,
+                    "showtimes": [
+                        "18:00",
+                        "19:30",
+                        "21:45"
+                    ],
+                    "total_capacity": 100,
+                    "remaining_capacity": 100
+                },
+                {
+                    "id": "movie3",
+                    "ticket_price": 400,
+                    "showtimes": [
+                        "13:45",
+                        "17:15",
+                        "22:30"
+                    ],
+                    "total_capacity": 100,
+                    "remaining_capacity": 100
+                },
+                {
+                    "id": "movie4",
+                    "ticket_price": 400,
+                    "showtimes": [
+                        "13:45",
+                        "17:15",
+                        "22:30"
+                    ],
+                    "total_capacity": 100,
+                    "remaining_capacity": 100
+                }
+            ],
+            "name": "INOX: Odeon, Connaught Place",
+            "loc_name": "INOX Leisure Limited, Delhi Odeon, 2nd Floor, Odeon Cinema Complex, D-Block, Connaught Place, Delhi, NCR 110001, India"
+        },
+        {
+            "id": "theatre13",
+            "city_id": "city4",
+            "movies": [
+                {
+                    "id": "movie1",
+                    "ticket_price": 280,
+                    "showtimes": [
+                        "15:30",
+                        "16:30",
+                        "20:10"
+                    ],
+                    "total_capacity": 100,
+                    "remaining_capacity": 100
+                },
+                {
+                    "id": "movie2",
+                    "ticket_price": 380,
+                    "showtimes": [
+                        "18:00",
+                        "19:30",
+                        "21:45"
+                    ],
+                    "total_capacity": 100,
+                    "remaining_capacity": 100
+                },
+                {
+                    "id": "movie3",
+                    "ticket_price": 400,
+                    "showtimes": [
+                        "13:45",
+                        "17:15",
+                        "22:30"
+                    ],
+                    "total_capacity": 100,
+                    "remaining_capacity": 100
+                },
+                {
+                    "id": "movie4",
+                    "ticket_price": 400,
+                    "showtimes": [
+                        "13:45",
+                        "17:15",
+                        "22:30"
+                    ],
+                    "total_capacity": 100,
+                    "remaining_capacity": 100
+                }
+            ],
+            "name": "PVR: Nexus Mall Kukatpally",
+            "loc_name": "Hyderabad 4th Floor, Nexus Mall, Plot No S-16, Survey No.1009, KPHB Phase 6, Opp Malaysian Township, Kukatpally, Hyderabad, Telangana 500072, India"
+        },
+        {
+            "id": "theatre14",
+            "city_id": "city4",
+            "movies": [
+                {
+                    "id": "movie1",
+                    "ticket_price": 280,
+                    "showtimes": [
+                        "15:30",
+                        "16:30",
+                        "20:10"
+                    ],
+                    "total_capacity": 100,
+                    "remaining_capacity": 100
+                },
+                {
+                    "id": "movie2",
+                    "ticket_price": 380,
+                    "showtimes": [
+                        "18:00",
+                        "19:30",
+                        "21:45"
+                    ],
+                    "total_capacity": 100,
+                    "remaining_capacity": 100
+                },
+                {
+                    "id": "movie3",
+                    "ticket_price": 400,
+                    "showtimes": [
+                        "13:45",
+                        "17:15",
+                        "22:30"
+                    ],
+                    "total_capacity": 100,
+                    "remaining_capacity": 100
+                },
+                {
+                    "id": "movie4",
+                    "ticket_price": 400,
+                    "showtimes": [
+                        "13:45",
+                        "17:15",
+                        "22:30"
+                    ],
+                    "total_capacity": 100,
+                    "remaining_capacity": 100
+                }
+            ],
+            "name": "MovieMax: AMR, ECIL Secunderabad",
+            "loc_name": "AMR Planet Mall,1,Rd,373/1 and 373.3, Trimulgherry, ECIL Road, Extn - Moula Ali, Secunderabad, Extn - Moula Ali, Secunderabad, Hyderabad, Telangana 500040, India"
+        },
+        {
+            "id": "theatre15",
+            "city_id": "city4",
+            "movies": [
+                {
+                    "id": "movie1",
+                    "ticket_price": 280,
+                    "showtimes": [
+                        "15:30",
+                        "16:30",
+                        "20:10"
+                    ],
+                    "total_capacity": 100,
+                    "remaining_capacity": 100
+                },
+                {
+                    "id": "movie2",
+                    "ticket_price": 380,
+                    "showtimes": [
+                        "18:00",
+                        "19:30",
+                        "21:45"
+                    ],
+                    "total_capacity": 100,
+                    "remaining_capacity": 100
+                },
+                {
+                    "id": "movie3",
+                    "ticket_price": 400,
+                    "showtimes": [
+                        "13:45",
+                        "17:15",
+                        "22:30"
+                    ],
+                    "total_capacity": 100,
+                    "remaining_capacity": 100
+                },
+                {
+                    "id": "movie4",
+                    "ticket_price": 400,
+                    "showtimes": [
+                        "13:45",
+                        "17:15",
+                        "22:30"
+                    ],
+                    "total_capacity": 100,
+                    "remaining_capacity": 100
+                }
+            ],
+            "name": "INOX: Sattva Necklace Mall, Kavadiguda",
+            "loc_name": "INOX Leisure Ltd, 4th Floor, Sattva Necklace Mall, Kavadiguda Main Road, Secunderabad, Hyderabad, Telangana 500080, India"
+        },
+        {
+            "id": "theatre16",
+            "city_id": "city4",
+            "movies": [
+                {
+                    "id": "movie1",
+                    "ticket_price": 280,
+                    "showtimes": [
+                        "15:30",
+                        "16:30",
+                        "20:10"
+                    ],
+                    "total_capacity": 100,
+                    "remaining_capacity": 100
+                },
+                {
+                    "id": "movie2",
+                    "ticket_price": 380,
+                    "showtimes": [
+                        "18:00",
+                        "19:30",
+                        "21:45"
+                    ],
+                    "total_capacity": 100,
+                    "remaining_capacity": 100
+                },
+                {
+                    "id": "movie3",
+                    "ticket_price": 400,
+                    "showtimes": [
+                        "13:45",
+                        "17:15",
+                        "22:30"
+                    ],
+                    "total_capacity": 100,
+                    "remaining_capacity": 100
+                },
+                {
+                    "id": "movie4",
+                    "ticket_price": 400,
+                    "showtimes": [
+                        "13:45",
+                        "17:15",
+                        "22:30"
+                    ],
+                    "total_capacity": 100,
+                    "remaining_capacity": 100
+                }
+            ],
+            "name": "Platinum Movietime Cinemas: Ameerpet",
+            "loc_name": "Big Bazar Mall, GS 24 Old Gold Spot Building, Ameerpet Road, Ameerpet, Hyderabad, Telangana 500073, India"
+        }
+    ]
+}

@@ -1,0 +1,251 @@
+.movie-image-div {
+    padding: 50px 0;
+}
+
+.carousel-inner {
+    height: 100vh;
+}
+
+.carousel-item {
+    background-size: cover;
+    background-position: center;
+}
+
+.movie-details {
+    padding: 50px 0;
+}
+
+.btn-book-now {
+    display: block;
+    width: 100%;
+    max-width: 200px;
+    margin: 20px auto;
+}
+
+#movie_image {
+    max-width: 100%;
+    width: 20vw;
+    height: auto;
+    min-width: 150px;
+}
+
+.card-content-image {
+    padding: 20px;
+}
+
+.cast-card {
+    max-width: 150px;
+    background: transparent;
+    color: white;
+    border: none;
+}
+
+.cast-card img {
+    max-width: 100%;
+    border-radius: 50%;
+    height: auto;
+}
+
+.movie-info {
+    border-bottom: 1px solid #f3efef;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+
+}
+
+.movie-info h3 {
+    color: #fffcfc;
+}
+
+.cast-h3 {
+    color: #fffefe;
+}
+
+.review-h3 {
+    color: #fffefe;
+}
+
+.movie-info p {
+    color: #fefefe;
+}
+
+.card-content-content {
+    margin-top: 15px;
+    margin-left: 5px;
+}
+
+.card-slider {
+    overflow: hidden;
+}
+
+.card-slider .carousel-inner {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.card-slider .card {
+    flex: 0 0 auto;
+    width: 100%;
+    /* Adjust the width as needed */
+    margin: 0 0px;
+    /* Adjust the margin as needed */
+}
+
+/* swiper css */
+/* Google Fonts - Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+
+.button:hover {
+    background: #265DF2;
+}
+
+.swiper-navBtn {
+    color: #6E93f7;
+    transition: color 0.3s ease;
+}
+
+.swiper-navBtn:hover {
+    color: #4070F4;
+}
+
+.swiper-navBtn::before,
+.swiper-navBtn::after {
+    font-size: 35px;
+}
+
+.swiper-button-next {
+    right: 0;
+}
+
+.swiper-button-prev {
+    left: 0;
+}
+
+.swiper-pagination-bullet {
+    background-color: #6E93f7;
+    opacity: 1;
+}
+
+.swiper-pagination-bullet-active {
+    background-color: #4070F4;
+}
+
+.swiper-container {
+    position: relative;
+    display: flex;
+
+    width: 100%;
+    padding: 40px 0;
+}
+
+
+.swiper-wrapper {
+    margin: 0 40px;
+    overflow: auto;
+
+    border-radius: 25px;
+}
+
+.swiper-wrapper {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.swiper-wrapper::-webkit-scrollbar {
+    display: none;
+
+}
+
+@media screen and (max-width: 768px) {
+    .slide-content {
+        margin: 0 10px;
+    }
+
+    .swiper-navBtn {
+        display: none;
+    }
+}
+
+.rating-value {
+    font-size: 24px;
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.votes {
+    font-size: 15px;
+}
+
+.custom-reviw-card {
+    width: 55vh;
+    background-color: #2c2b2beb;
+    color: white;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    display: flex;
+
+}
+
+.card-language-text {
+    background-color: white;
+    color: black;
+    padding: 5px;
+}
+
+.review-card-btn {
+    align-items: flex-end;
+    margin: auto auto;
+}
+
+.reviw-card-body {
+    padding: 10px;
+    align-items: flex-start;
+
+}
+
+
+.custom-reviw-card {}
+
+.profile-photo {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.rating-star {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: gold;
+}
+
+#movieDetailsContainer {
+    background-color: #1a1a1a;
+    padding: 0;
+}
+
+#acterDetailsContainer {
+    background-color: white;
+}
+
+#cast-card-theme {
+    border-bottom: 1px solid #f3efef;
+    background: transparent;
+    color: white;
+
+}
+
+.actor-info {
+    color: black;
+    padding: 30px 10px;
+    background-color: white;
+
+}
+
+#acter_image {
+    border-radius: 50%;
+}
