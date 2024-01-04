@@ -1,644 +1,630 @@
 {
-    "cities": [
+  "cities": [
+    {
+      "id": "city1",
+      "name": "pune",
+      "sports": [
         {
-            "id": "city1",
-            "name": "pune",
-            "sports": [
-                {
-                    "id": "sport1",
-                    "name": "21 Days Walking Challenge (New Year Special) by MALSAR",
-                    "category": "UA",
-                    "banner_img": "../assets/sports/img1.avif",
-                    "duration": "12660min",
-                    "description": "Walking Challenge",
-                    "date": "01-01-24",
-                    "time": "6.00am",
-                    "stadium": [
-                        {
-                            "id": "stadium1",
-                            "name": "pune city",
-                            "loc_name": "pune",
-                            "ticket_price": [
-                                300
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "id": "sport2",
-                    "name": "Fitness Virtual Marathon 2024",
-                    "category": "UA",
-                    "banner_img": "../assets/sports/img2.avif",
-                    "duration": "6000min",
-                    "description": "5k, Marathon | 10hrs",
-                    "date": "07-01-24",
-                    "time": "6.00am",
-                    "stadium": [
-                        {
-                            "id": "stadium1",
-                            "name": "india",
-                            "loc_name": "your place your time",
-                            "ticket_price": [
-                                390
-                            ]
-                        }
-                    ]
-                }
-            ],
-            "music_shows": [
-                {
-                    "id": "show1",
-                    "name": "SwaraZankar 2024",
-                    "category": "UA",
-                    "banner_img": "../assets/music/img1.avif",
-                    "duration": "180min",
-                    "date": "07-01-24",
-                    "time": "17.00",
-                    "artist": [
-                        "Anand Bhate",
-                        "Manjusha Patil "
-                    ],
-                    "description": "The Swarazankar Music Festival is one of the most reputed festivals in India with a dynamic presence in more than 30 cities across the country since 2009. The festival today, has a global acceptance due to the recently created digital platform of SwaraZankar Hub which has more than 15,000 Music loving audiences across 35 countries who are waiting for more music and concerts. The festival`s main motive is to ensure proper sustainance of Indian classical music by hosting concerts of Legends, Maestros and rising stars of music. A proper mixture of these elements are perceived whenever a SwaraZankar Music festival happens in any city across.",
-                    "theater": [
-                        {
-                            "id": "theater1",
-                            "name": "MIT WPO Campus",
-                            "loc_name": "pune",
-                            "ticket_price": [
-                                500,
-                                700,
-                                1000
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "id": "show2",
-                    "name": "Vasantotsav 2024",
-                    "category": "UA",
-                    "banner_img": "../assets/music/img2.avif",
-                    "duration": "180min",
-                    "date": "19-01-24",
-                    "time": "17.00",
-                    "artist": [
-                        "Ashwini Bhide",
-                        " Piyush Mishra"
-                    ],
-                    "description": "The Vasantotsav is an annual Indian Classical celebration Festival where different forms of Traditional indian music – Classical - semi classical, folk and light music is showcase.",
-                    "theater": [
-                        {
-                            "id": "theater1",
-                            "name": "Suryakant kakade farms",
-                            "loc_name": "pune",
-                            "ticket_price": [
-                                500,
-                                700,
-                                1000
-                            ]
-                        }
-                    ]
-                }
-            ],
-            "event": [
-                {
-                    "id": "drama1",
-                    "name": "Kisi Ko Batana Mat Ft. Anubhav Singh Bassi",
-                    "category": "UA",
-                    "banner_img": "../assets/event/img3.avif",
-                    "duration": "90min",
-                    "description": "After the great success of his previous show 'Bas kar bassi,' Anubhav Singh Bassi is coming back to perform live on stage. This time, he will bring a whole new set of funny stories and jokes that will keep you entertained. Get ready to enjoy an exciting and hilarious performance that will make you laugh uncontrollably and leave you in high spirits.",
-                    "date": "05-01-24",
-                    "time": "15-00",
-                    "cast": [
-                        "Anubhav Singh Bassi"
-                    ],
-                    "theater": [
-                        {
-                            "id": "stadium1",
-                            "name": "Bhutara bhavana",
-                            "loc_name": "pune",
-                            "ticket_price": [
-                                280,
-                                380,
-                                400
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "id": "drama2",
-                    "name": "Zakir Khan Live - Pune",
-                    "category": "A",
-                    "banner_img": "../assets/event/img4.avif",
-                    "duration": "240min",
-                    "description": "Ready for a night of giggles and gastronomic delights? Clear your calendars and leave your ‘Hmm..accha thik hain’ attitude at the door because the sultan of stand-up, Zakir Khan is rolling into your town like a laughter tornado with his new tour This rib-tickling comedy tour will not just be about punchlines and hilarity, but an experience in itself; with an array of food and drinks to choose from. Expect to find the state’s hottest eateries serving drool-worthy delicacies, dedicated chill zones serving drinks of your choice, and a whole lot of fun and laughter. After the release of three massively popular specials, Haq Se Single (2017), Kaksha Gyarvi (2018), and Tathastu (2022), that sold 100,000+ tickets across the globe, Zakir Khan is on a roll with his wit, unparalleled storytelling prowess, and his unique Indian style of comedy that involves him to catch on to the emotions that are common to every Indian household.So, get ready to LOL, ROFL, and maybe even find your lost abs because this tour is gonna be a full-blown workout for your funny bone.",
-                    "date": "21-01-24",
-                    "time": "17-00",
-                    "cast": [
-                        "Zakir Khan"
-                    ],
-                    "theater": [
-                        {
-                            "id": "theater1",
-                            "name": "Mayfield estate",
-                            "loc_name": "pune",
-                            "ticket_price": [
-                                280,
-                                380,
-                                400
-                            ]
-                        }
-                    ]
-                }
-            ]
+          "id": "sport1",
+          "name": "21 Days Walking Challenge (New Year Special) by MALSAR",
+          "category": "UA",
+          "banner_img": "../assets/sports/img1.avif",
+          "duration": "12660min",
+          "description": "Walking Challenge",
+          "date": "01-01-24",
+          "time": "6.00am",
+          "stadium": [
+            {
+              "id": "stadium1",
+              "name": "pune city",
+              "loc_name": "pune",
+              "ticket_price": [
+                300
+              ]
+            }
+          ]
         },
         {
-            "id": "city2",
-            "name": "Mumbai",
-            "sports": [
-                {
-                    "id": "sport1",
-                    "name": "21 Days Walking Challenge (New Year Special) by MALSAR",
-                    "category": "UA",
-                    "banner_img": "../assets/sports/img3.avif",
-                    "duration": "12660min",
-                    "description": "Walking Challenge",
-                    "date": "01-01-24",
-                    "time": "6.00am",
-                    "stadium": [
-                        {
-                            "id": "stadium1",
-                            "name": "pune city",
-                            "loc_name": "pune",
-                            "ticket_price": [
-                                300
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "id": "sport2",
-                    "name": "Fitness Virtual Marathon 2024",
-                    "category": "UA",
-                    "banner_img": "../assets/sports/img4.avif",
-                    "duration": "6000min",
-                    "description": "5k, Marathon | 10hrs",
-                    "date": "07-01-24",
-                    "time": "6.00am",
-                    "stadium": [
-                        {
-                            "id": "stadium1",
-                            "name": "india",
-                            "loc_name": "your place your time",
-                            "ticket_price": [
-                                390
-                            ]
-                        }
-                    ]
-                }
-            ],
-            "music_shows": [
-                {
-                    "id": "show1",
-                    "name": "SwaraZankar 2024",
-                    "category": "UA",
-                    "banner_img": "../assets/music/img3.avif",
-                    "duration": "180min",
-                    "date": "07-01-24",
-                    "time": "17.00",
-                    "artist": [
-                        "Anand Bhate",
-                        "Manjusha Patil "
-                    ],
-                    "description": "The Swarazankar Music Festival is one of the most reputed festivals in India with a dynamic presence in more than 30 cities across the country since 2009. The festival today, has a global acceptance due to the recently created digital platform of SwaraZankar Hub which has more than 15,000 Music loving audiences across 35 countries who are waiting for more music and concerts. The festival`s main motive is to ensure proper sustainance of Indian classical music by hosting concerts of Legends, Maestros and rising stars of music. A proper mixture of these elements are perceived whenever a SwaraZankar Music festival happens in any city across.",
-                    "theater": [
-                        {
-                            "id": "theater1",
-                            "name": "MIT WPO Campus",
-                            "loc_name": "pune",
-                            "ticket_price": [
-                                500,
-                                700,
-                                1000
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "id": "show2",
-                    "name": "Vasantotsav 2024",
-                    "category": "UA",
-                    "banner_img": "../assets/music/img4.avif",
-                    "duration": "180min",
-                    "date": "19-01-24",
-                    "time": "17.00",
-                    "artist": [
-                        "Ashwini Bhide",
-                        " Piyush Mishra"
-                    ],
-                    "description": "The Vasantotsav is an annual Indian Classical celebration Festival where different forms of Traditional indian music – Classical - semi classical, folk and light music is showcase.",
-                    "theater": [
-                        {
-                            "id": "theater1",
-                            "name": "Suryakant kakade farms",
-                            "loc_name": "pune",
-                            "ticket_price": [
-                                500,
-                                700,
-                                1000
-                            ]
-                        }
-                    ]
-                }
-            ],
-            "event": [
-                {
-                    "id": "drama1",
-                    "name": "Kisi Ko Batana Mat Ft. Anubhav Singh Bassi",
-                    "category": "UA",
-                    "banner_img": "../assets/event/img5.avif",
-                    "duration": "90min",
-                    "description": "After the great success of his previous show 'Bas kar bassi,' Anubhav Singh Bassi is coming back to perform live on stage. This time, he will bring a whole new set of funny stories and jokes that will keep you entertained. Get ready to enjoy an exciting and hilarious performance that will make you laugh uncontrollably and leave you in high spirits.",
-                    "date": "05-01-24",
-                    "time": "15-00",
-                    "cast": [
-                        "Anubhav Singh Bassi"
-                    ],
-                    "theater": [
-                        {
-                            "id": "stadium1",
-                            "name": "Bhutara bhavana",
-                            "loc_name": "pune",
-                            "ticket_price": [
-                                280,
-                                380,
-                                400
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "id": "drama2",
-                    "name": "Zakir Khan Live - Pune",
-                    "category": "A",
-                    "banner_img": "../assets/event/img6.avif",
-                    "duration": "240min",
-                    "description": "Ready for a night of giggles and gastronomic delights? Clear your calendars and leave your ‘Hmm..accha thik hain’ attitude at the door because the sultan of stand-up, Zakir Khan is rolling into your town like a laughter tornado with his new tour This rib-tickling comedy tour will not just be about punchlines and hilarity, but an experience in itself; with an array of food and drinks to choose from. Expect to find the state’s hottest eateries serving drool-worthy delicacies, dedicated chill zones serving drinks of your choice, and a whole lot of fun and laughter. After the release of three massively popular specials, Haq Se Single (2017), Kaksha Gyarvi (2018), and Tathastu (2022), that sold 100,000+ tickets across the globe, Zakir Khan is on a roll with his wit, unparalleled storytelling prowess, and his unique Indian style of comedy that involves him to catch on to the emotions that are common to every Indian household.So, get ready to LOL, ROFL, and maybe even find your lost abs because this tour is gonna be a full-blown workout for your funny bone.",
-                    "date": "21-01-24",
-                    "time": "17-00",
-                    "cast": [
-                        "Zakir Khan"
-                    ],
-                    "theater": [
-                        {
-                            "id": "theater1",
-                            "name": "Mayfield estate",
-                            "loc_name": "pune",
-                            "ticket_price": [
-                                280,
-                                380,
-                                400
-                            ]
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "city3",
-            "name": "Delhi",
-            "sports": [
-                {
-                    "id": "sport1",
-                    "name": "21 Days Walking Challenge (New Year Special) by MALSAR",
-                    "category": "UA",
-                    "banner_img": "../assets/sports/img5.avif",
-                    "duration": "12660min",
-                    "description": "Walking Challenge",
-                    "date": "01-01-24",
-                    "time": "6.00am",
-                    "stadium": [
-                        {
-                            "id": "stadium1",
-                            "name": "pune city",
-                            "loc_name": "pune",
-                            "ticket_price": [
-                                300
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "id": "sport2",
-                    "name": "Fitness Virtual Marathon 2024",
-                    "category": "UA",
-                    "banner_img": "../assets/sports/img6.avif",
-                    "duration": "6000min",
-                    "description": "5k, Marathon | 10hrs",
-                    "date": "07-01-24",
-                    "time": "6.00am",
-                    "stadium": [
-                        {
-                            "id": "stadium1",
-                            "name": "india",
-                            "loc_name": "your place your time",
-                            "ticket_price": [
-                                390
-                            ]
-                        }
-                    ]
-                }
-            ],
-            "music_shows": [
-                {
-                    "id": "show1",
-                    "name": "SwaraZankar 2024",
-                    "category": "UA",
-                    "banner_img": "../assets/music/img5.avif",
-                    "duration": "180min",
-                    "date": "07-01-24",
-                    "time": "17.00",
-                    "artist": [
-                        "Anand Bhate",
-                        "Manjusha Patil "
-                    ],
-                    "description": "The Swarazankar Music Festival is one of the most reputed festivals in India with a dynamic presence in more than 30 cities across the country since 2009. The festival today, has a global acceptance due to the recently created digital platform of SwaraZankar Hub which has more than 15,000 Music loving audiences across 35 countries who are waiting for more music and concerts. The festival`s main motive is to ensure proper sustainance of Indian classical music by hosting concerts of Legends, Maestros and rising stars of music. A proper mixture of these elements are perceived whenever a SwaraZankar Music festival happens in any city across.",
-                    "theater": [
-                        {
-                            "id": "theater1",
-                            "name": "MIT WPO Campus",
-                            "loc_name": "pune",
-                            "ticket_price": [
-                                500,
-                                700,
-                                1000
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "id": "show2",
-                    "name": "Vasantotsav 2024",
-                    "category": "UA",
-                    "banner_img": "../assets/music/img6.avif",
-                    "duration": "180min",
-                    "date": "19-01-24",
-                    "time": "17.00",
-                    "artist": [
-                        "Ashwini Bhide",
-                        " Piyush Mishra"
-                    ],
-                    "description": "The Vasantotsav is an annual Indian Classical celebration Festival where different forms of Traditional indian music – Classical - semi classical, folk and light music is showcase.",
-                    "theater": [
-                        {
-                            "id": "theater1",
-                            "name": "Suryakant kakade farms",
-                            "loc_name": "pune",
-                            "ticket_price": [
-                                500,
-                                700,
-                                1000
-                            ]
-                        }
-                    ]
-                }
-            ],
-            "event": [
-                {
-                    "id": "drama1",
-                    "name": "Kisi Ko Batana Mat Ft. Anubhav Singh Bassi",
-                    "category": "UA",
-                    "banner_img": "../assets/event/img7.avif",
-                    "duration": "90min",
-                    "description": "After the great success of his previous show 'Bas kar bassi,' Anubhav Singh Bassi is coming back to perform live on stage. This time, he will bring a whole new set of funny stories and jokes that will keep you entertained. Get ready to enjoy an exciting and hilarious performance that will make you laugh uncontrollably and leave you in high spirits.",
-                    "date": "05-01-24",
-                    "time": "15-00",
-                    "cast": [
-                        "Anubhav Singh Bassi"
-                    ],
-                    "theater": [
-                        {
-                            "id": "stadium1",
-                            "name": "Bhutara bhavana",
-                            "loc_name": "pune",
-                            "ticket_price": [
-                                280,
-                                380,
-                                400
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "id": "drama2",
-                    "name": "Zakir Khan Live - Pune",
-                    "category": "A",
-                    "banner_img": "../assets/event/img8.avif",
-                    "duration": "240min",
-                    "description": "Ready for a night of giggles and gastronomic delights? Clear your calendars and leave your ‘Hmm..accha thik hain’ attitude at the door because the sultan of stand-up, Zakir Khan is rolling into your town like a laughter tornado with his new tour This rib-tickling comedy tour will not just be about punchlines and hilarity, but an experience in itself; with an array of food and drinks to choose from. Expect to find the state’s hottest eateries serving drool-worthy delicacies, dedicated chill zones serving drinks of your choice, and a whole lot of fun and laughter. After the release of three massively popular specials, Haq Se Single (2017), Kaksha Gyarvi (2018), and Tathastu (2022), that sold 100,000+ tickets across the globe, Zakir Khan is on a roll with his wit, unparalleled storytelling prowess, and his unique Indian style of comedy that involves him to catch on to the emotions that are common to every Indian household.So, get ready to LOL, ROFL, and maybe even find your lost abs because this tour is gonna be a full-blown workout for your funny bone.",
-                    "date": "21-01-24",
-                    "time": "17-00",
-                    "cast": [
-                        "Zakir Khan"
-                    ],
-                    "theater": [
-                        {
-                            "id": "theater1",
-                            "name": "Mayfield estate",
-                            "loc_name": "pune",
-                            "ticket_price": [
-                                280,
-                                380,
-                                400
-                            ]
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "city4",
-            "name": "hyderabad",
-            "sports": [
-                {
-                    "id": "sport1",
-                    "name": "21 Days Walking Challenge (New Year Special) by MALSAR",
-                    "category": "UA",
-                    "banner_img": "../assets/sports/img7.avif",
-                    "duration": "12660min",
-                    "description": "Walking Challenge",
-                    "date": "01-01-24",
-                    "time": "6.00am",
-                    "stadium": [
-                        {
-                            "id": "stadium1",
-                            "name": "pune city",
-                            "loc_name": "pune",
-                            "ticket_price": [
-                                300
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "id": "sport2",
-                    "name": "Fitness Virtual Marathon 2024",
-                    "category": "UA",
-                    "banner_img": "../assets/sports/img8.avif",
-                    "duration": "6000min",
-                    "description": "5k, Marathon | 10hrs",
-                    "date": "07-01-24",
-                    "time": "6.00am",
-                    "stadium": [
-                        {
-                            "id": "stadium1",
-                            "name": "india",
-                            "loc_name": "your place your time",
-                            "ticket_price": [
-                                390
-                            ]
-                        }
-                    ]
-                }
-            ],
-            "music_shows": [
-                {
-                    "id": "show1",
-                    "name": "SwaraZankar 2024",
-                    "category": "UA",
-                    "banner_img": "../assets/music/img7.avif",
-                    "duration": "180min",
-                    "date": "07-01-24",
-                    "time": "17.00",
-                    "artist": [
-                        "Anand Bhate",
-                        "Manjusha Patil "
-                    ],
-                    "description": "The Swarazankar Music Festival is one of the most reputed festivals in India with a dynamic presence in more than 30 cities across the country since 2009. The festival today, has a global acceptance due to the recently created digital platform of SwaraZankar Hub which has more than 15,000 Music loving audiences across 35 countries who are waiting for more music and concerts. The festival`s main motive is to ensure proper sustainance of Indian classical music by hosting concerts of Legends, Maestros and rising stars of music. A proper mixture of these elements are perceived whenever a SwaraZankar Music festival happens in any city across.",
-                    "theater": [
-                        {
-                            "id": "theater1",
-                            "name": "MIT WPO Campus",
-                            "loc_name": "pune",
-                            "ticket_price": [
-                                500,
-                                700,
-                                1000
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "id": "show2",
-                    "name": "Vasantotsav 2024",
-                    "category": "UA",
-                    "banner_img": "../assets/music/img8.avif",
-                    "duration": "180min",
-                    "date": "19-01-24",
-                    "time": "17.00",
-                    "artist": [
-                        "Ashwini Bhide",
-                        " Piyush Mishra"
-                    ],
-                    "description": "The Vasantotsav is an annual Indian Classical celebration Festival where different forms of Traditional indian music – Classical - semi classical, folk and light music is showcase.",
-                    "theater": [
-                        {
-                            "id": "theater1",
-                            "name": "Suryakant kakade farms",
-                            "loc_name": "pune",
-                            "ticket_price": [
-                                500,
-                                700,
-                                1000
-                            ]
-                        }
-                    ]
-                }
-            ],
-            "event": [
-                {
-                    "id": "drama1",
-                    "name": "Kisi Ko Batana Mat Ft. Anubhav Singh Bassi",
-                    "category": "UA",
-                    "banner_img": "../assets/event/img9.avif",
-                    "duration": "90min",
-                    "description": "After the great success of his previous show 'Bas kar bassi,' Anubhav Singh Bassi is coming back to perform live on stage. This time, he will bring a whole new set of funny stories and jokes that will keep you entertained. Get ready to enjoy an exciting and hilarious performance that will make you laugh uncontrollably and leave you in high spirits.",
-                    "date": "05-01-24",
-                    "time": "15-00",
-                    "cast": [
-                        "Anubhav Singh Bassi"
-                    ],
-                    "theater": [
-                        {
-                            "id": "stadium1",
-                            "name": "Bhutara bhavana",
-                            "loc_name": "pune",
-                            "ticket_price": [
-                                280,
-                                380,
-                                400
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "id": "drama2",
-                    "name": "Zakir Khan Live - Pune",
-                    "category": "A",
-                    "banner_img": "../assets/event/img10.avif",
-                    "duration": "240min",
-                    "description": "Ready for a night of giggles and gastronomic delights? Clear your calendars and leave your ‘Hmm..accha thik hain’ attitude at the door because the sultan of stand-up, Zakir Khan is rolling into your town like a laughter tornado with his new tour This rib-tickling comedy tour will not just be about punchlines and hilarity, but an experience in itself; with an array of food and drinks to choose from. Expect to find the state’s hottest eateries serving drool-worthy delicacies, dedicated chill zones serving drinks of your choice, and a whole lot of fun and laughter. After the release of three massively popular specials, Haq Se Single (2017), Kaksha Gyarvi (2018), and Tathastu (2022), that sold 100,000+ tickets across the globe, Zakir Khan is on a roll with his wit, unparalleled storytelling prowess, and his unique Indian style of comedy that involves him to catch on to the emotions that are common to every Indian household.So, get ready to LOL, ROFL, and maybe even find your lost abs because this tour is gonna be a full-blown workout for your funny bone.",
-                    "date": "21-01-24",
-                    "time": "17-00",
-                    "cast": [
-                        "Zakir Khan"
-                    ],
-                    "theater": [
-                        {
-                            "id": "theater1",
-                            "name": "Mayfield estate",
-                            "loc_name": "pune",
-                            "ticket_price": [
-                                280,
-                                380,
-                                400
-                            ]
-                        }
-                    ]
-                }
-            ]
+          "id": "sport2",
+          "name": "Fitness Virtual Marathon 2024",
+          "category": "UA",
+          "banner_img": "../assets/sports/img2.avif",
+          "duration": "6000min",
+          "description": "5k, Marathon | 10hrs",
+          "date": "07-01-24",
+          "time": "6.00am",
+          "stadium": [
+            {
+              "id": "stadium1",
+              "name": "india",
+              "loc_name": "your place your time",
+              "ticket_price": [
+                390
+              ]
+            }
+          ]
         }
-    ],
-    "users": [
+      ],
+      "music_shows": [
         {
-            "id": "userid",
-            "name": "nehal",
-            "email": "nehal@gmail.com",
-            "password": "abc@136276",
-            "interest": [
-                "Action",
-                "Thriller"
-            ],
-            "bookings": [
-                {
-                    "id": "movie1",
-                    "category_id": "",
-                    "name": "Animal",
-                    "banner_img": "",
-                    "duration": "180min",
-                    "description": "",
-                    "no_of_tickets": 0,
-                    "total_expense": 400,
-                    "selected_meals": [
-                        {
-                            "id": "dscd",
-                            "meal_name": "Burger",
-                            "meal_price": 200
-                        }
-                    ]
-                }
-            ],
-            "loyalty_points": 0
+          "id": "show1",
+          "name": "SwaraZankar 2024",
+          "category": "UA",
+          "banner_img": "../assets/music/img1.avif",
+          "duration": "180min",
+          "date": "07-01-24",
+          "time": "17.00",
+          "artist": [
+            "Anand Bhate",
+            "Manjusha Patil "
+          ],
+          "description": "The Swarazankar Music Festival is one of the most reputed festivals in India with a dynamic presence in more than 30 cities across the country since 2009. The festival today, has a global acceptance due to the recently created digital platform of SwaraZankar Hub which has more than 15,000 Music loving audiences across 35 countries who are waiting for more music and concerts. The festival`s main motive is to ensure proper sustainance of Indian classical music by hosting concerts of Legends, Maestros and rising stars of music. A proper mixture of these elements are perceived whenever a SwaraZankar Music festival happens in any city across.",
+          "theater": [
+            {
+              "id": "theater1",
+              "name": "MIT WPO Campus",
+              "loc_name": "pune",
+              "ticket_price": [
+                500,
+                700,
+                1000
+              ]
+            }
+          ]
+        },
+        {
+          "id": "show2",
+          "name": "Vasantotsav 2024",
+          "category": "UA",
+          "banner_img": "../assets/music/img2.avif",
+          "duration": "180min",
+          "date": "19-01-24",
+          "time": "17.00",
+          "artist": [
+            "Ashwini Bhide",
+            " Piyush Mishra"
+          ],
+          "description": "The Vasantotsav is an annual Indian Classical celebration Festival where different forms of Traditional indian music – Classical - semi classical, folk and light music is showcase.",
+          "theater": [
+            {
+              "id": "theater1",
+              "name": "Suryakant kakade farms",
+              "loc_name": "pune",
+              "ticket_price": [
+                500,
+                700,
+                1000
+              ]
+            }
+          ]
         }
-    ]
+      ],
+      "event": [
+        {
+          "id": "drama1",
+          "name": "Kisi Ko Batana Mat Ft. Anubhav Singh Bassi",
+          "category": "UA",
+          "banner_img": "../assets/event/img3.avif",
+          "duration": "90min",
+          "description": "After the great success of his previous show 'Bas kar bassi,' Anubhav Singh Bassi is coming back to perform live on stage. This time, he will bring a whole new set of funny stories and jokes that will keep you entertained. Get ready to enjoy an exciting and hilarious performance that will make you laugh uncontrollably and leave you in high spirits.",
+          "date": "05-01-24",
+          "time": "15-00",
+          "cast": [
+            "Anubhav Singh Bassi"
+          ],
+          "theater": [
+            {
+              "id": "stadium1",
+              "name": "Bhutara bhavana",
+              "loc_name": "pune",
+              "ticket_price": [
+                280,
+                380,
+                400
+              ]
+            }
+          ]
+        },
+        {
+          "id": "drama2",
+          "name": "Zakir Khan Live - Pune",
+          "category": "A",
+          "banner_img": "../assets/event/img4.avif",
+          "duration": "240min",
+          "description": "Ready for a night of giggles and gastronomic delights? Clear your calendars and leave your ‘Hmm..accha thik hain’ attitude at the door because the sultan of stand-up, Zakir Khan is rolling into your town like a laughter tornado with his new tour This rib-tickling comedy tour will not just be about punchlines and hilarity, but an experience in itself; with an array of food and drinks to choose from. Expect to find the state’s hottest eateries serving drool-worthy delicacies, dedicated chill zones serving drinks of your choice, and a whole lot of fun and laughter. After the release of three massively popular specials, Haq Se Single (2017), Kaksha Gyarvi (2018), and Tathastu (2022), that sold 100,000+ tickets across the globe, Zakir Khan is on a roll with his wit, unparalleled storytelling prowess, and his unique Indian style of comedy that involves him to catch on to the emotions that are common to every Indian household.So, get ready to LOL, ROFL, and maybe even find your lost abs because this tour is gonna be a full-blown workout for your funny bone.",
+          "date": "21-01-24",
+          "time": "17-00",
+          "cast": [
+            "Zakir Khan"
+          ],
+          "theater": [
+            {
+              "id": "theater1",
+              "name": "Mayfield estate",
+              "loc_name": "pune",
+              "ticket_price": [
+                280,
+                380,
+                400
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "city2",
+      "name": "Mumbai",
+      "sports": [
+        {
+          "id": "sport1",
+          "name": "21 Days Walking Challenge (New Year Special) by MALSAR",
+          "category": "UA",
+          "banner_img": "../assets/sports/img3.avif",
+          "duration": "12660min",
+          "description": "Walking Challenge",
+          "date": "01-01-24",
+          "time": "6.00am",
+          "stadium": [
+            {
+              "id": "stadium1",
+              "name": "pune city",
+              "loc_name": "pune",
+              "ticket_price": [
+                300
+              ]
+            }
+          ]
+        },
+        {
+          "id": "sport2",
+          "name": "Fitness Virtual Marathon 2024",
+          "category": "UA",
+          "banner_img": "../assets/sports/img4.avif",
+          "duration": "6000min",
+          "description": "5k, Marathon | 10hrs",
+          "date": "07-01-24",
+          "time": "6.00am",
+          "stadium": [
+            {
+              "id": "stadium1",
+              "name": "india",
+              "loc_name": "your place your time",
+              "ticket_price": [
+                390
+              ]
+            }
+          ]
+        }
+      ],
+      "music_shows": [
+        {
+          "id": "show1",
+          "name": "SwaraZankar 2024",
+          "category": "UA",
+          "banner_img": "../assets/music/img3.avif",
+          "duration": "180min",
+          "date": "07-01-24",
+          "time": "17.00",
+          "artist": [
+            "Anand Bhate",
+            "Manjusha Patil "
+          ],
+          "description": "The Swarazankar Music Festival is one of the most reputed festivals in India with a dynamic presence in more than 30 cities across the country since 2009. The festival today, has a global acceptance due to the recently created digital platform of SwaraZankar Hub which has more than 15,000 Music loving audiences across 35 countries who are waiting for more music and concerts. The festival`s main motive is to ensure proper sustainance of Indian classical music by hosting concerts of Legends, Maestros and rising stars of music. A proper mixture of these elements are perceived whenever a SwaraZankar Music festival happens in any city across.",
+          "theater": [
+            {
+              "id": "theater1",
+              "name": "MIT WPO Campus",
+              "loc_name": "pune",
+              "ticket_price": [
+                500,
+                700,
+                1000
+              ]
+            }
+          ]
+        },
+        {
+          "id": "show2",
+          "name": "Vasantotsav 2024",
+          "category": "UA",
+          "banner_img": "../assets/music/img4.avif",
+          "duration": "180min",
+          "date": "19-01-24",
+          "time": "17.00",
+          "artist": [
+            "Ashwini Bhide",
+            " Piyush Mishra"
+          ],
+          "description": "The Vasantotsav is an annual Indian Classical celebration Festival where different forms of Traditional indian music – Classical - semi classical, folk and light music is showcase.",
+          "theater": [
+            {
+              "id": "theater1",
+              "name": "Suryakant kakade farms",
+              "loc_name": "pune",
+              "ticket_price": [
+                500,
+                700,
+                1000
+              ]
+            }
+          ]
+        }
+      ],
+      "event": [
+        {
+          "id": "drama1",
+          "name": "Kisi Ko Batana Mat Ft. Anubhav Singh Bassi",
+          "category": "UA",
+          "banner_img": "../assets/event/img5.avif",
+          "duration": "90min",
+          "description": "After the great success of his previous show 'Bas kar bassi,' Anubhav Singh Bassi is coming back to perform live on stage. This time, he will bring a whole new set of funny stories and jokes that will keep you entertained. Get ready to enjoy an exciting and hilarious performance that will make you laugh uncontrollably and leave you in high spirits.",
+          "date": "05-01-24",
+          "time": "15-00",
+          "cast": [
+            "Anubhav Singh Bassi"
+          ],
+          "theater": [
+            {
+              "id": "stadium1",
+              "name": "Bhutara bhavana",
+              "loc_name": "pune",
+              "ticket_price": [
+                280,
+                380,
+                400
+              ]
+            }
+          ]
+        },
+        {
+          "id": "drama2",
+          "name": "Zakir Khan Live - Pune",
+          "category": "A",
+          "banner_img": "../assets/event/img6.avif",
+          "duration": "240min",
+          "description": "Ready for a night of giggles and gastronomic delights? Clear your calendars and leave your ‘Hmm..accha thik hain’ attitude at the door because the sultan of stand-up, Zakir Khan is rolling into your town like a laughter tornado with his new tour This rib-tickling comedy tour will not just be about punchlines and hilarity, but an experience in itself; with an array of food and drinks to choose from. Expect to find the state’s hottest eateries serving drool-worthy delicacies, dedicated chill zones serving drinks of your choice, and a whole lot of fun and laughter. After the release of three massively popular specials, Haq Se Single (2017), Kaksha Gyarvi (2018), and Tathastu (2022), that sold 100,000+ tickets across the globe, Zakir Khan is on a roll with his wit, unparalleled storytelling prowess, and his unique Indian style of comedy that involves him to catch on to the emotions that are common to every Indian household.So, get ready to LOL, ROFL, and maybe even find your lost abs because this tour is gonna be a full-blown workout for your funny bone.",
+          "date": "21-01-24",
+          "time": "17-00",
+          "cast": [
+            "Zakir Khan"
+          ],
+          "theater": [
+            {
+              "id": "theater1",
+              "name": "Mayfield estate",
+              "loc_name": "pune",
+              "ticket_price": [
+                280,
+                380,
+                400
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "city3",
+      "name": "Delhi",
+      "sports": [
+        {
+          "id": "sport1",
+          "name": "21 Days Walking Challenge (New Year Special) by MALSAR",
+          "category": "UA",
+          "banner_img": "../assets/sports/img5.avif",
+          "duration": "12660min",
+          "description": "Walking Challenge",
+          "date": "01-01-24",
+          "time": "6.00am",
+          "stadium": [
+            {
+              "id": "stadium1",
+              "name": "pune city",
+              "loc_name": "pune",
+              "ticket_price": [
+                300
+              ]
+            }
+          ]
+        },
+        {
+          "id": "sport2",
+          "name": "Fitness Virtual Marathon 2024",
+          "category": "UA",
+          "banner_img": "../assets/sports/img6.avif",
+          "duration": "6000min",
+          "description": "5k, Marathon | 10hrs",
+          "date": "07-01-24",
+          "time": "6.00am",
+          "stadium": [
+            {
+              "id": "stadium1",
+              "name": "india",
+              "loc_name": "your place your time",
+              "ticket_price": [
+                390
+              ]
+            }
+          ]
+        }
+      ],
+      "music_shows": [
+        {
+          "id": "show1",
+          "name": "SwaraZankar 2024",
+          "category": "UA",
+          "banner_img": "../assets/music/img5.avif",
+          "duration": "180min",
+          "date": "07-01-24",
+          "time": "17.00",
+          "artist": [
+            "Anand Bhate",
+            "Manjusha Patil "
+          ],
+          "description": "The Swarazankar Music Festival is one of the most reputed festivals in India with a dynamic presence in more than 30 cities across the country since 2009. The festival today, has a global acceptance due to the recently created digital platform of SwaraZankar Hub which has more than 15,000 Music loving audiences across 35 countries who are waiting for more music and concerts. The festival`s main motive is to ensure proper sustainance of Indian classical music by hosting concerts of Legends, Maestros and rising stars of music. A proper mixture of these elements are perceived whenever a SwaraZankar Music festival happens in any city across.",
+          "theater": [
+            {
+              "id": "theater1",
+              "name": "MIT WPO Campus",
+              "loc_name": "pune",
+              "ticket_price": [
+                500,
+                700,
+                1000
+              ]
+            }
+          ]
+        },
+        {
+          "id": "show2",
+          "name": "Vasantotsav 2024",
+          "category": "UA",
+          "banner_img": "../assets/music/img6.avif",
+          "duration": "180min",
+          "date": "19-01-24",
+          "time": "17.00",
+          "artist": [
+            "Ashwini Bhide",
+            " Piyush Mishra"
+          ],
+          "description": "The Vasantotsav is an annual Indian Classical celebration Festival where different forms of Traditional indian music – Classical - semi classical, folk and light music is showcase.",
+          "theater": [
+            {
+              "id": "theater1",
+              "name": "Suryakant kakade farms",
+              "loc_name": "pune",
+              "ticket_price": [
+                500,
+                700,
+                1000
+              ]
+            }
+          ]
+        }
+      ],
+      "event": [
+        {
+          "id": "drama1",
+          "name": "Kisi Ko Batana Mat Ft. Anubhav Singh Bassi",
+          "category": "UA",
+          "banner_img": "../assets/event/img7.avif",
+          "duration": "90min",
+          "description": "After the great success of his previous show 'Bas kar bassi,' Anubhav Singh Bassi is coming back to perform live on stage. This time, he will bring a whole new set of funny stories and jokes that will keep you entertained. Get ready to enjoy an exciting and hilarious performance that will make you laugh uncontrollably and leave you in high spirits.",
+          "date": "05-01-24",
+          "time": "15-00",
+          "cast": [
+            "Anubhav Singh Bassi"
+          ],
+          "theater": [
+            {
+              "id": "stadium1",
+              "name": "Bhutara bhavana",
+              "loc_name": "pune",
+              "ticket_price": [
+                280,
+                380,
+                400
+              ]
+            }
+          ]
+        },
+        {
+          "id": "drama2",
+          "name": "Zakir Khan Live - Pune",
+          "category": "A",
+          "banner_img": "../assets/event/img8.avif",
+          "duration": "240min",
+          "description": "Ready for a night of giggles and gastronomic delights? Clear your calendars and leave your ‘Hmm..accha thik hain’ attitude at the door because the sultan of stand-up, Zakir Khan is rolling into your town like a laughter tornado with his new tour This rib-tickling comedy tour will not just be about punchlines and hilarity, but an experience in itself; with an array of food and drinks to choose from. Expect to find the state’s hottest eateries serving drool-worthy delicacies, dedicated chill zones serving drinks of your choice, and a whole lot of fun and laughter. After the release of three massively popular specials, Haq Se Single (2017), Kaksha Gyarvi (2018), and Tathastu (2022), that sold 100,000+ tickets across the globe, Zakir Khan is on a roll with his wit, unparalleled storytelling prowess, and his unique Indian style of comedy that involves him to catch on to the emotions that are common to every Indian household.So, get ready to LOL, ROFL, and maybe even find your lost abs because this tour is gonna be a full-blown workout for your funny bone.",
+          "date": "21-01-24",
+          "time": "17-00",
+          "cast": [
+            "Zakir Khan"
+          ],
+          "theater": [
+            {
+              "id": "theater1",
+              "name": "Mayfield estate",
+              "loc_name": "pune",
+              "ticket_price": [
+                280,
+                380,
+                400
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "city4",
+      "name": "hyderabad",
+      "sports": [
+        {
+          "id": "sport1",
+          "name": "21 Days Walking Challenge (New Year Special) by MALSAR",
+          "category": "UA",
+          "banner_img": "../assets/sports/img7.avif",
+          "duration": "12660min",
+          "description": "Walking Challenge",
+          "date": "01-01-24",
+          "time": "6.00am",
+          "stadium": [
+            {
+              "id": "stadium1",
+              "name": "pune city",
+              "loc_name": "pune",
+              "ticket_price": [
+                300
+              ]
+            }
+          ]
+        },
+        {
+          "id": "sport2",
+          "name": "Fitness Virtual Marathon 2024",
+          "category": "UA",
+          "banner_img": "../assets/sports/img8.avif",
+          "duration": "6000min",
+          "description": "5k, Marathon | 10hrs",
+          "date": "07-01-24",
+          "time": "6.00am",
+          "stadium": [
+            {
+              "id": "stadium1",
+              "name": "india",
+              "loc_name": "your place your time",
+              "ticket_price": [
+                390
+              ]
+            }
+          ]
+        }
+      ],
+      "music_shows": [
+        {
+          "id": "show1",
+          "name": "SwaraZankar 2024",
+          "category": "UA",
+          "banner_img": "../assets/music/img7.avif",
+          "duration": "180min",
+          "date": "07-01-24",
+          "time": "17.00",
+          "artist": [
+            "Anand Bhate",
+            "Manjusha Patil "
+          ],
+          "description": "The Swarazankar Music Festival is one of the most reputed festivals in India with a dynamic presence in more than 30 cities across the country since 2009. The festival today, has a global acceptance due to the recently created digital platform of SwaraZankar Hub which has more than 15,000 Music loving audiences across 35 countries who are waiting for more music and concerts. The festival`s main motive is to ensure proper sustainance of Indian classical music by hosting concerts of Legends, Maestros and rising stars of music. A proper mixture of these elements are perceived whenever a SwaraZankar Music festival happens in any city across.",
+          "theater": [
+            {
+              "id": "theater1",
+              "name": "MIT WPO Campus",
+              "loc_name": "pune",
+              "ticket_price": [
+                500,
+                700,
+                1000
+              ]
+            }
+          ]
+        },
+        {
+          "id": "show2",
+          "name": "Vasantotsav 2024",
+          "category": "UA",
+          "banner_img": "../assets/music/img8.avif",
+          "duration": "180min",
+          "date": "19-01-24",
+          "time": "17.00",
+          "artist": [
+            "Ashwini Bhide",
+            " Piyush Mishra"
+          ],
+          "description": "The Vasantotsav is an annual Indian Classical celebration Festival where different forms of Traditional indian music – Classical - semi classical, folk and light music is showcase.",
+          "theater": [
+            {
+              "id": "theater1",
+              "name": "Suryakant kakade farms",
+              "loc_name": "pune",
+              "ticket_price": [
+                500,
+                700,
+                1000
+              ]
+            }
+          ]
+        }
+      ],
+      "event": [
+        {
+          "id": "drama1",
+          "name": "Kisi Ko Batana Mat Ft. Anubhav Singh Bassi",
+          "category": "UA",
+          "banner_img": "../assets/event/img9.avif",
+          "duration": "90min",
+          "description": "After the great success of his previous show 'Bas kar bassi,' Anubhav Singh Bassi is coming back to perform live on stage. This time, he will bring a whole new set of funny stories and jokes that will keep you entertained. Get ready to enjoy an exciting and hilarious performance that will make you laugh uncontrollably and leave you in high spirits.",
+          "date": "05-01-24",
+          "time": "15-00",
+          "cast": [
+            "Anubhav Singh Bassi"
+          ],
+          "theater": [
+            {
+              "id": "stadium1",
+              "name": "Bhutara bhavana",
+              "loc_name": "pune",
+              "ticket_price": [
+                280,
+                380,
+                400
+              ]
+            }
+          ]
+        },
+        {
+          "id": "drama2",
+          "name": "Zakir Khan Live - Pune",
+          "category": "A",
+          "banner_img": "../assets/event/img10.avif",
+          "duration": "240min",
+          "description": "Ready for a night of giggles and gastronomic delights? Clear your calendars and leave your ‘Hmm..accha thik hain’ attitude at the door because the sultan of stand-up, Zakir Khan is rolling into your town like a laughter tornado with his new tour This rib-tickling comedy tour will not just be about punchlines and hilarity, but an experience in itself; with an array of food and drinks to choose from. Expect to find the state’s hottest eateries serving drool-worthy delicacies, dedicated chill zones serving drinks of your choice, and a whole lot of fun and laughter. After the release of three massively popular specials, Haq Se Single (2017), Kaksha Gyarvi (2018), and Tathastu (2022), that sold 100,000+ tickets across the globe, Zakir Khan is on a roll with his wit, unparalleled storytelling prowess, and his unique Indian style of comedy that involves him to catch on to the emotions that are common to every Indian household.So, get ready to LOL, ROFL, and maybe even find your lost abs because this tour is gonna be a full-blown workout for your funny bone.",
+          "date": "21-01-24",
+          "time": "17-00",
+          "cast": [
+            "Zakir Khan"
+          ],
+          "theater": [
+            {
+              "id": "theater1",
+              "name": "Mayfield estate",
+              "loc_name": "pune",
+              "ticket_price": [
+                280,
+                380,
+                400
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "users": [
+    {
+      "fname": "Pradip sanap",
+      "username": "pradip",
+      "password": "pradip@1234",
+      "mobile": "1234567890",
+      "email": "pradip@gmail.com",
+      "id": 2
+    },
+    {
+      "fname": "Nehal Saonekar",
+      "username": "nehalk",
+      "password": "nehal@1234",
+      "mobile": "1235467890",
+      "email": "nehal@gmail.com",
+      "id": 3
+    }
+  ]
 }

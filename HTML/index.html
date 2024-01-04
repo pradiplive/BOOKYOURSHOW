@@ -98,39 +98,79 @@
   -->
 
     <!-- Navbar 2 -->
-    <header class=" border-bottom navbar-container" style="position: sticky; ">
+    <header class="border-bottom navbar-container" style="position: sticky">
       <!-- <div class="container" > -->
-        <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
-          <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-dark text-decoration-none">
-            <img src="../assets/Logo/logo4.png" class="bi me-2 navbar-logo" width="40" height="32" role="img" aria-label="Bootstrap"><use xlink:href="#bootstrap"></use>
-            <span class="logo-name">BookYourShow</span>
+      <div
+        class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start"
+      >
+        <a
+          href="/"
+          class="d-flex align-items-center mb-2 mb-lg-0 text-dark text-decoration-none"
+        >
+          <img
+            src="../assets/Logo/logo4.png"
+            class="bi me-2 navbar-logo"
+            width="40"
+            height="32"
+            role="img"
+            aria-label="Bootstrap"
+          /><use xlink:href="#bootstrap"></use>
+          <span class="logo-name">BookYourShow</span>
+        </a>
+
+        <ul
+          class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0"
+        >
+          <li><a href="#" class="nav-link px-2 link-secondary">Home</a></li>
+          <li>
+            <a href="movies.html" class="nav-link px-2 link-secondary">Movie</a>
+          </li>
+          <li>
+            <a href="Events.html" class="nav-link px-2 link-dark">Events</a>
+          </li>
+          <li>
+            <a href="music.html" class="nav-link px-2 link-dark">Music</a>
+          </li>
+          <li>
+            <a href="sports.html" class="nav-link px-2 link-dark">Sports</a>
+          </li>
+        </ul>
+        <button
+          class="city_btn mx-2"
+          id="city_field"
+          data-bs-toggle="modal"
+          data-bs-target="#cityModal"
+        >
+          Select City<i class="fa-solid fa-angle-down"></i>
+        </button>
+        <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3">
+          <input
+            type="search"
+            class="form-control"
+            placeholder="Search..."
+            aria-label="Search"
+          />
+        </form>
+
+        <div class="dropdown text-end">
+          <a
+            href="#"
+            class="d-block link-dark text-decoration-none dropdown-toggle user-profile-container"
+            id="dropdownUser1"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+          >
+            <!-- <img src="https://github.com/mdo.png" alt="mdo" width="32" height="32" class="rounded-circle"> -->
+            <i class="fa-solid fa-user"></i>
           </a>
-  
-          <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
-            <li><a href="#" class="nav-link px-2 link-secondary">Home</a></li>
-            <li><a href="movies.html" class="nav-link px-2 link-secondary">Movie</a></li>
-            <li><a href="Events.html" class="nav-link px-2 link-dark">Events</a></li>
-            <li><a href="music.html" class="nav-link px-2 link-dark">Music</a></li>
-            <li><a href="sports.html" class="nav-link px-2 link-dark">Sports</a></li>
+          <ul class="dropdown-menu text-small" aria-labelledby="dropdownUser1">
+            <li><a class="dropdown-item" href="#">Your Profile</a></li>
+            <li><a class="dropdown-item" href="#">Your Bookings</a></li>
+            <li><hr class="dropdown-divider" /></li>
+            <li><a class="dropdown-item" href="#">Sign out</a></li>
           </ul>
-          <button class="city_btn mx-2" id="city_field"  data-bs-toggle="modal" data-bs-target="#cityModal"> Select City<i class="fa-solid fa-angle-down"></i></button>
-          <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3">
-            <input type="search" class="form-control" placeholder="Search..." aria-label="Search">
-          </form>
-          
-          <div class="dropdown text-end">
-            <a href="#" class="d-block link-dark text-decoration-none dropdown-toggle user-profile-container" id="dropdownUser1" data-bs-toggle="dropdown" aria-expanded="false">
-              <!-- <img src="https://github.com/mdo.png" alt="mdo" width="32" height="32" class="rounded-circle"> -->
-              <i class="fa-solid fa-user"></i>
-            </a>
-            <ul class="dropdown-menu text-small" aria-labelledby="dropdownUser1" style="">
-              <li><a class="dropdown-item" href="#">Your Profile</a></li>
-              <li><a class="dropdown-item" href="#">Your Bookings</a></li>
-              <li><hr class="dropdown-divider"></li>
-              <li><a class="dropdown-item" href="#">Sign out</a></li>
-            </ul>
-          </div>
         </div>
+      </div>
       <!-- </div> -->
     </header>
 
@@ -511,10 +551,17 @@
     <!-- Recommended Movies -->
     <div class="recommended-movies">
       <h1>Recommended Movies</h1>
-      
-      <button id="slideRight1" type="button"><i class="fa-solid fa-angle-right"></i></button>
-      <button id="slideLeft1" type="button"><i class="fa-solid fa-angle-left"></i></button>
-      <div class="card-container recommended-movie-container" id="recommended-movie-container">
+
+      <button id="slideRight1" type="button">
+        <i class="fa-solid fa-angle-right"></i>
+      </button>
+      <button id="slideLeft1" type="button">
+        <i class="fa-solid fa-angle-left"></i>
+      </button>
+      <div
+        class="card-container recommended-movie-container"
+        id="recommended-movie-container"
+      >
         <!-- 
         <div class="card" style="width: 18rem">
           <img
@@ -603,10 +650,17 @@
     <!-- upcoming-sports -->
     <div class="upcoming-events-sports">
       <h1>Upcoming Sports</h1>
-      <button id="slideRight2" type="button"><i class="fa-solid fa-angle-right"></i></button>
-      <button id="slideLeft2" type="button"><i class="fa-solid fa-angle-left"></i></button>
-      <div class=" card-container upcoming-events-container" id="upcoming-events-container">
-       <!-- 
+      <button id="slideRight2" type="button">
+        <i class="fa-solid fa-angle-right"></i>
+      </button>
+      <button id="slideLeft2" type="button">
+        <i class="fa-solid fa-angle-left"></i>
+      </button>
+      <div
+        class="card-container upcoming-events-container"
+        id="upcoming-events-container"
+      >
+        <!-- 
         <div class="card" style="width: 18rem">
           <img
             src="../assets/sports/img1.avif"
@@ -691,10 +745,16 @@
     <!-- Popular Events -->
     <div class="popular-events">
       <h1>Popular Events</h1>
-      <button id="slideRight3" type="button"><i class="fa-solid fa-angle-right"></i></button>
-      <button id="slideLeft3" type="button"><i class="fa-solid fa-angle-left"></i></button>
-      <div class=" card-container popular-event-container" id="popular-event-container">
-
+      <button id="slideRight3" type="button">
+        <i class="fa-solid fa-angle-right"></i>
+      </button>
+      <button id="slideLeft3" type="button">
+        <i class="fa-solid fa-angle-left"></i>
+      </button>
+      <div
+        class="card-container popular-event-container"
+        id="popular-event-container"
+      >
         <!-- <div class="card" style="width: 18rem">
           <img src="../assets/event/img1.avif" class="card-img-top" alt="..." />
           <div class="card-body">
@@ -756,20 +816,22 @@
           </div>
         </div>
          -->
-
       </div>
     </div>
-
 
     <!-- Popular Music  -->
     <div class="popular-music">
       <h1>Popular Music</h1>
-      <button id="slideRight4" type="button"><i class="fa-solid fa-angle-right"></i></button>
-      <button id="slideLeft4" type="button"><i class="fa-solid fa-angle-left"></i></button>
-      <div class="card-container popular-music-container" id="popular-music-container">
-
-
-      </div>
+      <button id="slideRight4" type="button">
+        <i class="fa-solid fa-angle-right"></i>
+      </button>
+      <button id="slideLeft4" type="button">
+        <i class="fa-solid fa-angle-left"></i>
+      </button>
+      <div
+        class="card-container popular-music-container"
+        id="popular-music-container"
+      ></div>
     </div>
 
     <!-- Footer  -->
@@ -876,9 +938,13 @@
     </div>
 
     <!-- city modal -->
-    <div class="modal fade" id="cityModal" tabindex="-1" aria-labelledby="cityModalLabel" aria-hidden="true">
-
-    </div>
+    <div
+      class="modal fade"
+      id="cityModal"
+      tabindex="-1"
+      aria-labelledby="cityModalLabel"
+      aria-hidden="true"
+    ></div>
 
     <!-- JavaScript -->
     <script src="../Js/controller/slider/script.js"></script>
