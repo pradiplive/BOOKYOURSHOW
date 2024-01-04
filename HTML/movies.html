@@ -19,96 +19,78 @@
 </head>
 
 <body>
-    <!-- Navbar  
+    
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03"
-                aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <a class="navbar-brand" href="#"><img src="../assets/Logo/logo4.png" class="nav-logo" alt=""></a>
-
-            <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-                    </li>
-                    <li class="nav-item" id="floating-movie-card">
-                        <a class="nav-link" href="#">Movie</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="Events.html">Events</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="sports.html">Sports</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="orders.html">Orders</a>
-                    </li>
-                </ul>
-
-                <select name="city" id="select-city">
-
-                    <option value="mumbai" selected>Mumbai</option>
-                    <option value="bangalore">Bangalore</option>
-                    <option value="Chennai">Chennai</option>
-                    <option value="Delhi">Delhi</option>
-                    <option value="Pune">Pune</option>
-                </select>
-
-                <form class="d-flex navbar-form" role="search">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
-                    <button class="btn btn-outline-success" type="submit">
-                        Search
-                    </button>
-                    <button class="btn btn-outline-success" style="width: 8rem;" type="submit">
-                        Sign In
-                    </button>
-                    <button class="btn btn-outline-danger" style="width: 10rem;" type="submit">
-                        Sign out
-                    </button>
-                </form>
-            </div>
-        </div>
-    </nav>
--->
-
-    <!-- Navbar  -->
-    <header class=" border-bottom navbar-container" style="position: sticky; ">
-        <!-- <div class="container" > -->
-          <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
-            <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-dark text-decoration-none">
-              <img src="../assets/Logo/logo4.png" class="bi me-2 navbar-logo" width="40" height="32" role="img" aria-label="Bootstrap"><use xlink:href="#bootstrap"></use>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03"
+            aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fa-solid fa-bars" style="color: wheat"></i>
+          </button>
+          <!-- <select name="city" class="select-city">
+            <option value="mumbai" selected>Mumbai</option>
+            <option value="bangalore">Bangalore</option>
+            <option value="Chennai">Chennai</option>
+            <option value="Delhi">Delhi</option>
+            <option value="Pune">Pune</option>
+          </select> -->
+          <a class="navbar-brand" href="#"><img src="../assets/Logo/logo4.png" class="nav-logo" alt="" >
+            <span class="logo-name">BookYourShow</span>
             </a>
-    
-            <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
-              <li><a href="index.html" class="nav-link px-2 link-secondary">Home</a></li>
-              <li><a href="#" class="nav-link px-2 link-secondary">Movie</a></li>
-              <li><a href="Events.html" class="nav-link px-2 link-dark">Events</a></li>
-              <li><a href="music.html" class="nav-link px-2 link-dark">Music</a></li>
-              <li><a href="sports.html" class="nav-link px-2 link-dark">Sports</a></li>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item" id="floating-movie-card">
+                <a class="nav-link active" href="#">Movie</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Events.html">Events</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="sports.html">Sports</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="music.html">Music</a>
+              </li>
             </ul>
-            <button class="city_btn mx-2" id="city_field"  data-bs-toggle="modal" data-bs-target="#exampleModal"> Select City<i class="fa-solid fa-angle-down"></i></button>
-            <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3">
-              <input type="search" class="form-control" placeholder="Search..." aria-label="Search">
+            <form class="d-flex navbar-formjustify-content-end" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
             </form>
-            
             <div class="dropdown text-end">
-              <a href="#" class="d-block link-dark text-decoration-none dropdown-toggle user-profile-container" id="dropdownUser1" data-bs-toggle="dropdown" aria-expanded="false">
-                <!-- <img src="https://github.com/mdo.png" alt="mdo" width="32" height="32" class="rounded-circle"> -->
+              <a href="#" class="d-block link-dark text-decoration-none dropdown-toggle user-profile-container"
+                id="dropdownUser1" data-bs-toggle="dropdown" aria-expanded="false">
                 <i class="fa-solid fa-user"></i>
               </a>
               <ul class="dropdown-menu text-small" aria-labelledby="dropdownUser1" style="">
                 <li><a class="dropdown-item" href="#">Your Profile</a></li>
                 <li><a class="dropdown-item" href="#">Your Bookings</a></li>
-                <li><hr class="dropdown-divider"></li>
+                <li>
+                  <hr class="dropdown-divider" />
+                </li>
                 <li><a class="dropdown-item" href="#">Sign out</a></li>
               </ul>
             </div>
+            <button class="city_btn mx-2 select_city" id="city_field"  data-bs-toggle="modal" data-bs-target="#cityModal"> Select City<i class="fa-solid fa-angle-down"></i></button>
+
+            <!-- <div id="select-city">
+              <select name="city" id="select-city">
+                <option value="mumbai" selected>Mumbai</option>
+                <option value="bangalore">Bangalore</option>
+                <option value="Chennai">Chennai</option>
+                <option value="Delhi">Delhi</option>
+                <option value="Pune">Pune</option>
+              </select>
+            </div> -->
           </div>
-        <!-- </div> -->
-      </header>
+        </div>
+      </nav>
+
+
+    <!-- Navbar  -->
+    <!-- <header class="border-bottom navbar-container" style="position: sticky">
+        
+      </header> -->
 
 <!-- Floating card  -->
     <div class="navbar-movie-floating-card">
@@ -334,7 +316,7 @@
 
     </div>
 
-    <div class="movie-container">
+    <div class="movie-container-box">
         <div class="movie-container-1">
             <h2>Filters</h2>
             <div class="movie-language">
@@ -501,9 +483,28 @@
 
 
     <!-- city modal -->
-    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-      
-    </div>
+    <div class="modal fade" id="cityModal" tabindex="-1" aria-labelledby="cityModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+          <div class="modal-content">
+            <div class="modal-header">
+              
+                    <input
+              class="hidden_search_field"
+              id="modal_search"
+              type="text"
+              placeholder="Search for your city ..."
+              aria-label="Search"
+            />
+              
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <div class="cities_container">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
 
 
 
@@ -511,81 +512,74 @@
     <!-- Footer  -->
     <div class="footer">
         <div class="footer-container">
+          <div class="footer-container-details">
+            <span class="footer-logo-name">BookYourShow</span>
+            <h1><a href="#">Ticket Tales: Where Every Seat Holds a Story.</a></h1>
+            <span>Experience the thrill of a lifetime – your ticket to unforgettable
+              moments awaits!</span>
+          </div>
+          <div class="footer-container-links">
             <div class="footer-container-content">
-                <h3>Movies</h3>
-                <a href="#">Movies</a>
-                <a href="#">Videos</a>
-                <a href="#">English Movies</a>
-                <a href="#">Tailor</a>
-                <a href="#">Upcoming Movies</a>
-                <a href="#">Contact Us</a>
+              <h3>Information</h3>
+              <a href="#">Home</a>
+              <a href="movies.html">Movies</a>
+              <a href="Events.html">Events</a>
+              <a href="music.html">Music</a>
+              <a href="sports.html">Sports</a>
             </div>
             <div class="footer-container-content">
-                <h3>Information</h3>
-                <a href="#">Home</a>
-                <a href="#">About</a>
-                <a href="#">TV Series</a>
-                <a href="#">Blog</a>
-                <a href="#">Login</a>
-                <a href="#">Contact</a>
+              <h3>Location</h3>
+              <a href="#">Pune</a>
+              <a href="#">Mumbai</a>
+              <a href="#">Hydrabad</a>
+              <a href="#">Dehli</a>
             </div>
-            <div class="footer-container-content">
-                <h3>Location</h3>
-                <a href="#">Asia</a>
-                <a href="#">France</a>
-                <a href="#">Taiwan</a>
-                <a href="#">United States</a>
-                <a href="#">Korea</a>
-                <a href="#">United Kingdom</a>
-            </div>
-            <div class="footer-container-content">
-                <h3>Newsletter</h3>
-                <input type="email" class="footer-newsletter" placeholder="Your Email Address">
-                <p>Enter your email and receive the latest news, updates and special offers from us.</p>
-            </div>
+          </div>
         </div>
-
+    
         <div class="social-container">
-            <div class="container p-4 pb-0 footer-social-links">
-                <!-- Section: Social media -->
-                <!-- <section class="mb-4"> -->
-                <!-- Facebook -->
-                <a data-mdb-ripple-init class="btn text-white btn-floating m-1" style="background-color: #3b5998;"
-                    href="#!" role="button"><i class="fab fa-facebook-f"></i></a>
-
-                <!-- Twitter -->
-                <a data-mdb-ripple-init class="btn text-white btn-floating m-1" style="background-color: #55acee;"
-                    href="#!" role="button"><i class="fab fa-twitter"></i></a>
-
-                <!-- Google -->
-                <a data-mdb-ripple-init class="btn text-white btn-floating m-1" style="background-color: #dd4b39;"
-                    href="#!" role="button"><i class="fab fa-google"></i></a>
-
-                <!-- Instagram -->
-                <a data-mdb-ripple-init class="btn text-white btn-floating m-1" style="background-color: #ac2bac;"
-                    href="#!" role="button"><i class="fab fa-instagram"></i></a>
-
-                <!-- Linkedin -->
-                <a data-mdb-ripple-init class="btn text-white btn-floating m-1" style="background-color: #0082ca;"
-                    href="#!" role="button"><i class="fab fa-linkedin-in"></i></a>
-
-                <!-- </section> -->
-                <!-- Section: Social media -->
-            </div>
+          <div class="container p-4 pb-0 footer-social-links">
+            <!-- Section: Social media -->
+            <!-- <section class="mb-4"> -->
+            <!-- Facebook -->
+            <a data-mdb-ripple-init class="btn text-white btn-floating m-1" style="background-color: #3b5998" href="#!"
+              role="button"><i class="fab fa-facebook-f"></i></a>
+    
+            <!-- Twitter -->
+            <a data-mdb-ripple-init class="btn text-white btn-floating m-1" style="background-color: #55acee" href="#!"
+              role="button"><i class="fab fa-twitter"></i></a>
+    
+            <!-- Google -->
+            <a data-mdb-ripple-init class="btn text-white btn-floating m-1" style="background-color: #dd4b39" href="#!"
+              role="button"><i class="fab fa-google"></i></a>
+    
+            <!-- Instagram -->
+            <a data-mdb-ripple-init class="btn text-white btn-floating m-1" style="background-color: #ac2bac" href="#!"
+              role="button"><i class="fab fa-instagram"></i></a>
+    
+            <!-- Linkedin -->
+            <a data-mdb-ripple-init class="btn text-white btn-floating m-1" style="background-color: #0082ca" href="#!"
+              role="button"><i class="fab fa-linkedin-in"></i></a>
+    
+            <!-- </section> -->
+            <!-- Section: Social media -->
+          </div>
         </div>
         <!-- Grid container -->
-
+    
         <!-- Copyright -->
         <div class="text-center p-3 copyrights">
-            © 2020 Copyright: &nbsp;&nbsp;
-            <span>BookYourShow Pvt Ltd. All Right Reserved</span>
-            <p>The content and images used on this site are copyright protected and copyrights vests with the respective
-                owners. The usage of the content and images on this website is intended to promote the works and no
-                endorsement
-                of the artist shall be implied. Unauthorized use is prohibited and punishable by law.</p>
+          © 2020 Copyright: &nbsp;&nbsp;
+          <span>BookYourShow Pvt Ltd. All Right Reserved</span>
+          <p>
+            The content and images used on this site are copyright protected and
+            copyrights vests with the respective owners. The usage of the content
+            and images on this website is intended to promote the works and no
+            endorsement of the artist shall be implied. Unauthorized use is
+            prohibited and punishable by law.
+          </p>
         </div>
-
-    </div>
+      </div>
 
 
 

@@ -5,16 +5,15 @@ $(document).ready(function () {
     <div class="modal-dialog modal-xl">
       <div class="modal-content">
         <div class="modal-header">
-          
                 <input
-          class="hidden_search_field"
-          id="modal_search"
-          type="text"
-          placeholder="Search for your city ..."
-          aria-label="Search"
-        />
+                  class="hidden_search_field"
+                  id="modal_search"
+                  type="text"
+                  placeholder="Search for your city ..."
+                  aria-label="Search"
+                />
           
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          <button type="button" class="btn-close" id="floating-overlay-close-btn" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body">
           <div class="cities_container">
@@ -32,17 +31,17 @@ $(document).ready(function () {
       ];
       
       const cities = [
+        "pune",
+        "mumbai",
         "delhi",
         "hyderabad",
-        "mumbai",
-        "pune",
       ];
       
       const selectedCities = [
+        "pune-selected.png",
+        "mumbai-selected.png",
         "delhi-selected.png",
         "hyderabad-selected.png",
-        "mumbai-selected.png",
-        "pune-selected.png",
       ];
       
       $(document).ready(function () {
@@ -52,7 +51,7 @@ $(document).ready(function () {
           $(".cities_container")
             .append(`<div class="city" data-bs-dismiss="modal" aria-label="Close">
               <img src="../assets/cities/${cities_url[idx]}" alt="${city}">
-              <div>${city_name}</div>
+              <div id="modal-city-name" style="display-block">${city_name}</div>
             </div>`);
         }
       
