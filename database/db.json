@@ -625,6 +625,14 @@
       "mobile": "1235467890",
       "email": "nehal@gmail.com",
       "id": 3
+    },
+    {
+      "fname": "Manav Pandey",
+      "username": "manavp",
+      "password": "manav@1234",
+      "mobile": "1234567989",
+      "email": "manav@gmail.com",
+      "id": 4
     }
   ]
 }

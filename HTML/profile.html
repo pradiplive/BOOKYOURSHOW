@@ -1,0 +1,146 @@
+<!-- Website: www.codingdung.com -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Your Profile</title>
+    <link rel="stylesheet" href="profile.css" />
+    <script src="../Js/plugins/CDN.js"></script>
+    <style>
+      body {
+        background-color: black;
+        color: white;
+      }
+
+      .main {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 80vh;
+      }
+
+      #icon_cont {
+        background-color: #e50914;
+      }
+
+      #main_container {
+        background-color: black;
+      }
+
+      .labels {
+        font-size: 11px;
+        color: white;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="container mt-5 main">
+      <div class="row justify-content-center">
+        <div class="col-md-3 border border-success" id="icon_cont">
+          <div
+            class="d-flex flex-column align-items-center text-center p-3 py-5"
+          >
+            <img
+              class="rounded-circle mt-5"
+              width="150px"
+              src="https://st3.depositphotos.com/15648834/17930/v/600/depositphotos_179308454-stock-illustration-unknown-person-silhouette-glasses-profile.jpg"
+            />
+            <div class="col-md-5 mt-5">
+              <label class="labels">Upload Image</label>
+              <input
+                id="imageUpload"
+                type="file"
+                accept="image/*"
+                class="form-control"
+                onchange="handleImageUpload(this)"
+              />
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 border border-success" id="main_container">
+          <div class="p-3 py-5">
+            <div class="d-flex justify-content-between align-items-center mb-3">
+              <h2 class="text-right text-white">Edit Profile</h2>
+            </div>
+            <div class="row mt-2 align-items-center justify-content-center">
+              <div class="col-md-9">
+                <label class="labels">Username</label
+                ><input
+                  id="usernameInput"
+                  type="text"
+                  class="form-control"
+                  placeholder="Username"
+                  value=""
+                />
+              </div>
+              <div class="col-md-9">
+                <label class="labels">Full Name</label
+                ><input
+                  id="fullNameInput"
+                  type="text"
+                  class="form-control"
+                  value=""
+                  placeholder="Full Name"
+                />
+              </div>
+              <div class="col-md-9">
+                <label class="labels">Email</label
+                ><input
+                  id="emailInput"
+                  type="text"
+                  class="form-control"
+                  value=""
+                  placeholder="Email"
+                />
+              </div>
+              <div class="col-md-9">
+                <label class="labels">Phone Number</label>
+                <input
+                  id="mobile"
+                  type="text"
+                  class="form-control"
+                  value=""
+                  placeholder="Phone Number"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script>
+      const fullName = sessionStorage.getItem("fullName");
+      const username = sessionStorage.getItem("username");
+      const email = sessionStorage.getItem("email");
+      const mobile = sessionStorage.getItem("mobile");
+
+      document.getElementById("fullNameInput").value = fullName || "";
+      document.getElementById("usernameInput").value = username || "";
+      document.getElementById("emailInput").value = email || "";
+      document.getElementById("mobile").value = mobile;
+
+      const imageElement = document.querySelector(".rounded-circle");
+      imageElement.src =
+        imageUrl ||
+        "https://st3.depositphotos.com/15648834/17930/v/600/depositphotos_179308454-stock-illustration-unknown-person-silhouette-glasses-profile.jpg";
+
+      function handleImageUpload(input) {
+        const file = input.files[0];
+
+        if (file) {
+          const reader = new FileReader();
+
+          reader.onload = function (e) {
+            const imageElement = document.querySelector(".rounded-circle");
+            imageElement.src = e.target.result;
+          };
+
+          reader.readAsDataURL(file);
+        }
+      }
+    </script>
+  </body>
+</html>

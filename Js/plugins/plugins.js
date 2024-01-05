@@ -1,3 +1,7 @@
+document.write(
+  '<link rel="icon" href="../assets/bLogo.png" type="image/icon type">'
+);
+
 // Load Axios CDN
 document.write(
   '<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>'

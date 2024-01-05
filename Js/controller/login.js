@@ -124,6 +124,9 @@ $(document).ready(function () {
         if (userFound) {
           if (userFound.password === loginPassword) {
             sessionStorage.setItem("fullName", userFound.fname);
+            sessionStorage.setItem("username", userFound.username);
+            sessionStorage.setItem("mobile", userFound.mobile);
+            sessionStorage.setItem("email", userFound.email);
             sessionStorage.setItem("isLogin", true);
             alert("Login successful");
             window.location.replace("index.html");
