@@ -98,11 +98,30 @@ $(document).ready(function () {
           <div class="cities_container"></div>
         </div>
       </div>
+<<<<<<< HEAD
     </div>`);
 
   const cities_url = ["pune.png", "mumbai.avif", "delhi.avif", "hyderabad.png"];
 
   const cities = ["pune", "mumbai", "delhi", "hyderabad"];
+=======
+    </div>
+    
+    `);
+  const cities_url = [
+    "delhi.avif",
+    "hyderabad.png",
+    "mumbai.avif",
+    "pune.png",
+  ];
+
+  const cities = [
+    "pune",
+    "mumbai",
+    "delhi",
+    "hyderabad",
+  ];
+>>>>>>> 42ec948c74d2a3568b779b2f3e3a1c6839487fa7
 
   const selectedCities = [
     "pune-selected.png",
@@ -112,6 +131,7 @@ $(document).ready(function () {
   ];
 
   $(document).ready(function () {
+<<<<<<< HEAD
     for (let [idx, city] of cities.entries()) {
       const city_name = city.charAt(0).toUpperCase() + city.slice(1);
 
@@ -120,6 +140,21 @@ $(document).ready(function () {
               <img src="../assets/cities/${cities_url[idx]}" alt="${city}">
               <div id="modal-city-name" style="display-block">${city_name}</div>
             </div>`);
+=======
+    let count=0;
+    for (let [idx, city] of cities.entries()) {
+      const city_name = city.charAt(0).toUpperCase() + city.slice(1);
+
+      let city_card = `<div class="city"  data-bs-dismiss="modal" aria-label="Close">
+                        <img src="../assets/cities/${cities_url[idx]}" id="city-modal-${count}" alt="${city}">
+                        <div id="modal-city-name-${count}" style="display-block">${city_name}</div>
+                      </div>
+                        `;
+
+      $(".cities_container")
+        .append(city_card);
+        count++;
+>>>>>>> 42ec948c74d2a3568b779b2f3e3a1c6839487fa7
     }
 
     $(".city").click((event) => {
@@ -144,9 +179,13 @@ $(document).ready(function () {
         const city = cities_list[idx].getElementsByTagName("div")[0];
         const city_name = city.textContent || city.innerText;
 
+<<<<<<< HEAD
         if (
           city_name.toLowerCase().includes(event.target.value.toLowerCase())
         ) {
+=======
+        if (city_name.toLowerCase().includes(event.target.value.toLowerCase())) {
+>>>>>>> 42ec948c74d2a3568b779b2f3e3a1c6839487fa7
           cities_list[idx].style.display = "";
         } else {
           cities_list[idx].style.display = "none";

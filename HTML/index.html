@@ -32,6 +32,14 @@
           <i class="fa-solid fa-bars" style="color: wheat"></i>
         </button>
 
+        <!-- <select name="city" class="select-city">
+        <option value="mumbai" selected>Mumbai</option>
+        <option value="bangalore">Bangalore</option>
+        <option value="Chennai">Chennai</option>
+        <option value="Delhi">Delhi</option>
+        <option value="Pune">Pune</option>
+      </select> -->
+
         <a class="navbar-brand" href="#"
           ><img src="../assets/Logo/logo4.png" class="nav-logo" alt="" />
           <span class="logo-name">BookYourShow</span>
@@ -78,18 +86,16 @@
             <ul
               class="dropdown-menu text-small"
               aria-labelledby="dropdownUser1"
+              style=""
             >
-              <li><a class="dropdown-item" href="profile.html">Your Profile</a></li>
+              <li><a class="dropdown-item" href="#">Your Profile</a></li>
               <li><a class="dropdown-item" href="#">Your Bookings</a></li>
               <li>
                 <hr class="dropdown-divider" />
               </li>
-              <li>
-                <a class="dropdown-item" id="signOutBtn" href="#">Sign out</a>
-              </li>
+              <li><a class="dropdown-item" href="#">Sign out</a></li>
             </ul>
           </div>
-
           <button
             class="city_btn mx-2 select_city"
             id="city_field"
@@ -441,54 +447,6 @@
       </button>
     </div>
 
-    <!-- premiere-->
-    <div class="premiere-movies">
-      <h1>PREMIERE</h1>
-      <div class="slide-container swiper">
-        <div class="slide-content movie-slider">
-          <div class="card-wrapper swiper-wrapper">
-            <div class="card swiper-slide primium-card">
-              <div class="image-content">
-                <img src="../assets/event/img1.avif" alt="" class="card-img" />
-              </div>
-              <div class="card-premiere-banner">Primiere</div>
-            </div>
-
-            <div class="card swiper-slide primium-card">
-              <div class="image-content">
-                <img src="../assets/event/img2.avif" alt="" class="card-img" />
-              </div>
-              <div class="card-premiere-banner">Primiere</div>
-            </div>
-            <div class="card swiper-slide primium-card">
-              <div class="image-content">
-                <img src="../assets/event/img3.avif" alt="" class="card-img" />
-              </div>
-              <div class="card-premiere-banner">Primiere</div>
-            </div>
-            <div class="card swiper-slide primium-card">
-              <div class="image-content">
-                <img src="../assets/event/img4.avif" alt="" class="card-img" />
-              </div>
-              <div class="card-premiere-banner">Primiere</div>
-            </div>
-            <div class="card swiper-slide primium-card">
-              <div class="image-content">
-                <img src="../assets/event/img5.avif" alt="" class="card-img" />
-              </div>
-              <div class="card-premiere-banner">Primiere</div>
-            </div>
-          </div>
-
-          <div class="show-slider-option">Slide >>></div>
-        </div>
-
-        <div class="swiper-button-next swiper-navBtn movie-right-btn"></div>
-        <div class="swiper-button-prev swiper-navBtn movie-left-btn"></div>
-        <div class="swiper-pagination pagination1"></div>
-      </div>
-    </div>
-
     <!-- Recommended Movies -->
     <div class="recommended-movies">
       <h1>Recommended Movies</h1>
@@ -585,6 +543,59 @@
           </div>
         </div>
          -->
+      </div>
+    </div>
+
+    <!-- Promotion card -->
+    <div class="promotion-card">
+      <img src="../assets/sponserImg.avif" alt="" />
+    </div>
+
+    <!-- premiere-->
+    <div class="premiere-movies">
+      <h1>PREMIERE</h1>
+      <div class="slide-container swiper">
+        <div class="slide-content movie-slider">
+          <div class="card-wrapper swiper-wrapper">
+            <div class="card swiper-slide primium-card">
+              <div class="image-content">
+                <img src="../assets/event/img1.avif" alt="" class="card-img" />
+              </div>
+              <div class="card-premiere-banner">Primiere</div>
+            </div>
+
+            <div class="card swiper-slide primium-card">
+              <div class="image-content">
+                <img src="../assets/event/img2.avif" alt="" class="card-img" />
+              </div>
+              <div class="card-premiere-banner">Primiere</div>
+            </div>
+            <div class="card swiper-slide primium-card">
+              <div class="image-content">
+                <img src="../assets/event/img3.avif" alt="" class="card-img" />
+              </div>
+              <div class="card-premiere-banner">Primiere</div>
+            </div>
+            <div class="card swiper-slide primium-card">
+              <div class="image-content">
+                <img src="../assets/event/img4.avif" alt="" class="card-img" />
+              </div>
+              <div class="card-premiere-banner">Primiere</div>
+            </div>
+            <div class="card swiper-slide primium-card">
+              <div class="image-content">
+                <img src="../assets/event/img5.avif" alt="" class="card-img" />
+              </div>
+              <div class="card-premiere-banner">Primiere</div>
+            </div>
+          </div>
+
+          <div class="show-slider-option">Slide >>></div>
+        </div>
+
+        <div class="swiper-button-next swiper-navBtn movie-right-btn"></div>
+        <div class="swiper-button-prev swiper-navBtn movie-left-btn"></div>
+        <div class="swiper-pagination pagination1"></div>
       </div>
     </div>
 
@@ -696,67 +707,7 @@
         class="card-container popular-event-container"
         id="popular-event-container"
       >
-        <!-- <div class="card" style="width: 18rem">
-          <img src="../assets/event/img1.avif" class="card-img-top" alt="..." />
-          <div class="card-body">
-            <h5 class="card-title">Dunki</h5>
-            <p class="card-text">Comedy/Drama</p>
-            <p>
-              U/A &nbsp;&nbsp;&nbsp;<i class="fa-solid fa-circle-dot"></i>
-              Hindi, English, Telugu
-            </p>
-            <a href="#" class="btn btn-primary">Book Now</a>
-          </div>
-        </div> -->
-        <!-- 
-        <div class="card" style="width: 18rem">
-          <img src="../assets/event/img2.avif" class="card-img-top" alt="..." />
-          <div class="card-body">
-            <h5 class="card-title">Dunki</h5>
-            <p class="card-text">Comedy/Drama</p>
-            <p>
-              U/A &nbsp;&nbsp;&nbsp;<i class="fa-solid fa-circle-dot"></i>
-              Hindi, English
-            </p>
-            <a href="#" class="btn btn-primary">Book Now</a>
-          </div>
-        </div>
-        <div class="card" style="width: 18rem">
-          <img src="../assets/event/img3.avif" class="card-img-top" alt="..." />
-          <div class="card-body">
-            <h5 class="card-title">Dunki</h5>
-            <p class="card-text">Comedy/Drama</p>
-            <p>
-              U/A &nbsp;&nbsp;&nbsp;<i class="fa-solid fa-circle-dot"></i> Hindi
-            </p>
-            <a href="#" class="btn btn-primary">Book Now</a>
-          </div>
-        </div>
-        <div class="card" style="width: 18rem">
-          <img src="../assets/event/img4.avif" class="card-img-top" alt="..." />
-          <div class="card-body">
-            <h5 class="card-title">Dunki</h5>
-            <p class="card-text">Comedy/Drama</p>
-            <p>
-              U &nbsp;&nbsp;&nbsp;<i class="fa-solid fa-circle-dot"></i>
-              English, Telugu
-            </p>
-            <a href="#" class="btn btn-primary">Book Now</a>
-          </div>
-        </div>
-        <div class="card" style="width: 18rem">
-          <img src="../assets/event/img5.avif" class="card-img-top" alt="..." />
-          <div class="card-body">
-            <h5 class="card-title">Dunki</h5>
-            <p class="card-text">Comedy/Drama</p>
-            <p>
-              U &nbsp;&nbsp;&nbsp;<i class="fa-solid fa-circle-dot"></i> Hindi,
-              English
-            </p>
-            <a href="#" class="btn btn-primary">Book Now</a>
-          </div>
-        </div>
-         -->
+        <!--Here card will dynamically display. -->
       </div>
     </div>
 
@@ -881,52 +832,12 @@
 
     <div
       class="modal fade"
-      id="exampleModalCenter"
-      tabindex="-1"
-      role="dialog"
-      aria-labelledby="exampleModalCenterTitle"
-      aria-hidden="true"
-    >
-      <div class="modal-dialog" role="document">
-        <div class="modal-content">
-          <div class="modal-body">
-            <h3 id="exampleModalLongTitle"></h3>
-            <!-- ... other modal content ... -->
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div
-      class="modal fade"
       id="cityModal"
       tabindex="-1"
       aria-labelledby="cityModalLabel"
       aria-hidden="true"
     >
-      <div class="modal-dialog modal-xl">
-        <div class="modal-content">
-          <div class="modal-header">
-            <input
-              class="hidden_search_field"
-              id="modal_search"
-              type="text"
-              placeholder="Search for your city ..."
-              aria-label="Search"
-            />
-
-            <button
-              type="button"
-              class="btn-close"
-              data-bs-dismiss="modal"
-              aria-label="Close"
-            ></button>
-          </div>
-          <div class="modal-body">
-            <div class="cities_container"></div>
-          </div>
-        </div>
-      </div>
+      <div class="modal-dialog modal-xl"></div>
     </div>
 
     <!-- JavaScript -->
@@ -935,28 +846,5 @@
     <script src="../Js/controller/navbar.js"></script>
     <script src="../Js/controller/index-controller.js"></script>
     <script src="../Js/controller/moviesBiopage.js"></script>
-    <script>
-      document.addEventListener("DOMContentLoaded", function () {
-        const fullName = sessionStorage.getItem("fullName");
-        const isLogin = sessionStorage.getItem("isLogin");
-
-        $("#exampleModalLongTitle").text("😀 Welcome " + fullName);
-        $("#exampleModalCenter").modal("show");
-
-        if (isLogin === "true") {
-          // User is logged in, use the user data as needed
-          console.log("User is logged in:", fullName);
-          // You can update your UI with the user data here
-        }
-
-        const signOutBtn = document.getElementById("signOutBtn");
-        signOutBtn.addEventListener("click", function () {
-          // Perform sign-out logic here
-          // For example, clear the session storage and redirect to the login page
-          sessionStorage.clear();
-          window.location.replace("login.html");
-        });
-      });
-    </script>
   </body>
 </html>

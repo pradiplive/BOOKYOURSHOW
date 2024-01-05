@@ -32,6 +32,7 @@ body {
 .logo-name {
   font-family: "Rubik Glitch";
   font-size: 25px;
+  /* padding-top: 1rem; */
   color: white;
   background-image: linear-gradient(to right, red, yellow);
   -webkit-background-clip: text;
@@ -210,6 +211,10 @@ width: 610px;
     outline: none;
     border: none;
 }
+.show-slider-option{
+  color: white;
+  margin-top: 1rem;
+}
 
 /* Media Query---> Navbar */
 /* @media only screen and (max-width: 500px) {
@@ -375,19 +380,9 @@ width: 610px;
   color: white;
 }
 
-.carousel-caption {
-  position: absolute;
-  height: 40px;
-  width: 300px;
-  text-align: left;
-  top: 6rem;
-  left: 10rem;
-}
 
-.play-btn {
-  height: 20px;
-  width: 20px;
-}
+
+
 
 .carousel-indicators {
   align-items: end;
@@ -421,6 +416,19 @@ width: 610px;
   .carousel-control-next i {
     font-size: 1rem;
   }
+}
+
+.promotion-card{
+  width: 100%;
+  margin: 6rem 3rem ;
+  border-radius: 25px;
+  backface-visibility: hidden;
+
+}
+.promotion-card img{
+  width: 90vw;
+  height: 15vh;
+
 }
 
 /* .premiere-movies {
@@ -504,9 +512,9 @@ width: 610px;
 
 .card {
   display: inline-block;
-  margin: 1rem 2.5rem 0 0;
+  margin: 2rem 2.5rem 0 0;
   height: 53vh;
-  width: 15rem;
+  width: 17rem;
   border-radius: 15px;
   overflow: hidden;
   backface-visibility: hidden;
@@ -517,6 +525,7 @@ width: 610px;
   box-shadow: 0 8px 19px rgb(239 212 90 / 25%), 0 3px 14px rgb(239 212 90 / 25%);
   z-index: 90;
   backface-visibility: hidden;
+  
 }
 .card:hover {
   box-shadow: 0 8px 19px rgb(239 212 90 / 25%), 0 3px 14px rgb(239 212 90 / 25%);
@@ -526,7 +535,15 @@ width: 610px;
 .card-img-top {
   height: 65%;
   width: 100%;
+  
   backface-visibility: hidden;
+}
+.image-content{
+  height: 100%;
+  width: 100%;
+}
+.card-img{
+  object-fit: contain;
 }
 .card-body {
   padding: 8px;
@@ -685,11 +702,15 @@ width: 610px;
   margin-top: 1rem;
   margin-bottom: 1rem;
   margin: auto;
-  width: 100%;
+  width: 30vw;
 }
 
 .text-body {
   color: white;
+}
+.btn-floating:hover{
+  box-shadow: rgba(250, 0, 0, 0.16) 5px 5px 20px;
+
 }
 
 .copyrights {
@@ -703,6 +724,9 @@ width: 610px;
 .copyrights p {
   color: grey;
 }
+/* .fa-indian-rupee-sign{
+  float: left;
+} */
 
 @media only screen and (max-width: 1000px) {
   .footer-logo-name {
