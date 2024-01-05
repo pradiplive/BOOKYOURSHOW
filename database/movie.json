@@ -82,7 +82,7 @@
             ],
             "start_date": "21-12-2023",
             "language": "English, Hindi, Tamil, Telugu",
-            "genre": "Action, Adventure, Fantasy, Superhero ",
+            "genre": "Action, Adventure, Fantasy, Superhero, Thriller ",
             "reviews": [
                 {
                     "id":0,
@@ -199,7 +199,7 @@
             "start_date": "22-12-2023",
             "end_date": "25-01-2024",
             "language": "Hindi , Tamil, Telugu",
-            "genre": "Action, Triller",
+            "genre": "Action, Thriller",
             "reviews": [
                 {
                     "id":0,

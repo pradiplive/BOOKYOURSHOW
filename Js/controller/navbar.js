@@ -23,67 +23,72 @@ $(document).ready(function () {
     </div>
     
     `);
-    const cities_url = [
-        "delhi.avif",
-        "hyderabad.png",
-        "mumbai.avif",
-        "pune.png",
-      ];
-      
-      const cities = [
-        "pune",
-        "mumbai",
-        "delhi",
-        "hyderabad",
-      ];
-      
-      const selectedCities = [
-        "pune-selected.png",
-        "mumbai-selected.png",
-        "delhi-selected.png",
-        "hyderabad-selected.png",
-      ];
-      
-      $(document).ready(function () {
-        for (let [idx, city] of cities.entries()) {
+  const cities_url = [
+    "delhi.avif",
+    "hyderabad.png",
+    "mumbai.avif",
+    "pune.png",
+  ];
+
+  const cities = [
+    "pune",
+    "mumbai",
+    "delhi",
+    "hyderabad",
+  ];
+
+  const selectedCities = [
+    "pune-selected.png",
+    "mumbai-selected.png",
+    "delhi-selected.png",
+    "hyderabad-selected.png",
+  ];
+
+  $(document).ready(function () {
+    let count=0;
+    for (let [idx, city] of cities.entries()) {
+      const city_name = city.charAt(0).toUpperCase() + city.slice(1);
+
+      let city_card = `<div class="city"  data-bs-dismiss="modal" aria-label="Close">
+                        <img src="../assets/cities/${cities_url[idx]}" id="city-modal-${count}" alt="${city}">
+                        <div id="modal-city-name-${count}" style="display-block">${city_name}</div>
+                      </div>
+                        `;
+
+      $(".cities_container")
+        .append(city_card);
+        count++;
+    }
+
+    $(".city").click((event) => {
+      cities.map((city, idx) => {
+        if (event.target.alt === city) {
+          event.target.src = `../assets/cities/${selectedCities[idx]}`;
           const city_name = city.charAt(0).toUpperCase() + city.slice(1);
-      
-          $(".cities_container")
-            .append(`<div class="city" data-bs-dismiss="modal" aria-label="Close">
-              <img src="../assets/cities/${cities_url[idx]}" alt="${city}">
-              <div id="modal-city-name" style="display-block">${city_name}</div>
-            </div>`);
+          $("#city_field").html(city_name);
+        } else {
+          document.querySelector(
+            `img[alt="${city}"]`
+          ).src = `../assets/cities/${cities_url[idx]}`;
         }
-      
-        $(".city").click((event) => {
-          cities.map((city, idx) => {
-            if (event.target.alt === city) {
-              event.target.src = `../assets/cities/${selectedCities[idx]}`;
-              const city_name = city.charAt(0).toUpperCase() + city.slice(1);
-              $("#city_field").html(city_name);
-            } else {
-              document.querySelector(
-                `img[alt="${city}"]`
-              ).src = `../assets/cities/${cities_url[idx]}`;
-            }
-          });
-        });
-      
-        $("#modal_search").keyup((event) => {
-          const cities_container = document.querySelector(".cities_container");
-          const cities_list = cities_container.getElementsByClassName("city");
-      
-          for (let idx = 0; idx < cities_list.length; idx++) {
-            const city = cities_list[idx].getElementsByTagName("div")[0];
-            const city_name = city.textContent || city.innerText;
-      
-            if (city_name.toLowerCase().includes(event.target.value.toLowerCase())) {
-              cities_list[idx].style.display = "";
-            } else {
-              cities_list[idx].style.display = "none";
-            }
-          }
-        });
       });
+    });
+
+    $("#modal_search").keyup((event) => {
+      const cities_container = document.querySelector(".cities_container");
+      const cities_list = cities_container.getElementsByClassName("city");
+
+      for (let idx = 0; idx < cities_list.length; idx++) {
+        const city = cities_list[idx].getElementsByTagName("div")[0];
+        const city_name = city.textContent || city.innerText;
+
+        if (city_name.toLowerCase().includes(event.target.value.toLowerCase())) {
+          cities_list[idx].style.display = "";
+        } else {
+          cities_list[idx].style.display = "none";
+        }
+      }
+    });
+  });
 });
 
