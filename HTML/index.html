@@ -12,13 +12,14 @@
 
   <!-- CSS -->
   <link rel="stylesheet" href="../CSS/slider/style.css" />
+  <link rel="stylesheet" href="../CSS/integratesearch.css">
 
   <!-- Swiper JS -->
   <script src="../Js/controller/slider/swiper-bundle.min.js"></script>
 </head>
 
 <body>
-  <!-- Navbar   -->
+  <!-- Navbar   
   <nav class="navbar navbar-expand-lg bg-body-tertiary">
     <div class="container-fluid">
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03"
@@ -26,14 +27,6 @@
         <i class="fa-solid fa-bars" style="color: wheat"></i>
       </button>
 
-
-      <!-- <select name="city" class="select-city">
-        <option value="mumbai" selected>Mumbai</option>
-        <option value="bangalore">Bangalore</option>
-        <option value="Chennai">Chennai</option>
-        <option value="Delhi">Delhi</option>
-        <option value="Pune">Pune</option>
-      </select> -->
 
       <a class="navbar-brand" href="#"><img src="../assets/Logo/logo4.png" class="nav-logo" alt="">
         <span class="logo-name">BookYourShow</span>
@@ -60,7 +53,11 @@
 
 
         <form class="d-flex navbar-formjustify-content-end" role="search">
-          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+          <input class="form-control me-2" data-search  type="search" placeholder="Search" aria-label="Search" />
+          
+              
+            
+          </div>
 
         </form>
 
@@ -81,21 +78,79 @@
         <button class="city_btn mx-2 select_city" id="city_field" data-bs-toggle="modal" data-bs-target="#cityModal">
           Select City<i class="fa-solid fa-angle-down"></i></button>
 
-        <!-- <div id="select-city">
-          <span class="cities_container">Select city</span>
-          <select name="city" id="select-city">
-            <option value="mumbai" selected>Mumbai</option>
-            <option value="bangalore">Bangalore</option>
-            <option value="Chennai">Chennai</option>
-            <option value="Delhi">Delhi</option>
-            <option value="Pune">Pune</option>
-          </select> 
-        </div> -->
       </div>
     </div>
   </nav>
+-->
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03"
+          aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="fa-solid fa-bars" style="color: wheat"></i>
+      </button>
+      <!-- <select name="city" class="select-city">
+      <option value="mumbai" selected>Mumbai</option>
+      <option value="bangalore">Bangalore</option>
+      <option value="Chennai">Chennai</option>
+      <option value="Delhi">Delhi</option>
+      <option value="Pune">Pune</option>
+    </select> -->
+      <a class="navbar-brand" href="#"><img src="../assets/Logo/logo4.png" class="nav-logo" alt="" />
+          <span class="logo-name">BookYourShow</span>
+      </a>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item" id="floating-movie-card">
+                  <a class="nav-link active" href="movies.html">Movie</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="Events.html">Events</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="sports.html">Sports</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="music.html">Music</a>
+              </li>
+          </ul>
+          <form class="d-flex navbar-formjustify-content-end" role="search">
+              <input class="form-control me-2" data-search type="search" placeholder="Search" aria-label="Search" />
+              
+          </form>
+          <div class="dropdown text-end">
+              <a href="#" class="d-block link-dark text-decoration-none dropdown-toggle user-profile-container"
+                  id="dropdownUser1" data-bs-toggle="dropdown" aria-expanded="false">
+                  <i class="fa-solid fa-user"></i>
+              </a>
+              <ul class="dropdown-menu text-small" aria-labelledby="dropdownUser1" style="">
+                  <li><a class="dropdown-item" href="#">Your Profile</a></li>
+                  <li><a class="dropdown-item" href="#">Your Bookings</a></li>
+                  <li>
+                      <hr class="dropdown-divider" />
+                  </li>
+                  <li><a class="dropdown-item" href="#">Sign out</a></li>
+              </ul>
+          </div>
+          <button class="city_btn mx-2 select_city" id="city_field" data-bs-toggle="modal"
+              data-bs-target="#cityModal">
+              Select City<i class="fa-solid fa-angle-down"></i>
+          </button>
 
-
+          <!-- <div id="select-city">
+        <select name="city" id="select-city">
+          <option value="mumbai" selected>Mumbai</option>
+          <option value="bangalore">Bangalore</option>
+          <option value="Chennai">Chennai</option>
+          <option value="Delhi">Delhi</option>
+          <option value="Pune">Pune</option>
+        </select>
+      </div> -->
+      </div>
+  </div>
+</nav>
 
 
 
@@ -247,14 +302,16 @@
     </div>
   </div>
 
+  <div data-movie-list-container class="search-suggestion-list"></div>
   <!-- work is pending -->
-  <div class="navbar-show-floating-card"></div>
+  
 
   <!-- navbar end  -->
 
   <!-- slider -->
-  <div id="carouselExampleCaptions" class="carousel slide carousel-cont">
-    <div class="carousel-indicators">
+  <div id="carouselExampleCaptions" class="carousel slide carousel-cont" data-bs-ride="carousel" data-bs-interval="3000">
+    
+    <div class="carousel-indicators ">
       <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
         aria-current="true" aria-label="Slide 1"></button>
       <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
@@ -262,70 +319,24 @@
       <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
         aria-label="Slide 3"></button>
     </div>
+    
     <div class="carousel-inner" style="height: 500px">
+      <div class="navbar-show-floating-card"></div>
       <div class="carousel-item active carousel">
         <img src="../assets/slider/img5.avif" class="d-block w-100" alt="..." />
-        <!-- <div class="carousel-caption d-none d-md-block">
-            <h2>Latest Online Movie</h2>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
-              sapiente asperiores consequatur libero aperiam accusantium fuga
-              dolore alias nobis nisi.
-            </p>
-            <span>
-              <i
-                class="fa-regular fa-circle-play play-btn"
-                style="font-size: 2rem"
-              ></i
-              >Watch Trailer
-            </span>
-          </div> -->
+        
       </div>
 
       <div class="carousel-item">
         <img src="../assets/slider/img6.avif" class="d-block w-100" alt="..." />
-        <!-- <div class="carousel-caption d-none d-md-block">
-            <h2>Latest Online Movie</h2>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
-              sapiente asperiores consequatur libero aperiam accusantium fuga
-              dolore alias nobis nisi.
-            </p>
-            <span
-              ><i
-                class="fa-regular fa-circle-play play-btn"
-                style="font-size: 2rem"
-              ></i>
-              Watch Trailer</span
-            >
-          </div> -->
+        
       </div>
 
       <div class="carousel-item">
         <img src="../assets/slider/img7.avif" alt="..." />
-        <!-- <div class="carousel-caption d-none d-md-block">
-            <h2>Latest Online Movie</h2>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
-              sapiente asperiores consequatur libero aperiam accusantium fuga
-              dolore alias nobis nisi.
-            </p>
-            <span
-              ><i
-                class="fa-regular fa-circle-play play-btn"
-                style="font-size: 2rem"
-              ></i>
-              Watch Trailer</span
-            >
-          </div> -->
+        
       </div>
-      <!-- <div class="carousel-item">
-          <img src="../assets/images/Image4.png" class="d-block w-100" alt="...">
-          <div class="carousel-caption d-none d-md-block">
-            <h5>Second slide label</h5>
-            <p>Some representative placeholder content for the second slide.</p>
-          </div>
-        </div> -->
+      
     </div>
 
     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
@@ -440,9 +451,9 @@
   </div>
 
   <!-- Promotion card -->
-  <div class="promotion-card">
+  <!-- <div class="promotion-card">
     <img src="../assets/sponserImg.avif" alt="">
-  </div>
+  </div> -->
   
    <!-- premiere-->
    <div class="premiere-movies">
@@ -695,6 +706,7 @@
   <script src="../Js/controller/navbar.js"></script>
   <script src="../Js/controller/index-controller.js"></script>
   <script src="../Js/controller/moviesBiopage.js"></script>
+  <script src="../Js/controller/integratesearch.js"></script>
 </body>
 
 </html>
