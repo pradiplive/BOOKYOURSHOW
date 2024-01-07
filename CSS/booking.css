@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #1a1a1a;
+  color: white;
+}
+
+.movie-row {
+  box-shadow: 0 4px 8px rgba(216, 213, 213, 0.828);
+  background-color: black;
+  border-radius: 8px;
+  padding: 2rem;
+  overflow: hidden; /* Ensures the box shadow doesn't extend beyond the rounded corners */
+}
+
+.banner-image {
+  height: auto;
+}
+.heading {
+  font-size: 40px;
+}
+strong {
+  font-size: 18px;
+  color: red;
+}
+.txt {
+  font-size: 23px;
+}
