@@ -49,11 +49,12 @@ $(document).ready(function () {
     for (let [idx, city] of cities.entries()) {
       const city_name = city.charAt(0).toUpperCase() + city.slice(1);
 
-      let city_card = `<div class="city"  data-bs-dismiss="modal" aria-label="Close">
-                        <img src="../assets/cities/${cities_url[idx]}" id="city-modal-${count}" alt="${city}">
-                        <div id="modal-city-name-${count}" style="display-block">${city_name}</div>
-                      </div>
-                        `;
+      let city_card = `
+              <div class="city"  data-bs-dismiss="modal" aria-label="Close">
+                  <img src="../assets/cities/${cities_url[idx]}" id="city-modal-${count}" alt="${city}">
+                  <div id="modal-city-name-${count}" style="display-block">${city_name}</div>
+              </div>
+              `;
 
       $(".cities_container")
         .append(city_card);

@@ -25,13 +25,6 @@
                 aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
                 <i class="fa-solid fa-bars" style="color: wheat"></i>
             </button>
-            <!-- <select name="city" class="select-city">
-            <option value="mumbai" selected>Mumbai</option>
-            <option value="bangalore">Bangalore</option>
-            <option value="Chennai">Chennai</option>
-            <option value="Delhi">Delhi</option>
-            <option value="Pune">Pune</option>
-          </select> -->
             <a class="navbar-brand" href="#"><img src="../assets/Logo/logo4.png" class="nav-logo" alt="" />
                 <span class="logo-name">BookYourShow</span>
             </a>
@@ -54,7 +47,7 @@
                     </li>
                 </ul>
                 <form class="d-flex navbar-formjustify-content-end" role="search">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+                    <input class="form-control me-2" data-search type="search" placeholder="Search" aria-label="Search" />
                 </form>
                 <div class="dropdown text-end">
                     <a href="#" class="d-block link-dark text-decoration-none dropdown-toggle user-profile-container"
@@ -75,23 +68,10 @@
                     Select City<i class="fa-solid fa-angle-down"></i>
                 </button>
 
-                <!-- <div id="select-city">
-              <select name="city" id="select-city">
-                <option value="mumbai" selected>Mumbai</option>
-                <option value="bangalore">Bangalore</option>
-                <option value="Chennai">Chennai</option>
-                <option value="Delhi">Delhi</option>
-                <option value="Pune">Pune</option>
-              </select>
-            </div> -->
             </div>
         </div>
     </nav>
 
-    <!-- Navbar  -->
-    <!-- <header class="border-bottom navbar-container" style="position: sticky">
-        
-      </header> -->
 
     <!-- Floating card  -->
     <div class="navbar-movie-floating-card">
@@ -255,6 +235,7 @@
                 aria-label="Slide 3"></button>
         </div>
         <div class="carousel-inner" style="height: 500px">
+            <div class="navbar-show-floating-card"></div>
             <div class="carousel-item active carousel">
                 <img src="../assets/Movies-corousel/img1.avif" class="d-block w-100" alt="..." />      
             </div>
@@ -426,14 +407,19 @@
         </div>
     </div>
 
+
+
+
+    
     <!-- JavaScript -->
     <script src="../Js/controller/slider/script.js"></script>
-    <script src="../Js/controller/navbar-floating-card.js"></script>
     <script src="../Js/controller/movies.js"></script>
-
     <script src="../Js/controller/navbar.js"></script>
     <script src="../Js/controller/moviesBiopage.js"></script>
     <script src="../Js/controller/filter_controller.js"></script>
+    <script src="../Js/controller/integratesearch.js"></script>
+
+
     
 </body>
 

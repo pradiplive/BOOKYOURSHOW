@@ -15,7 +15,7 @@ fetchMoviesData().then(moviesData => {
 
 // Function to filter movies based on selected checkboxes
 function filterMovies() {
-  console.log('inder fdilter');
+  // console.log('inder fdilter');
   const englishFilter = document.getElementById('language-english').checked;
   const hindiFilter = document.getElementById('language-hindi').checked;
   const tamilFilter = document.getElementById('language-tamil').checked;
@@ -62,7 +62,7 @@ function filterMovies() {
 
 // Function to display movies or "No Result Found" on the webpage
 function displayMovies(movies) {
-  console.log(movies);
+  // console.log(movies);
   const movieListContainer = document.getElementById('#movies-container-page');
   // movieListContainer.innerHTML = '';
   $('#movies-container-page').html(``);
@@ -108,7 +108,7 @@ function displayMovies(movies) {
       // const movieName = document.createElement('p');
       // movieName.textContent = movie.id;
       // movieListContainer.appendChild(movieName);
-      console.log(d);
+      // console.log(d);
       let card = `
                         <div class="card" style="background-color: black;">
                             <img
