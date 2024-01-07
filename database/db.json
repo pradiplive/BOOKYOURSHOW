@@ -611,28 +611,128 @@
   ],
   "users": [
     {
-      "fname": "Pradip sanap",
-      "username": "pradip",
+      "fname": "Manav Pandey",
+      "username": "manav",
+      "password": "manav@1234",
+      "mobile": "7894561235",
+      "email": "manav@gmail.com",
+      "id": 1,
+      "bookings": [
+        {
+          "name": "Aquaman And The Lost Kingdom",
+          "main_img": "../assets/aquaman-banner-img.webp",
+          "no_of_tickets": 2,
+          "selected_seats": [
+            "S70",
+            "S71"
+          ],
+          "selected_date": "10 January 2024",
+          "selected_time": "20:30 PM",
+          "selected_meals": [
+            {
+              "id": 1,
+              "meal_name": "Burger",
+              "meal_price": 160
+            }
+          ],
+          "total_expense": 560
+        },
+        {
+          "name": "Sam Bahadur",
+          "main_img": "../assets/sam-bahadur.webp",
+          "theater": "PVR: Market City, Kurla (Premiere)",
+          "no_of_tickets": 2,
+          "selected_seats": [
+            "G14",
+            "G15"
+          ],
+          "selected_date": "15 January 2024",
+          "selected_time": "20:30 PM",
+          "selected_meals": [
+            {
+              "id": 1,
+              "meal_name": "Burger",
+              "meal_price": 80
+            },
+            {
+              "id": 2,
+              "meal_name": "Pizza",
+              "meal_price": 100
+            }
+          ],
+          "total_expense": 780
+        },
+        {
+          "name": "Salaar: Cease Fire - Part 1",
+          "main_img": "../assets/salaar-cease-fire--part-1.webp",
+          "theater": "INOX: Royal Heritage Mall",
+          "no_of_tickets": 2,
+          "selected_seats": [
+            "G16",
+            "G17"
+          ],
+          "selected_date": "9 January 2024",
+          "selected_time": "21:10 PM",
+          "selected_meals": [
+            {
+              "id": 1,
+              "meal_name": "Burger",
+              "meal_price": 80
+            },
+            {
+              "id": 2,
+              "meal_name": "Pizza",
+              "meal_price": 100
+            }
+          ],
+          "total_expense": 780
+        }
+      ]
+    },
+    {
+      "fname": "Pradip Sanap",
+      "username": "Pradip",
       "password": "pradip@1234",
-      "mobile": "1234567890",
-      "email": "pradip@gmail.com",
-      "id": 2
+      "mobile": "9876543210",
+      "email": "pradip@cybage.com",
+      "id": 2,
+      "bookings": [
+        {
+          "name": "Star Wars: The Rise of Skywalker",
+          "main_img": "../assets/starwar-main-image.jfif",
+          "theater": "PVR ICON: Phoenix Palladium",
+          "no_of_tickets": 3,
+          "selected_seats": [
+            "G13",
+            "G14",
+            "G15"
+          ],
+          "selected_date": "10 January 2024",
+          "selected_time": "20:30 PM",
+          "selected_meals": [
+            {
+              "id": 1,
+              "meal_name": "Burger",
+              "meal_price": 80
+            },
+            {
+              "id": 2,
+              "meal_name": "Pizza",
+              "meal_price": 100
+            }
+          ],
+          "total_expense": 1080
+        }
+      ]
     },
     {
       "fname": "Nehal Saonekar",
       "username": "nehalk",
       "password": "nehal@1234",
-      "mobile": "1235467890",
-      "email": "nehal@gmail.com",
-      "id": 3
-    },
-    {
-      "fname": "Manav Pandey",
-      "username": "manavp",
-      "password": "manav@1234",
-      "mobile": "1234567989",
-      "email": "manav@gmail.com",
-      "id": 4
+      "email": "nehal@cybage.com",
+      "mobile": "1234567890",
+      "id": 3,
+      "bookings": []
     }
   ]
 }

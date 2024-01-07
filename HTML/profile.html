@@ -1,16 +1,15 @@
-<!-- Website: www.codingdung.com -->
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Your Profile</title>
-    <link rel="stylesheet" href="profile.css" />
+    <title>Edit Profile</title>
     <script src="../Js/plugins/CDN.js"></script>
     <style>
       body {
         background-color: black;
         color: white;
+        font-family: sans-serif;
       }
 
       .main {
@@ -44,19 +43,9 @@
           >
             <img
               class="rounded-circle mt-5"
-              width="150px"
+              width="220px"
               src="https://st3.depositphotos.com/15648834/17930/v/600/depositphotos_179308454-stock-illustration-unknown-person-silhouette-glasses-profile.jpg"
             />
-            <div class="col-md-5 mt-5">
-              <label class="labels">Upload Image</label>
-              <input
-                id="imageUpload"
-                type="file"
-                accept="image/*"
-                class="form-control"
-                onchange="handleImageUpload(this)"
-              />
-            </div>
           </div>
         </div>
 
@@ -107,40 +96,19 @@
                 />
               </div>
             </div>
+            <div class="text-center mt-3">
+              <button
+                id="submit"
+                class="btn btn-success"
+                onclick="submitForm()"
+              >
+                Submit
+              </button>
+            </div>
           </div>
         </div>
       </div>
     </div>
-    <script>
-      const fullName = sessionStorage.getItem("fullName");
-      const username = sessionStorage.getItem("username");
-      const email = sessionStorage.getItem("email");
-      const mobile = sessionStorage.getItem("mobile");
-
-      document.getElementById("fullNameInput").value = fullName || "";
-      document.getElementById("usernameInput").value = username || "";
-      document.getElementById("emailInput").value = email || "";
-      document.getElementById("mobile").value = mobile;
-
-      const imageElement = document.querySelector(".rounded-circle");
-      imageElement.src =
-        imageUrl ||
-        "https://st3.depositphotos.com/15648834/17930/v/600/depositphotos_179308454-stock-illustration-unknown-person-silhouette-glasses-profile.jpg";
-
-      function handleImageUpload(input) {
-        const file = input.files[0];
-
-        if (file) {
-          const reader = new FileReader();
-
-          reader.onload = function (e) {
-            const imageElement = document.querySelector(".rounded-circle");
-            imageElement.src = e.target.result;
-          };
-
-          reader.readAsDataURL(file);
-        }
-      }
-    </script>
+    <script src="../Js/controller/profile.js"></script>
   </body>
 </html>

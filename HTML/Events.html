@@ -57,13 +57,13 @@
                         id="dropdownUser1" data-bs-toggle="dropdown" aria-expanded="false">
                         <i class="fa-solid fa-user"></i>
                     </a>
-                    <ul class="dropdown-menu text-small" aria-labelledby="dropdownUser1" style="">
-                        <li><a class="dropdown-item" href="#">Your Profile</a></li>
-                        <li><a class="dropdown-item" href="#">Your Bookings</a></li>
+                    <ul class="dropdown-menu text-small" aria-labelledby="dropdownUser1">
+                        <li><a class="dropdown-item" href="profile.html">Your Profile</a></li>
+                        <li><a class="dropdown-item" href="booking.html">Your Bookings</a></li>
                         <li>
                             <hr class="dropdown-divider" />
                         </li>
-                        <li><a class="dropdown-item" href="#">Sign out</a></li>
+                        <li><a class="dropdown-item" id="signOutBtn" href="#">Sign out</a></li>
                     </ul>
                 </div>
                 <button class="city_btn mx-2 select_city" id="city_field" data-bs-toggle="modal"
@@ -412,14 +412,15 @@
         </div>
     </div>
 
-
-
-
-
-
-
-
-
+    <script>
+          const signOutBtn = document.getElementById("signOutBtn");
+            signOutBtn.addEventListener("click", function () {
+          // Perform sign-out logic here
+          // For example, clear the session storage and redirect to the login page
+          sessionStorage.clear();
+          window.location.replace("login.html");
+            })
+    </script>
     <!-- JavaScript -->
     <script src="../Js/controller/navbar-floating-card.js"></script>
     <script src="../Js/controller/navbar.js"></script>

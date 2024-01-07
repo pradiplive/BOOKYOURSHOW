@@ -123,6 +123,7 @@ $(document).ready(function () {
 
         if (userFound) {
           if (userFound.password === loginPassword) {
+            sessionStorage.setItem("id", userFound.id);
             sessionStorage.setItem("fullName", userFound.fname);
             sessionStorage.setItem("username", userFound.username);
             sessionStorage.setItem("mobile", userFound.mobile);
@@ -151,63 +152,26 @@ $(document).ready(function () {
     const password = $("#password").val();
     const mobile = $("#phone").val();
     const email = $("#email").val();
+    const token = generateToken();
 
-    // Check if username or email already exists
-    axios
-      .get("http://localhost:3001/users")
-      .then((response) => {
-        let usernameExists = false;
-        let emailExists = false;
-
-        response.data.forEach((element) => {
-          if (element.username === username) {
-            usernameExists = true;
-          }
-
-          if (element.email === email) {
-            emailExists = true;
-          }
+    if (flag) {
+      axios
+        .post("http://localhost:3001/users", {
+          fname,
+          username,
+          password,
+          mobile,
+          email,
+        })
+        .then((response) => {
+          console.log("Registration successful:", response.data);
+          alert("Registration successful. Please log in.");
+          window.location.replace("login.html");
+        })
+        .catch((error) => {
+          console.log("Registration failed:", error);
+          setError(loginError, "Registration failed. Please try again.");
         });
-
-        if (usernameExists) {
-          setError(registerError, "Username already exists.");
-          return;
-        } else {
-          clearError(registerError);
-        }
-
-        if (emailExists) {
-          setError(registerError, "Email already exists.");
-          return;
-        } else {
-          clearError(registerError);
-        }
-
-        // Continue with the registration logic if username and email are unique
-        const token = generateToken();
-
-        if (flag) {
-          axios
-            .post("http://localhost:3001/users", {
-              fname,
-              username,
-              password,
-              mobile,
-              email,
-            })
-            .then((response) => {
-              console.log("Registration successful:", response.data);
-              alert("Registration successful. Please log in.");
-              window.location.replace("login.html");
-            })
-            .catch((error) => {
-              console.log("Registration failed:", error);
-              setError(loginError, "Registration failed. Please try again.");
-            });
-        }
-      })
-      .catch((error) => {
-        console.error("Registration check failed:", error);
-      });
+    }
   });
 });

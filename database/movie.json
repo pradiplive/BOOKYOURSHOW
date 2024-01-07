@@ -4,8 +4,8 @@
       "id": 0,
       "name": "Aquaman And The Lost Kingdom",
       "category": "UA",
-      "banner_img": "../assets/salar.jfif",
-      "main_img": "../assets/aquaman-and-the-lost-kingdom-.webp",
+      "banner_img": "../assets/aquaman-banner-img.jpg",
+      "main_img": "../assets/aquaman-banner-img.webp",
       "duration": "124min",
       "description": "When an ancient power is unleashed, Aquaman must forge an uneasy alliance with an unlikely ally to protect Atlantis, and the world, from irreversible devastation.",
       "cast": [
@@ -85,8 +85,8 @@
       "theatre": [
         {
           "id": "theatre1",
-          "city_id": "city1",
-          "movie_id": "movie1",
+          "city_id": 1,
+          "movie_id": 1,
           "name": "INOX: Elpro City Square",
           "loc_name": "Chinchwad 2nd Floor, Elpro City Square Mall, Pimpri Chinchwad Link Road, Pune, Maharashtra 411033, India",
           "ticket_price": [
@@ -95,24 +95,51 @@
             400
           ],
           "showtimes": [
-            "15:30 PM",
-            "16:30 PM",
-            "20:10 PM",
-            "19:30 PM"
-          ],
-          "bookedSeats": [
-            10,
-            11,
-            4,
-            5,
-            8,
-            7
+            {
+              "time": "15:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2,
+                105,
+                108
+              ]
+            },
+            {
+              "time": "16:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "20:10 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "19:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2,
+                9
+              ]
+            }
           ]
         },
         {
           "id": "theatre2",
-          "city_id": "city1",
-          "movie_id": "movie1",
+          "city_id": 1,
+          "movie_id": 1,
           "name": "Cinepolis: Seasons Mall",
           "loc_name": "Pune 3rd Floor, Seasons Mall, Magarpatta Police Station Road, Magarpatta City, Hadapsar, Pune, Maharashtra 411028, India",
           "ticket_price": [
@@ -121,16 +148,49 @@
             400
           ],
           "showtimes": [
-            "13:30 PM",
-            "14:30 PM",
-            "17:10 PM"
-          ],
-          "bookedSeats": []
+            {
+              "time": "13:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "16:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "14:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "17:10 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2,
+                61
+              ]
+            }
+          ]
         },
         {
           "id": "theatre3",
-          "city_id": "city1",
-          "movie_id": "movie1",
+          "city_id": 1,
+          "movie_id": 1,
           "name": "INOX: Royal Heritage Mall",
           "loc_name": "NIBM Ext Royale Heritage Mall, Mohammed Wadi, Next to Vibgyor International School, Pune, Maharashtra 411048, India",
           "ticket_price": [
@@ -139,19 +199,54 @@
             400
           ],
           "showtimes": [
-            "14:30 PM",
-            "15:00 PM",
-            "17:10 PM",
-            "18:30 PM",
-            "20:30 PM",
-            "22:10 PM"
-          ],
-          "bookedSeats": []
+            {
+              "time": "13:30 PM",
+              "bookedSeats": [
+                3,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "16:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "14:30 PM",
+              "bookedSeats": []
+            },
+            {
+              "time": "17:10 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "20:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                2
+              ]
+            },
+            {
+              "time": "21:10 PM",
+              "bookedSeats": []
+            }
+          ]
         },
         {
           "id": "theatre4",
-          "city_id": "city2",
-          "movie_id": "movie1",
+          "city_id": 1,
+          "movie_id": 1,
           "name": "Cinepolis: Viviana Mall, Thane",
           "loc_name": "Viviana Mall, Eastern Express Highway, Laxmi Nagar, Thane (West), Thane, Maharashtra 400606, India",
           "ticket_price": [
@@ -160,17 +255,54 @@
             400
           ],
           "showtimes": [
-            "15:30 PM",
-            "16:30 PM",
-            "20:10 PM",
-            "22:30 PM"
-          ],
-          "bookedSeats": []
+            {
+              "time": "13:30 PM",
+              "bookedSeats": [
+                3,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "16:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "15:30 PM",
+              "bookedSeats": []
+            },
+            {
+              "time": "17:10 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "20:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                2
+              ]
+            },
+            {
+              "time": "21:10 PM",
+              "bookedSeats": []
+            }
+          ]
         },
         {
           "id": "theatre5",
-          "city_id": "city2",
-          "movie_id": "movie1",
+          "city_id": 2,
+          "movie_id": 1,
           "name": "PVR ICON: Phoenix Palladium",
           "loc_name": "Lower Parel Mumbai High Street Phoenix, Extension of Entry Road to Phoenix, Senapati Bapat Marg, Lower Parel (W), Mumbai, Maharashtra 400013, India",
           "ticket_price": [
@@ -179,16 +311,54 @@
             400
           ],
           "showtimes": [
-            "13:45 PM",
-            "17:15 PM",
-            "22:30 PM"
-          ],
-          "bookedSeats": []
+            {
+              "time": "13:30 PM",
+              "bookedSeats": [
+                3,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "16:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "15:30 PM",
+              "bookedSeats": []
+            },
+            {
+              "time": "17:10 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "20:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                2
+              ]
+            },
+            {
+              "time": "21:10 PM",
+              "bookedSeats": []
+            }
+          ]
         },
         {
           "id": "theatre6",
-          "city_id": "city2",
-          "movie_id": "movie1",
+          "city_id": 2,
+          "movie_id": 1,
           "name": "PVR: Market City, Kurla (Premiere)",
           "loc_name": "Phoenix Market City, LBS Marg, Ashok Nagar, Near Kamani Junction, Kurla (W), Mumbai, Maharashtra 400072, India",
           "ticket_price": [
@@ -197,17 +367,54 @@
             400
           ],
           "showtimes": [
-            "13:45 PM",
-            "15:15 PM",
-            "20:30 PM",
-            "21:45 PM"
-          ],
-          "bookedSeats": []
+            {
+              "time": "13:30 PM",
+              "bookedSeats": [
+                3,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "16:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "15:30 PM",
+              "bookedSeats": []
+            },
+            {
+              "time": "17:10 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "20:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                2
+              ]
+            },
+            {
+              "time": "21:10 PM",
+              "bookedSeats": []
+            }
+          ]
         },
         {
           "id": "theatre7",
-          "city_id": "city3",
-          "movie_id": "movie1",
+          "city_id": 2,
+          "movie_id": 1,
           "name": "PVR: Vegas Dwarka ",
           "loc_name": "Vegas Mall, Sector 14 Road, Pocket 1, Sector 14 Dwarka, Kakrola, Delhi, NCR 110078, India",
           "ticket_price": [
@@ -216,17 +423,54 @@
             400
           ],
           "showtimes": [
-            "13:45 PM",
-            "15:15 PM",
-            "20:30 PM",
-            "21:45 PM"
-          ],
-          "bookedSeats": []
+            {
+              "time": "13:30 PM",
+              "bookedSeats": [
+                3,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "16:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "15:30 PM",
+              "bookedSeats": []
+            },
+            {
+              "time": "17:10 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "20:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                2
+              ]
+            },
+            {
+              "time": "21:10 PM",
+              "bookedSeats": []
+            }
+          ]
         },
         {
           "id": "theatre8",
-          "city_id": "city3",
-          "movie_id": "movie1",
+          "city_id": 3,
+          "movie_id": 1,
           "name": "PVR: Select City Walk, Delhi",
           "loc_name": "A-3, 1st Floor, Select City Walk Mall, District Center, Saket, Sector 6, Pushp Vihar, Delhi, NCR 110017, India",
           "ticket_price": [
@@ -235,16 +479,54 @@
             400
           ],
           "showtimes": [
-            "13:45 PM",
-            "17:15 PM",
-            "22:30 PM"
-          ],
-          "bookedSeats": []
+            {
+              "time": "13:30 PM",
+              "bookedSeats": [
+                3,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "16:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "15:30 PM",
+              "bookedSeats": []
+            },
+            {
+              "time": "17:10 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "20:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                2
+              ]
+            },
+            {
+              "time": "21:10 PM",
+              "bookedSeats": []
+            }
+          ]
         },
         {
           "id": "theatre9",
-          "city_id": "city3",
-          "movie_id": "movie1",
+          "city_id": 3,
+          "movie_id": 1,
           "name": "Cinepolis: Cross River Mall, Shahdara",
           "loc_name": "Cross River Mall, Central Business,Shahdara, Near Karkardooma Court, Delhi, NCR 110032, India",
           "ticket_price": [
@@ -253,18 +535,54 @@
             400
           ],
           "showtimes": [
-            "13:45 PM",
-            "15:15 PM",
-            "17:30 PM",
-            "20:30 PM",
-            "21:45 PM"
-          ],
-          "bookedSeats": []
+            {
+              "time": "13:30 PM",
+              "bookedSeats": [
+                3,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "16:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "15:30 PM",
+              "bookedSeats": []
+            },
+            {
+              "time": "17:10 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "20:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                2
+              ]
+            },
+            {
+              "time": "21:10 PM",
+              "bookedSeats": []
+            }
+          ]
         },
         {
           "id": "theatre10",
-          "city_id": "city4",
-          "movie_id": "movie1",
+          "city_id": 4,
+          "movie_id": 1,
           "name": "PVR: Nexus Mall Kukatpally",
           "loc_name": "Hyderabad 4th Floor, Nexus Mall, Plot No S-16, Survey No.1009, KPHB Phase 6, Opp Malaysian Township, Kukatpally, Hyderabad, Telangana 500072, India",
           "ticket_price": [
@@ -273,17 +591,54 @@
             400
           ],
           "showtimes": [
-            "15:30 PM",
-            "16:30 PM",
-            "20:10 PM",
-            "19:30 PM"
-          ],
-          "bookedSeats": []
+            {
+              "time": "13:30 PM",
+              "bookedSeats": [
+                3,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "16:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "15:30 PM",
+              "bookedSeats": []
+            },
+            {
+              "time": "17:10 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "20:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                2
+              ]
+            },
+            {
+              "time": "21:10 PM",
+              "bookedSeats": []
+            }
+          ]
         },
         {
           "id": "theatre11",
-          "city_id": "city4",
-          "movie_id": "movie1",
+          "city_id": 4,
+          "movie_id": 1,
           "name": "MovieMax: AMR, ECIL Secunderabad",
           "loc_name": "AMR Planet Mall,1,Rd,373/1 and 373.3, Trimulgherry, ECIL Road, Extn - Moula Ali, Secunderabad, Extn - Moula Ali, Secunderabad, Hyderabad, Telangana 500040, India",
           "ticket_price": [
@@ -292,16 +647,54 @@
             400
           ],
           "showtimes": [
-            "13:30 PM",
-            "14:30 PM",
-            "17:10 PM"
-          ],
-          "bookedSeats": []
+            {
+              "time": "13:30 PM",
+              "bookedSeats": [
+                3,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "16:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "15:30 PM",
+              "bookedSeats": []
+            },
+            {
+              "time": "17:10 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "20:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                2
+              ]
+            },
+            {
+              "time": "21:10 PM",
+              "bookedSeats": []
+            }
+          ]
         },
         {
           "id": "theatre12",
-          "city_id": "city4",
-          "movie_id": "movie1",
+          "city_id": 4,
+          "movie_id": 1,
           "name": "Platinum Movietime Cinemas: Ameerpet",
           "loc_name": "Big Bazar Mall, GS 24 Old Gold Spot Building, Ameerpet Road, Ameerpet, Hyderabad, Telangana 500073, India",
           "ticket_price": [
@@ -310,14 +703,49 @@
             400
           ],
           "showtimes": [
-            "14:30 PM",
-            "15:00 PM",
-            "17:10 PM",
-            "18:30 PM",
-            "20:30 PM",
-            "22:10 PM"
-          ],
-          "bookedSeats": []
+            {
+              "time": "13:30 PM",
+              "bookedSeats": [
+                3,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "16:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "15:30 PM",
+              "bookedSeats": []
+            },
+            {
+              "time": "17:10 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "20:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                2
+              ]
+            },
+            {
+              "time": "21:10 PM",
+              "bookedSeats": []
+            }
+          ]
         }
       ],
       "reviews": [
@@ -438,8 +866,8 @@
       "theatre": [
         {
           "id": "theatre1",
-          "city_id": "city1",
-          "movie_id": "movie1",
+          "city_id": 1,
+          "movie_id": 1,
           "name": "INOX: Elpro City Square",
           "loc_name": "Chinchwad 2nd Floor, Elpro City Square Mall, Pimpri Chinchwad Link Road, Pune, Maharashtra 411033, India",
           "ticket_price": [
@@ -448,20 +876,49 @@
             400
           ],
           "showtimes": [
-            "15:30 PM",
-            "16:30 PM",
-            "20:10 PM",
-            "19:30 PM"
-          ],
-          "bookedSeats": [
-            8,
-            9
+            {
+              "time": "15:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "16:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "20:10 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "19:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2,
+                9
+              ]
+            }
           ]
         },
         {
           "id": "theatre2",
-          "city_id": "city1",
-          "movie_id": "movie1",
+          "city_id": 1,
+          "movie_id": 1,
           "name": "Cinepolis: Seasons Mall",
           "loc_name": "Pune 3rd Floor, Seasons Mall, Magarpatta Police Station Road, Magarpatta City, Hadapsar, Pune, Maharashtra 411028, India",
           "ticket_price": [
@@ -470,16 +927,49 @@
             400
           ],
           "showtimes": [
-            "13:30 PM",
-            "14:30 PM",
-            "17:10 PM"
-          ],
-          "bookedSeats": []
+            {
+              "time": "13:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "16:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "14:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "17:10 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2,
+                61
+              ]
+            }
+          ]
         },
         {
           "id": "theatre3",
-          "city_id": "city1",
-          "movie_id": "movie1",
+          "city_id": 1,
+          "movie_id": 1,
           "name": "INOX: Royal Heritage Mall",
           "loc_name": "NIBM Ext Royale Heritage Mall, Mohammed Wadi, Next to Vibgyor International School, Pune, Maharashtra 411048, India",
           "ticket_price": [
@@ -488,19 +978,57 @@
             400
           ],
           "showtimes": [
-            "14:30 PM",
-            "15:00 PM",
-            "17:10 PM",
-            "18:30 PM",
-            "20:30 PM",
-            "22:10 PM"
-          ],
-          "bookedSeats": []
+            {
+              "time": "13:30 PM",
+              "bookedSeats": [
+                3,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "16:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "14:30 PM",
+              "bookedSeats": []
+            },
+            {
+              "time": "17:10 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "20:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                2
+              ]
+            },
+            {
+              "time": "21:10 PM",
+              "bookedSeats": [
+                16,
+                17
+              ]
+            }
+          ]
         },
         {
           "id": "theatre4",
-          "city_id": "city2",
-          "movie_id": "movie1",
+          "city_id": 1,
+          "movie_id": 1,
           "name": "Cinepolis: Viviana Mall, Thane",
           "loc_name": "Viviana Mall, Eastern Express Highway, Laxmi Nagar, Thane (West), Thane, Maharashtra 400606, India",
           "ticket_price": [
@@ -509,17 +1037,54 @@
             400
           ],
           "showtimes": [
-            "15:30 PM",
-            "16:30 PM",
-            "20:10 PM",
-            "22:30 PM"
-          ],
-          "bookedSeats": []
+            {
+              "time": "13:30 PM",
+              "bookedSeats": [
+                3,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "16:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "15:30 PM",
+              "bookedSeats": []
+            },
+            {
+              "time": "17:10 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "20:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                2
+              ]
+            },
+            {
+              "time": "21:10 PM",
+              "bookedSeats": []
+            }
+          ]
         },
         {
           "id": "theatre5",
-          "city_id": "city2",
-          "movie_id": "movie1",
+          "city_id": 2,
+          "movie_id": 1,
           "name": "PVR ICON: Phoenix Palladium",
           "loc_name": "Lower Parel Mumbai High Street Phoenix, Extension of Entry Road to Phoenix, Senapati Bapat Marg, Lower Parel (W), Mumbai, Maharashtra 400013, India",
           "ticket_price": [
@@ -528,16 +1093,75 @@
             400
           ],
           "showtimes": [
-            "13:45 PM",
-            "17:15 PM",
-            "22:30 PM"
-          ],
-          "bookedSeats": []
+            {
+              "time": "13:30 PM",
+              "bookedSeats": [
+                3,
+                4,
+                2,
+                94,
+                95,
+                93,
+                92,
+                91
+              ]
+            },
+            {
+              "time": "16:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "15:30 PM",
+              "bookedSeats": []
+            },
+            {
+              "time": "17:10 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2,
+                13,
+                14
+              ]
+            },
+            {
+              "time": "20:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                2,
+                16,
+                17
+              ]
+            },
+            {
+              "time": "21:10 PM",
+              "bookedSeats": [
+                11,
+                12,
+                30,
+                31,
+                16,
+                17,
+                18,
+                35,
+                36,
+                1,
+                2
+              ]
+            }
+          ]
         },
         {
           "id": "theatre6",
-          "city_id": "city2",
-          "movie_id": "movie1",
+          "city_id": 2,
+          "movie_id": 1,
           "name": "PVR: Market City, Kurla (Premiere)",
           "loc_name": "Phoenix Market City, LBS Marg, Ashok Nagar, Near Kamani Junction, Kurla (W), Mumbai, Maharashtra 400072, India",
           "ticket_price": [
@@ -546,17 +1170,58 @@
             400
           ],
           "showtimes": [
-            "13:45 PM",
-            "15:15 PM",
-            "20:30 PM",
-            "21:45 PM"
-          ],
-          "bookedSeats": []
+            {
+              "time": "13:30 PM",
+              "bookedSeats": [
+                3,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "16:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "15:30 PM",
+              "bookedSeats": []
+            },
+            {
+              "time": "17:10 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "20:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                2
+              ]
+            },
+            {
+              "time": "21:10 PM",
+              "bookedSeats": [
+                15,
+                16,
+                17
+              ]
+            }
+          ]
         },
         {
           "id": "theatre7",
-          "city_id": "city3",
-          "movie_id": "movie1",
+          "city_id": 2,
+          "movie_id": 1,
           "name": "PVR: Vegas Dwarka ",
           "loc_name": "Vegas Mall, Sector 14 Road, Pocket 1, Sector 14 Dwarka, Kakrola, Delhi, NCR 110078, India",
           "ticket_price": [
@@ -565,17 +1230,58 @@
             400
           ],
           "showtimes": [
-            "13:45 PM",
-            "15:15 PM",
-            "20:30 PM",
-            "21:45 PM"
-          ],
-          "bookedSeats": []
+            {
+              "time": "13:30 PM",
+              "bookedSeats": [
+                3,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "16:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "15:30 PM",
+              "bookedSeats": [
+                102,
+                103,
+                104
+              ]
+            },
+            {
+              "time": "17:10 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "20:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                2
+              ]
+            },
+            {
+              "time": "21:10 PM",
+              "bookedSeats": []
+            }
+          ]
         },
         {
           "id": "theatre8",
-          "city_id": "city3",
-          "movie_id": "movie1",
+          "city_id": 3,
+          "movie_id": 1,
           "name": "PVR: Select City Walk, Delhi",
           "loc_name": "A-3, 1st Floor, Select City Walk Mall, District Center, Saket, Sector 6, Pushp Vihar, Delhi, NCR 110017, India",
           "ticket_price": [
@@ -584,16 +1290,54 @@
             400
           ],
           "showtimes": [
-            "13:45 PM",
-            "17:15 PM",
-            "22:30 PM"
-          ],
-          "bookedSeats": []
+            {
+              "time": "13:30 PM",
+              "bookedSeats": [
+                3,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "16:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "15:30 PM",
+              "bookedSeats": []
+            },
+            {
+              "time": "17:10 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "20:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                2
+              ]
+            },
+            {
+              "time": "21:10 PM",
+              "bookedSeats": []
+            }
+          ]
         },
         {
           "id": "theatre9",
-          "city_id": "city3",
-          "movie_id": "movie1",
+          "city_id": 3,
+          "movie_id": 1,
           "name": "Cinepolis: Cross River Mall, Shahdara",
           "loc_name": "Cross River Mall, Central Business,Shahdara, Near Karkardooma Court, Delhi, NCR 110032, India",
           "ticket_price": [
@@ -602,18 +1346,54 @@
             400
           ],
           "showtimes": [
-            "13:45 PM",
-            "15:15 PM",
-            "17:30 PM",
-            "20:30 PM",
-            "21:45 PM"
-          ],
-          "bookedSeats": []
+            {
+              "time": "13:30 PM",
+              "bookedSeats": [
+                3,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "16:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "15:30 PM",
+              "bookedSeats": []
+            },
+            {
+              "time": "17:10 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "20:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                2
+              ]
+            },
+            {
+              "time": "21:10 PM",
+              "bookedSeats": []
+            }
+          ]
         },
         {
           "id": "theatre10",
-          "city_id": "city4",
-          "movie_id": "movie1",
+          "city_id": 4,
+          "movie_id": 1,
           "name": "PVR: Nexus Mall Kukatpally",
           "loc_name": "Hyderabad 4th Floor, Nexus Mall, Plot No S-16, Survey No.1009, KPHB Phase 6, Opp Malaysian Township, Kukatpally, Hyderabad, Telangana 500072, India",
           "ticket_price": [
@@ -622,17 +1402,54 @@
             400
           ],
           "showtimes": [
-            "15:30 PM",
-            "16:30 PM",
-            "20:10 PM",
-            "19:30 PM"
-          ],
-          "bookedSeats": []
+            {
+              "time": "13:30 PM",
+              "bookedSeats": [
+                3,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "16:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "15:30 PM",
+              "bookedSeats": []
+            },
+            {
+              "time": "17:10 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "20:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                2
+              ]
+            },
+            {
+              "time": "21:10 PM",
+              "bookedSeats": []
+            }
+          ]
         },
         {
           "id": "theatre11",
-          "city_id": "city4",
-          "movie_id": "movie1",
+          "city_id": 4,
+          "movie_id": 1,
           "name": "MovieMax: AMR, ECIL Secunderabad",
           "loc_name": "AMR Planet Mall,1,Rd,373/1 and 373.3, Trimulgherry, ECIL Road, Extn - Moula Ali, Secunderabad, Extn - Moula Ali, Secunderabad, Hyderabad, Telangana 500040, India",
           "ticket_price": [
@@ -641,16 +1458,54 @@
             400
           ],
           "showtimes": [
-            "13:30 PM",
-            "14:30 PM",
-            "17:10 PM"
-          ],
-          "bookedSeats": []
+            {
+              "time": "13:30 PM",
+              "bookedSeats": [
+                3,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "16:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "15:30 PM",
+              "bookedSeats": []
+            },
+            {
+              "time": "17:10 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "20:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                2
+              ]
+            },
+            {
+              "time": "21:10 PM",
+              "bookedSeats": []
+            }
+          ]
         },
         {
           "id": "theatre12",
-          "city_id": "city4",
-          "movie_id": "movie1",
+          "city_id": 4,
+          "movie_id": 1,
           "name": "Platinum Movietime Cinemas: Ameerpet",
           "loc_name": "Big Bazar Mall, GS 24 Old Gold Spot Building, Ameerpet Road, Ameerpet, Hyderabad, Telangana 500073, India",
           "ticket_price": [
@@ -659,14 +1514,49 @@
             400
           ],
           "showtimes": [
-            "14:30 PM",
-            "15:00 PM",
-            "17:10 PM",
-            "18:30 PM",
-            "20:30 PM",
-            "22:10 PM"
-          ],
-          "bookedSeats": []
+            {
+              "time": "13:30 PM",
+              "bookedSeats": [
+                3,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "16:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "15:30 PM",
+              "bookedSeats": []
+            },
+            {
+              "time": "17:10 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "20:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                2
+              ]
+            },
+            {
+              "time": "21:10 PM",
+              "bookedSeats": []
+            }
+          ]
         }
       ],
       "reviews": [
@@ -787,8 +1677,8 @@
       "theatre": [
         {
           "id": "theatre1",
-          "city_id": "city1",
-          "movie_id": "movie3",
+          "city_id": 1,
+          "movie_id": 1,
           "name": "INOX: Elpro City Square",
           "loc_name": "Chinchwad 2nd Floor, Elpro City Square Mall, Pimpri Chinchwad Link Road, Pune, Maharashtra 411033, India",
           "ticket_price": [
@@ -797,17 +1687,54 @@
             400
           ],
           "showtimes": [
-            "15:30 PM",
-            "16:30 PM",
-            "20:10 PM",
-            "19:30 PM"
-          ],
-          "bookedSeats": []
+            {
+              "time": "15:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2,
+                105
+              ]
+            },
+            {
+              "time": "16:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "20:10 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2,
+                16,
+                17
+              ]
+            },
+            {
+              "time": "19:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2,
+                9,
+                12,
+                13
+              ]
+            }
+          ]
         },
         {
           "id": "theatre2",
-          "city_id": "city1",
-          "movie_id": "movie3",
+          "city_id": 1,
+          "movie_id": 1,
           "name": "Cinepolis: Seasons Mall",
           "loc_name": "Pune 3rd Floor, Seasons Mall, Magarpatta Police Station Road, Magarpatta City, Hadapsar, Pune, Maharashtra 411028, India",
           "ticket_price": [
@@ -816,16 +1743,49 @@
             400
           ],
           "showtimes": [
-            "13:30 PM",
-            "14:30 PM",
-            "17:10 PM"
-          ],
-          "bookedSeats": []
+            {
+              "time": "13:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "16:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "14:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "17:10 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2,
+                61
+              ]
+            }
+          ]
         },
         {
           "id": "theatre3",
-          "city_id": "city1",
-          "movie_id": "movie3",
+          "city_id": 1,
+          "movie_id": 1,
           "name": "INOX: Royal Heritage Mall",
           "loc_name": "NIBM Ext Royale Heritage Mall, Mohammed Wadi, Next to Vibgyor International School, Pune, Maharashtra 411048, India",
           "ticket_price": [
@@ -834,19 +1794,54 @@
             400
           ],
           "showtimes": [
-            "14:30 PM",
-            "15:00 PM",
-            "17:10 PM",
-            "18:30 PM",
-            "20:30 PM",
-            "22:10 PM"
-          ],
-          "bookedSeats": []
+            {
+              "time": "13:30 PM",
+              "bookedSeats": [
+                3,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "16:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "14:30 PM",
+              "bookedSeats": []
+            },
+            {
+              "time": "17:10 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "20:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                2
+              ]
+            },
+            {
+              "time": "21:10 PM",
+              "bookedSeats": []
+            }
+          ]
         },
         {
           "id": "theatre4",
-          "city_id": "city2",
-          "movie_id": "movie3",
+          "city_id": 1,
+          "movie_id": 1,
           "name": "Cinepolis: Viviana Mall, Thane",
           "loc_name": "Viviana Mall, Eastern Express Highway, Laxmi Nagar, Thane (West), Thane, Maharashtra 400606, India",
           "ticket_price": [
@@ -855,17 +1850,54 @@
             400
           ],
           "showtimes": [
-            "15:30 PM",
-            "16:30 PM",
-            "20:10 PM",
-            "22:30 PM"
-          ],
-          "bookedSeats": []
+            {
+              "time": "13:30 PM",
+              "bookedSeats": [
+                3,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "16:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "15:30 PM",
+              "bookedSeats": []
+            },
+            {
+              "time": "17:10 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "20:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                2
+              ]
+            },
+            {
+              "time": "21:10 PM",
+              "bookedSeats": []
+            }
+          ]
         },
         {
           "id": "theatre5",
-          "city_id": "city2",
-          "movie_id": "movie3",
+          "city_id": 2,
+          "movie_id": 1,
           "name": "PVR ICON: Phoenix Palladium",
           "loc_name": "Lower Parel Mumbai High Street Phoenix, Extension of Entry Road to Phoenix, Senapati Bapat Marg, Lower Parel (W), Mumbai, Maharashtra 400013, India",
           "ticket_price": [
@@ -874,16 +1906,57 @@
             400
           ],
           "showtimes": [
-            "13:45 PM",
-            "17:15 PM",
-            "22:30 PM"
-          ],
-          "bookedSeats": []
+            {
+              "time": "13:30 PM",
+              "bookedSeats": [
+                3,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "16:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "15:30 PM",
+              "bookedSeats": []
+            },
+            {
+              "time": "17:10 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "20:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                2
+              ]
+            },
+            {
+              "time": "21:10 PM",
+              "bookedSeats": [
+                62,
+                63
+              ]
+            }
+          ]
         },
         {
           "id": "theatre6",
-          "city_id": "city2",
-          "movie_id": "movie3",
+          "city_id": 2,
+          "movie_id": 1,
           "name": "PVR: Market City, Kurla (Premiere)",
           "loc_name": "Phoenix Market City, LBS Marg, Ashok Nagar, Near Kamani Junction, Kurla (W), Mumbai, Maharashtra 400072, India",
           "ticket_price": [
@@ -892,17 +1965,54 @@
             400
           ],
           "showtimes": [
-            "13:45 PM",
-            "15:15 PM",
-            "20:30 PM",
-            "21:45 PM"
-          ],
-          "bookedSeats": []
+            {
+              "time": "13:30 PM",
+              "bookedSeats": [
+                3,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "16:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "15:30 PM",
+              "bookedSeats": []
+            },
+            {
+              "time": "17:10 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "20:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                2
+              ]
+            },
+            {
+              "time": "21:10 PM",
+              "bookedSeats": []
+            }
+          ]
         },
         {
           "id": "theatre7",
-          "city_id": "city3",
-          "movie_id": "movie3",
+          "city_id": 2,
+          "movie_id": 1,
           "name": "PVR: Vegas Dwarka ",
           "loc_name": "Vegas Mall, Sector 14 Road, Pocket 1, Sector 14 Dwarka, Kakrola, Delhi, NCR 110078, India",
           "ticket_price": [
@@ -911,17 +2021,54 @@
             400
           ],
           "showtimes": [
-            "13:45 PM",
-            "15:15 PM",
-            "20:30 PM",
-            "21:45 PM"
-          ],
-          "bookedSeats": []
+            {
+              "time": "13:30 PM",
+              "bookedSeats": [
+                3,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "16:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "15:30 PM",
+              "bookedSeats": []
+            },
+            {
+              "time": "17:10 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "20:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                2
+              ]
+            },
+            {
+              "time": "21:10 PM",
+              "bookedSeats": []
+            }
+          ]
         },
         {
           "id": "theatre8",
-          "city_id": "city3",
-          "movie_id": "movie3",
+          "city_id": 3,
+          "movie_id": 1,
           "name": "PVR: Select City Walk, Delhi",
           "loc_name": "A-3, 1st Floor, Select City Walk Mall, District Center, Saket, Sector 6, Pushp Vihar, Delhi, NCR 110017, India",
           "ticket_price": [
@@ -930,16 +2077,69 @@
             400
           ],
           "showtimes": [
-            "13:45 PM",
-            "17:15 PM",
-            "22:30 PM"
-          ],
-          "bookedSeats": []
+            {
+              "time": "13:30 PM",
+              "bookedSeats": [
+                3,
+                4,
+                2,
+                1
+              ]
+            },
+            {
+              "time": "16:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "15:30 PM",
+              "bookedSeats": []
+            },
+            {
+              "time": "17:10 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "20:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                2,
+                81,
+                82,
+                10,
+                11,
+                24,
+                25,
+                13
+              ]
+            },
+            {
+              "time": "21:10 PM",
+              "bookedSeats": [
+                1,
+                2,
+                12,
+                13,
+                15,
+                11
+              ]
+            }
+          ]
         },
         {
           "id": "theatre9",
-          "city_id": "city3",
-          "movie_id": "movie3",
+          "city_id": 3,
+          "movie_id": 1,
           "name": "Cinepolis: Cross River Mall, Shahdara",
           "loc_name": "Cross River Mall, Central Business,Shahdara, Near Karkardooma Court, Delhi, NCR 110032, India",
           "ticket_price": [
@@ -948,18 +2148,54 @@
             400
           ],
           "showtimes": [
-            "13:45 PM",
-            "15:15 PM",
-            "17:30 PM",
-            "20:30 PM",
-            "21:45 PM"
-          ],
-          "bookedSeats": []
+            {
+              "time": "13:30 PM",
+              "bookedSeats": [
+                3,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "16:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "15:30 PM",
+              "bookedSeats": []
+            },
+            {
+              "time": "17:10 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "20:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                2
+              ]
+            },
+            {
+              "time": "21:10 PM",
+              "bookedSeats": []
+            }
+          ]
         },
         {
           "id": "theatre10",
-          "city_id": "city4",
-          "movie_id": "movie3",
+          "city_id": 4,
+          "movie_id": 1,
           "name": "PVR: Nexus Mall Kukatpally",
           "loc_name": "Hyderabad 4th Floor, Nexus Mall, Plot No S-16, Survey No.1009, KPHB Phase 6, Opp Malaysian Township, Kukatpally, Hyderabad, Telangana 500072, India",
           "ticket_price": [
@@ -968,17 +2204,54 @@
             400
           ],
           "showtimes": [
-            "15:30 PM",
-            "16:30 PM",
-            "20:10 PM",
-            "19:30 PM"
-          ],
-          "bookedSeats": []
+            {
+              "time": "13:30 PM",
+              "bookedSeats": [
+                3,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "16:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "15:30 PM",
+              "bookedSeats": []
+            },
+            {
+              "time": "17:10 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "20:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                2
+              ]
+            },
+            {
+              "time": "21:10 PM",
+              "bookedSeats": []
+            }
+          ]
         },
         {
           "id": "theatre11",
-          "city_id": "city4",
-          "movie_id": "movie3",
+          "city_id": 4,
+          "movie_id": 1,
           "name": "MovieMax: AMR, ECIL Secunderabad",
           "loc_name": "AMR Planet Mall,1,Rd,373/1 and 373.3, Trimulgherry, ECIL Road, Extn - Moula Ali, Secunderabad, Extn - Moula Ali, Secunderabad, Hyderabad, Telangana 500040, India",
           "ticket_price": [
@@ -987,16 +2260,54 @@
             400
           ],
           "showtimes": [
-            "13:30 PM",
-            "14:30 PM",
-            "17:10 PM"
-          ],
-          "bookedSeats": []
+            {
+              "time": "13:30 PM",
+              "bookedSeats": [
+                3,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "16:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "15:30 PM",
+              "bookedSeats": []
+            },
+            {
+              "time": "17:10 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "20:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                2
+              ]
+            },
+            {
+              "time": "21:10 PM",
+              "bookedSeats": []
+            }
+          ]
         },
         {
           "id": "theatre12",
-          "city_id": "city4",
-          "movie_id": "movie3",
+          "city_id": 4,
+          "movie_id": 1,
           "name": "Platinum Movietime Cinemas: Ameerpet",
           "loc_name": "Big Bazar Mall, GS 24 Old Gold Spot Building, Ameerpet Road, Ameerpet, Hyderabad, Telangana 500073, India",
           "ticket_price": [
@@ -1005,14 +2316,49 @@
             400
           ],
           "showtimes": [
-            "14:30 PM",
-            "15:00 PM",
-            "17:10 PM",
-            "18:30 PM",
-            "20:30 PM",
-            "22:10 PM"
-          ],
-          "bookedSeats": []
+            {
+              "time": "13:30 PM",
+              "bookedSeats": [
+                3,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "16:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "15:30 PM",
+              "bookedSeats": []
+            },
+            {
+              "time": "17:10 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "20:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                2
+              ]
+            },
+            {
+              "time": "21:10 PM",
+              "bookedSeats": []
+            }
+          ]
         }
       ]
     },
@@ -1091,8 +2437,8 @@
       "theatre": [
         {
           "id": "theatre1",
-          "city_id": "city1",
-          "movie_id": "movie4",
+          "city_id": 1,
+          "movie_id": 1,
           "name": "INOX: Elpro City Square",
           "loc_name": "Chinchwad 2nd Floor, Elpro City Square Mall, Pimpri Chinchwad Link Road, Pune, Maharashtra 411033, India",
           "ticket_price": [
@@ -1101,17 +2447,49 @@
             400
           ],
           "showtimes": [
-            "15:30 PM",
-            "16:30 PM",
-            "20:10 PM",
-            "19:30 PM"
-          ],
-          "bookedSeats": []
+            {
+              "time": "15:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "16:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "20:10 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "19:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2,
+                9
+              ]
+            }
+          ]
         },
         {
           "id": "theatre2",
-          "city_id": "city1",
-          "movie_id": "movie4",
+          "city_id": 1,
+          "movie_id": 1,
           "name": "Cinepolis: Seasons Mall",
           "loc_name": "Pune 3rd Floor, Seasons Mall, Magarpatta Police Station Road, Magarpatta City, Hadapsar, Pune, Maharashtra 411028, India",
           "ticket_price": [
@@ -1120,16 +2498,49 @@
             400
           ],
           "showtimes": [
-            "13:30 PM",
-            "14:30 PM",
-            "17:10 PM"
-          ],
-          "bookedSeats": []
+            {
+              "time": "13:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "16:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "14:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "17:10 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2,
+                61
+              ]
+            }
+          ]
         },
         {
           "id": "theatre3",
-          "city_id": "city1",
-          "movie_id": "movie4",
+          "city_id": 1,
+          "movie_id": 1,
           "name": "INOX: Royal Heritage Mall",
           "loc_name": "NIBM Ext Royale Heritage Mall, Mohammed Wadi, Next to Vibgyor International School, Pune, Maharashtra 411048, India",
           "ticket_price": [
@@ -1138,19 +2549,54 @@
             400
           ],
           "showtimes": [
-            "14:30 PM",
-            "15:00 PM",
-            "17:10 PM",
-            "18:30 PM",
-            "20:30 PM",
-            "22:10 PM"
-          ],
-          "bookedSeats": []
+            {
+              "time": "13:30 PM",
+              "bookedSeats": [
+                3,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "16:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "14:30 PM",
+              "bookedSeats": []
+            },
+            {
+              "time": "17:10 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "20:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                2
+              ]
+            },
+            {
+              "time": "21:10 PM",
+              "bookedSeats": []
+            }
+          ]
         },
         {
           "id": "theatre4",
-          "city_id": "city2",
-          "movie_id": "movie4",
+          "city_id": 1,
+          "movie_id": 1,
           "name": "Cinepolis: Viviana Mall, Thane",
           "loc_name": "Viviana Mall, Eastern Express Highway, Laxmi Nagar, Thane (West), Thane, Maharashtra 400606, India",
           "ticket_price": [
@@ -1159,17 +2605,54 @@
             400
           ],
           "showtimes": [
-            "15:30 PM",
-            "16:30 PM",
-            "20:10 PM",
-            "22:30 PM"
-          ],
-          "bookedSeats": []
+            {
+              "time": "13:30 PM",
+              "bookedSeats": [
+                3,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "16:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "15:30 PM",
+              "bookedSeats": []
+            },
+            {
+              "time": "17:10 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "20:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                2
+              ]
+            },
+            {
+              "time": "21:10 PM",
+              "bookedSeats": []
+            }
+          ]
         },
         {
           "id": "theatre5",
-          "city_id": "city2",
-          "movie_id": "movie4",
+          "city_id": 2,
+          "movie_id": 1,
           "name": "PVR ICON: Phoenix Palladium",
           "loc_name": "Lower Parel Mumbai High Street Phoenix, Extension of Entry Road to Phoenix, Senapati Bapat Marg, Lower Parel (W), Mumbai, Maharashtra 400013, India",
           "ticket_price": [
@@ -1178,16 +2661,61 @@
             400
           ],
           "showtimes": [
-            "13:45 PM",
-            "17:15 PM",
-            "22:30 PM"
-          ],
-          "bookedSeats": []
+            {
+              "time": "13:30 PM",
+              "bookedSeats": [
+                3,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "16:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "15:30 PM",
+              "bookedSeats": []
+            },
+            {
+              "time": "17:10 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "20:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                2,
+                17,
+                18
+              ]
+            },
+            {
+              "time": "21:10 PM",
+              "bookedSeats": [
+                10,
+                11,
+                13,
+                14
+              ]
+            }
+          ]
         },
         {
           "id": "theatre6",
-          "city_id": "city2",
-          "movie_id": "movie4",
+          "city_id": 2,
+          "movie_id": 1,
           "name": "PVR: Market City, Kurla (Premiere)",
           "loc_name": "Phoenix Market City, LBS Marg, Ashok Nagar, Near Kamani Junction, Kurla (W), Mumbai, Maharashtra 400072, India",
           "ticket_price": [
@@ -1196,17 +2724,56 @@
             400
           ],
           "showtimes": [
-            "13:45 PM",
-            "15:15 PM",
-            "20:30 PM",
-            "21:45 PM"
-          ],
-          "bookedSeats": []
+            {
+              "time": "13:30 PM",
+              "bookedSeats": [
+                3,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "16:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "15:30 PM",
+              "bookedSeats": []
+            },
+            {
+              "time": "17:10 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "20:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                2,
+                14,
+                15
+              ]
+            },
+            {
+              "time": "21:10 PM",
+              "bookedSeats": []
+            }
+          ]
         },
         {
           "id": "theatre7",
-          "city_id": "city3",
-          "movie_id": "movie4",
+          "city_id": 2,
+          "movie_id": 1,
           "name": "PVR: Vegas Dwarka ",
           "loc_name": "Vegas Mall, Sector 14 Road, Pocket 1, Sector 14 Dwarka, Kakrola, Delhi, NCR 110078, India",
           "ticket_price": [
@@ -1215,17 +2782,54 @@
             400
           ],
           "showtimes": [
-            "13:45 PM",
-            "15:15 PM",
-            "20:30 PM",
-            "21:45 PM"
-          ],
-          "bookedSeats": []
+            {
+              "time": "13:30 PM",
+              "bookedSeats": [
+                3,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "16:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "15:30 PM",
+              "bookedSeats": []
+            },
+            {
+              "time": "17:10 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "20:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                2
+              ]
+            },
+            {
+              "time": "21:10 PM",
+              "bookedSeats": []
+            }
+          ]
         },
         {
           "id": "theatre8",
-          "city_id": "city3",
-          "movie_id": "movie4",
+          "city_id": 3,
+          "movie_id": 1,
           "name": "PVR: Select City Walk, Delhi",
           "loc_name": "A-3, 1st Floor, Select City Walk Mall, District Center, Saket, Sector 6, Pushp Vihar, Delhi, NCR 110017, India",
           "ticket_price": [
@@ -1234,16 +2838,54 @@
             400
           ],
           "showtimes": [
-            "13:45 PM",
-            "17:15 PM",
-            "22:30 PM"
-          ],
-          "bookedSeats": []
+            {
+              "time": "13:30 PM",
+              "bookedSeats": [
+                3,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "16:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "15:30 PM",
+              "bookedSeats": []
+            },
+            {
+              "time": "17:10 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "20:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                2
+              ]
+            },
+            {
+              "time": "21:10 PM",
+              "bookedSeats": []
+            }
+          ]
         },
         {
           "id": "theatre9",
-          "city_id": "city3",
-          "movie_id": "movie4",
+          "city_id": 3,
+          "movie_id": 1,
           "name": "Cinepolis: Cross River Mall, Shahdara",
           "loc_name": "Cross River Mall, Central Business,Shahdara, Near Karkardooma Court, Delhi, NCR 110032, India",
           "ticket_price": [
@@ -1252,18 +2894,54 @@
             400
           ],
           "showtimes": [
-            "13:45 PM",
-            "15:15 PM",
-            "17:30 PM",
-            "20:30 PM",
-            "21:45 PM"
-          ],
-          "bookedSeats": []
+            {
+              "time": "13:30 PM",
+              "bookedSeats": [
+                3,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "16:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "15:30 PM",
+              "bookedSeats": []
+            },
+            {
+              "time": "17:10 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "20:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                2
+              ]
+            },
+            {
+              "time": "21:10 PM",
+              "bookedSeats": []
+            }
+          ]
         },
         {
           "id": "theatre10",
-          "city_id": "city4",
-          "movie_id": "movie4",
+          "city_id": 4,
+          "movie_id": 1,
           "name": "PVR: Nexus Mall Kukatpally",
           "loc_name": "Hyderabad 4th Floor, Nexus Mall, Plot No S-16, Survey No.1009, KPHB Phase 6, Opp Malaysian Township, Kukatpally, Hyderabad, Telangana 500072, India",
           "ticket_price": [
@@ -1272,17 +2950,54 @@
             400
           ],
           "showtimes": [
-            "15:30 PM",
-            "16:30 PM",
-            "20:10 PM",
-            "19:30 PM"
-          ],
-          "bookedSeats": []
+            {
+              "time": "13:30 PM",
+              "bookedSeats": [
+                3,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "16:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "15:30 PM",
+              "bookedSeats": []
+            },
+            {
+              "time": "17:10 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "20:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                2
+              ]
+            },
+            {
+              "time": "21:10 PM",
+              "bookedSeats": []
+            }
+          ]
         },
         {
           "id": "theatre11",
-          "city_id": "city4",
-          "movie_id": "movie4",
+          "city_id": 4,
+          "movie_id": 1,
           "name": "MovieMax: AMR, ECIL Secunderabad",
           "loc_name": "AMR Planet Mall,1,Rd,373/1 and 373.3, Trimulgherry, ECIL Road, Extn - Moula Ali, Secunderabad, Extn - Moula Ali, Secunderabad, Hyderabad, Telangana 500040, India",
           "ticket_price": [
@@ -1291,16 +3006,54 @@
             400
           ],
           "showtimes": [
-            "13:30 PM",
-            "14:30 PM",
-            "17:10 PM"
-          ],
-          "bookedSeats": []
+            {
+              "time": "13:30 PM",
+              "bookedSeats": [
+                3,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "16:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "15:30 PM",
+              "bookedSeats": []
+            },
+            {
+              "time": "17:10 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "20:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                2
+              ]
+            },
+            {
+              "time": "21:10 PM",
+              "bookedSeats": []
+            }
+          ]
         },
         {
           "id": "theatre12",
-          "city_id": "city4",
-          "movie_id": "movie4",
+          "city_id": 4,
+          "movie_id": 1,
           "name": "Platinum Movietime Cinemas: Ameerpet",
           "loc_name": "Big Bazar Mall, GS 24 Old Gold Spot Building, Ameerpet Road, Ameerpet, Hyderabad, Telangana 500073, India",
           "ticket_price": [
@@ -1309,14 +3062,4484 @@
             400
           ],
           "showtimes": [
-            "14:30 PM",
-            "15:00 PM",
-            "17:10 PM",
-            "18:30 PM",
-            "20:30 PM",
-            "22:10 PM"
+            {
+              "time": "13:30 PM",
+              "bookedSeats": [
+                3,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "16:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "15:30 PM",
+              "bookedSeats": []
+            },
+            {
+              "time": "17:10 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "20:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                2
+              ]
+            },
+            {
+              "time": "21:10 PM",
+              "bookedSeats": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Jawan",
+      "category": "UA",
+      "banner_img": "../assets/jawan-main-img.jpeg",
+      "main_img": "../assets/jawan-bannr-img.jfif",
+      "duration": "150min",
+      "description": "A high-octane action thriller that outlines the emotional journey of a man who is set to rectify the wrongs in society.",
+      "cast": [
+        {
+          "id": 0,
+          "actor_name": "shah-rukh-khan",
+          "actor_image": "../assets/acters/shah-rukh-khan.webp",
+          "occupation": "Actor",
+          "born": "November 2, 1965",
+          "birthplace": "New Delhi, Delhi, India",
+          "spouse": "Gauri Khan",
+          "description": "Hailed as the world`s biggest superstar and the King of Bollywood, Shah Rukh Khan is a phenomenon like no other. From his humble beginnings as an outsider in a largely dynastic Hindi cinema to earning the numero uno position in the industry, his rise might seem like a fairytale; but is in fact a testament to the actor`s sheer talent, infectious energy and hard work."
+        },
+        {
+          "id": 1,
+          "actor_name": "Nayanthara",
+          "actor_image": "../assets/acters/nayanthara.webp",
+          "occupation": "Actor",
+          "born": "November 18, 1984",
+          "birthplace": "Bangalore, Karnataka, India",
+          "spouse": "Single",
+          "description": "Diana Mariam Kurian, famously known by her stage name, Nayanthara, is an Indian actress who is primarily known for her work in Tamil, Malayalam and Telugu cinema. "
+        },
+        {
+          "id": 2,
+          "actor_name": "Vijay Sethupathi",
+          "actor_image": "../assets/acters/vijay-sethupathi.webp",
+          "occupation": "Actor • Writer • Special Appearances • Producer • Voice Cast • Dialogue Writer",
+          "born": "January 16, 1978",
+          "birthplace": "Rajapalayam, Tamil Nadu, India",
+          "spouse": "Jessy Sethupathi",
+          "description": "One of the most popular and successful actors of Tamil Cinema, Vijay Sethupathi`s rise to fame and stardom is phenomenal."
+        },
+        {
+          "id": 3,
+          "actor_name": "Sanya Malhotra",
+          "actor_image": "../assets/acters/sanya-malhotra.webp",
+          "occupation": "Actor",
+          "born": "February 25, 1992",
+          "birthplace": "Delhi, Delhi, India",
+          "spouse": "Single",
+          "description": "Popularly known for her portrayal of gold-medallist wrestler Babita Kumari Phogat in Dangal, Sanya Malhotra is an Indian actress."
+        },
+        {
+          "id": 4,
+          "actor_name": "Priyamani",
+          "actor_image": "../assets/acters/priyamani.webp",
+          "occupation": "Actor • Special Appearances",
+          "born": "June 4, 1984",
+          "birthplace": "Palakkad, Kerala, India",
+          "spouse": "Single",
+          "description": "Priyamani is a highly respected Indian actress who started her career in the entertainment business as a model. She is been one of the most talented multilingual artists, who has appeared in films across different languages including Kannada, Hindi, Tamil, Telugu, and Malayalam."
+        },
+        {
+          "id": 5,
+          "actor_name": "Deepika Padukone",
+          "actor_image": "../assets/acters/deepika-padukone.webp",
+          "occupation": "Actor • Special Appearances • Producer",
+          "born": "January 5, 1986",
+          "birthplace": "Copenhagen, Denmark",
+          "spouse": "Ranveer Singh",
+          "description": "More than a decade since her electrifying Bollywood debut in Om Shanti Om (2007), Deepika Padukone has carved a niche for herself as one of the most influential artists in contemporary Indian cinema. "
+        }
+      ],
+      "language": "Hindi",
+      "genre": "Biography, Drama",
+      "theatre": [
+        {
+          "id": "theatre1",
+          "city_id": 1,
+          "movie_id": 1,
+          "name": "INOX: Elpro City Square",
+          "loc_name": "Chinchwad 2nd Floor, Elpro City Square Mall, Pimpri Chinchwad Link Road, Pune, Maharashtra 411033, India",
+          "ticket_price": [
+            280,
+            380,
+            400
           ],
-          "bookedSeats": []
+          "showtimes": [
+            {
+              "time": "15:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "16:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "20:10 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "19:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2,
+                9,
+                108
+              ]
+            }
+          ]
+        },
+        {
+          "id": "theatre2",
+          "city_id": 1,
+          "movie_id": 1,
+          "name": "Cinepolis: Seasons Mall",
+          "loc_name": "Pune 3rd Floor, Seasons Mall, Magarpatta Police Station Road, Magarpatta City, Hadapsar, Pune, Maharashtra 411028, India",
+          "ticket_price": [
+            280,
+            380,
+            400
+          ],
+          "showtimes": [
+            {
+              "time": "13:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "16:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "14:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "17:10 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2,
+                61
+              ]
+            }
+          ]
+        },
+        {
+          "id": "theatre3",
+          "city_id": 1,
+          "movie_id": 1,
+          "name": "INOX: Royal Heritage Mall",
+          "loc_name": "NIBM Ext Royale Heritage Mall, Mohammed Wadi, Next to Vibgyor International School, Pune, Maharashtra 411048, India",
+          "ticket_price": [
+            280,
+            380,
+            400
+          ],
+          "showtimes": [
+            {
+              "time": "13:30 PM",
+              "bookedSeats": [
+                3,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "16:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "14:30 PM",
+              "bookedSeats": []
+            },
+            {
+              "time": "17:10 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "20:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                2,
+                102,
+                103
+              ]
+            },
+            {
+              "time": "21:10 PM",
+              "bookedSeats": [
+                68,
+                69
+              ]
+            }
+          ]
+        },
+        {
+          "id": "theatre4",
+          "city_id": 1,
+          "movie_id": 1,
+          "name": "Cinepolis: Viviana Mall, Thane",
+          "loc_name": "Viviana Mall, Eastern Express Highway, Laxmi Nagar, Thane (West), Thane, Maharashtra 400606, India",
+          "ticket_price": [
+            280,
+            380,
+            400
+          ],
+          "showtimes": [
+            {
+              "time": "13:30 PM",
+              "bookedSeats": [
+                3,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "16:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "15:30 PM",
+              "bookedSeats": []
+            },
+            {
+              "time": "17:10 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "20:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                2
+              ]
+            },
+            {
+              "time": "21:10 PM",
+              "bookedSeats": []
+            }
+          ]
+        },
+        {
+          "id": "theatre5",
+          "city_id": 2,
+          "movie_id": 1,
+          "name": "PVR ICON: Phoenix Palladium",
+          "loc_name": "Lower Parel Mumbai High Street Phoenix, Extension of Entry Road to Phoenix, Senapati Bapat Marg, Lower Parel (W), Mumbai, Maharashtra 400013, India",
+          "ticket_price": [
+            280,
+            380,
+            400
+          ],
+          "showtimes": [
+            {
+              "time": "13:30 PM",
+              "bookedSeats": [
+                3,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "16:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "15:30 PM",
+              "bookedSeats": []
+            },
+            {
+              "time": "17:10 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "20:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                2
+              ]
+            },
+            {
+              "time": "21:10 PM",
+              "bookedSeats": []
+            }
+          ]
+        },
+        {
+          "id": "theatre6",
+          "city_id": 2,
+          "movie_id": 1,
+          "name": "PVR: Market City, Kurla (Premiere)",
+          "loc_name": "Phoenix Market City, LBS Marg, Ashok Nagar, Near Kamani Junction, Kurla (W), Mumbai, Maharashtra 400072, India",
+          "ticket_price": [
+            280,
+            380,
+            400
+          ],
+          "showtimes": [
+            {
+              "time": "13:30 PM",
+              "bookedSeats": [
+                3,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "16:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "15:30 PM",
+              "bookedSeats": []
+            },
+            {
+              "time": "17:10 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "20:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                2
+              ]
+            },
+            {
+              "time": "21:10 PM",
+              "bookedSeats": []
+            }
+          ]
+        },
+        {
+          "id": "theatre7",
+          "city_id": 2,
+          "movie_id": 1,
+          "name": "PVR: Vegas Dwarka ",
+          "loc_name": "Vegas Mall, Sector 14 Road, Pocket 1, Sector 14 Dwarka, Kakrola, Delhi, NCR 110078, India",
+          "ticket_price": [
+            280,
+            380,
+            400
+          ],
+          "showtimes": [
+            {
+              "time": "13:30 PM",
+              "bookedSeats": [
+                3,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "16:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "15:30 PM",
+              "bookedSeats": []
+            },
+            {
+              "time": "17:10 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "20:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                2
+              ]
+            },
+            {
+              "time": "21:10 PM",
+              "bookedSeats": []
+            }
+          ]
+        },
+        {
+          "id": "theatre8",
+          "city_id": 3,
+          "movie_id": 1,
+          "name": "PVR: Select City Walk, Delhi",
+          "loc_name": "A-3, 1st Floor, Select City Walk Mall, District Center, Saket, Sector 6, Pushp Vihar, Delhi, NCR 110017, India",
+          "ticket_price": [
+            280,
+            380,
+            400
+          ],
+          "showtimes": [
+            {
+              "time": "13:30 PM",
+              "bookedSeats": [
+                3,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "16:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "15:30 PM",
+              "bookedSeats": []
+            },
+            {
+              "time": "17:10 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "20:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                2
+              ]
+            },
+            {
+              "time": "21:10 PM",
+              "bookedSeats": []
+            }
+          ]
+        },
+        {
+          "id": "theatre9",
+          "city_id": 3,
+          "movie_id": 1,
+          "name": "Cinepolis: Cross River Mall, Shahdara",
+          "loc_name": "Cross River Mall, Central Business,Shahdara, Near Karkardooma Court, Delhi, NCR 110032, India",
+          "ticket_price": [
+            280,
+            380,
+            400
+          ],
+          "showtimes": [
+            {
+              "time": "13:30 PM",
+              "bookedSeats": [
+                3,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "16:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "15:30 PM",
+              "bookedSeats": []
+            },
+            {
+              "time": "17:10 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "20:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                2
+              ]
+            },
+            {
+              "time": "21:10 PM",
+              "bookedSeats": []
+            }
+          ]
+        },
+        {
+          "id": "theatre10",
+          "city_id": 4,
+          "movie_id": 1,
+          "name": "PVR: Nexus Mall Kukatpally",
+          "loc_name": "Hyderabad 4th Floor, Nexus Mall, Plot No S-16, Survey No.1009, KPHB Phase 6, Opp Malaysian Township, Kukatpally, Hyderabad, Telangana 500072, India",
+          "ticket_price": [
+            280,
+            380,
+            400
+          ],
+          "showtimes": [
+            {
+              "time": "13:30 PM",
+              "bookedSeats": [
+                3,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "16:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "15:30 PM",
+              "bookedSeats": []
+            },
+            {
+              "time": "17:10 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "20:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                2
+              ]
+            },
+            {
+              "time": "21:10 PM",
+              "bookedSeats": []
+            }
+          ]
+        },
+        {
+          "id": "theatre11",
+          "city_id": 4,
+          "movie_id": 1,
+          "name": "MovieMax: AMR, ECIL Secunderabad",
+          "loc_name": "AMR Planet Mall,1,Rd,373/1 and 373.3, Trimulgherry, ECIL Road, Extn - Moula Ali, Secunderabad, Extn - Moula Ali, Secunderabad, Hyderabad, Telangana 500040, India",
+          "ticket_price": [
+            280,
+            380,
+            400
+          ],
+          "showtimes": [
+            {
+              "time": "13:30 PM",
+              "bookedSeats": [
+                3,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "16:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "15:30 PM",
+              "bookedSeats": []
+            },
+            {
+              "time": "17:10 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "20:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                2
+              ]
+            },
+            {
+              "time": "21:10 PM",
+              "bookedSeats": []
+            }
+          ]
+        },
+        {
+          "id": "theatre12",
+          "city_id": 4,
+          "movie_id": 1,
+          "name": "Platinum Movietime Cinemas: Ameerpet",
+          "loc_name": "Big Bazar Mall, GS 24 Old Gold Spot Building, Ameerpet Road, Ameerpet, Hyderabad, Telangana 500073, India",
+          "ticket_price": [
+            280,
+            380,
+            400
+          ],
+          "showtimes": [
+            {
+              "time": "13:30 PM",
+              "bookedSeats": [
+                3,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "16:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "15:30 PM",
+              "bookedSeats": []
+            },
+            {
+              "time": "17:10 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "20:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                2
+              ]
+            },
+            {
+              "time": "21:10 PM",
+              "bookedSeats": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "KGF",
+      "category": "UA",
+      "banner_img": "../assets/kgf-banner-img.png",
+      "main_img": "../assets/kgf-banner-img.png",
+      "duration": "200min",
+      "description": "A period drama set in the 1970s, KGF follows the story of a fierce rebel who rises against the brutal oppression in Kolar Gold Fields and becomes the symbol of hope to legions of downtrodden people.",
+      "cast": [
+        {
+          "id": 0,
+          "actor_name": "Yash",
+          "actor_image": "../assets/acters/yash.webp",
+          "occupation": "Actor • Producer",
+          "born": "January 8, 1986",
+          "birthplace": "Hassan, Karnataka, India",
+          "spouse": "Radhika Pandit",
+          "description": "Yash is an Indian actor who primarily works in the Kannada film industry. He is one of the highest paid and most bankable stars of the Kannada film industry. "
+        },
+        {
+          "id": 1,
+          "actor_name": "Srinidhi Shetty",
+          "actor_image": "../assets/acters/sreenidhi.webp",
+          "occupation": "Actor",
+          "born": "October 21, 1992",
+          "birthplace": "Mangalore, Karnataka, India",
+          "spouse": "Single",
+          "description": "Model-turned-actress Srinidhi Shetty first rose to prominence in 2016, when she won the Miss Supranational India title in the fourth edition of Miss Diva contest in 2016. Born in Mangalore, Karnataka, she graduated with a degree in electrical engineering from Jain University in Bangalore before turning to modelling, and eventually, acting."
+        },
+        {
+          "id": 2,
+          "actor_name": "Achyuth Kumar",
+          "actor_image": "../assets/acters/achyuth.webp",
+          "occupation": "Actor",
+          "born": "March 8, 1966",
+          "birthplace": "Tumkur, Karnataka, India",
+          "spouse": "Jessy Kumar",
+          "description": "Hailing from Karnataka, India, Achyuth Kumar is an Indian actor, who primarily works in the Kannada film industry. He gained recognition for his roles in movies such as Josh (2009), Lucia (2013), Drishya (2014), and Mr. and Mrs. Ramachari (2014). "
+        },
+        {
+          "id": 3,
+          "actor_name": "Malavika Avinash",
+          "actor_image": "../assets/acters/malavika-avinash.webp",
+          "occupation": "Actor • Director",
+          "born": "January 28, 1976",
+          "birthplace": "Chennai, Tamil Nadu, India",
+          "spouse": "Avinash, Avinash",
+          "description": "A trained Bharatanatyam dancer, Malavika Avinash has been training in the dance form since she was five years old. During a performance, where she was playing the role of Krishna, she was she was spotted by well-known Tamil director G. V. Iyer, who cast her in his 1988 Kannada movie Krishnavataar."
+        },
+        {
+          "id": 4,
+          "actor_name": "Anant Nag",
+          "actor_image": "../assets/acters/anant-nag.webp",
+          "occupation": "Actor",
+          "born": "June 4, 1984",
+          "birthplace": "Raipur, Maharashtra",
+          "spouse": "Single",
+          "description": "Priyamani is a highly respected Indian actress who started her career in the entertainment business as a model. She is been one of the most talented multilingual artists, who has appeared in films across different languages including Kannada, Hindi, Tamil, Telugu, and Malayalam."
+        },
+        {
+          "id": 5,
+          "actor_name": "Vasishta N. Simha",
+          "actor_image": "../assets/acters/deepika-padukone.webp",
+          "occupation": "Actor",
+          "born": "October 19, 1988",
+          "birthplace": "Hassan, Karnataka, India",
+          "spouse": "Single",
+          "description": "Vasishta N. Simha is an Indian actor who works primarily in Kannada cinema. He made his acting debut in the 2013 film Arya`s Love and rose to prominence through his portrayal of the main antagonist in the 2014 romantic drama Raja Huli. Since then, Vasishta has appeared in supporting roles in several films, notably Rudra Tandava (2015) and Godhi Banna Sadharana My Kattu (2016), the latter of which won him a Filmfare Award for Best Supporting Actor and a SIIMA Award for Best Actor in a Negative Role."
+        }
+      ],
+      "language": "Hindi",
+      "genre": "Biography, Drama",
+      "theatre": [
+        {
+          "id": "theatre1",
+          "city_id": 1,
+          "movie_id": 1,
+          "name": "INOX: Elpro City Square",
+          "loc_name": "Chinchwad 2nd Floor, Elpro City Square Mall, Pimpri Chinchwad Link Road, Pune, Maharashtra 411033, India",
+          "ticket_price": [
+            280,
+            380,
+            400
+          ],
+          "showtimes": [
+            {
+              "time": "15:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "16:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "20:10 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "19:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2,
+                9
+              ]
+            }
+          ]
+        },
+        {
+          "id": "theatre2",
+          "city_id": 1,
+          "movie_id": 1,
+          "name": "Cinepolis: Seasons Mall",
+          "loc_name": "Pune 3rd Floor, Seasons Mall, Magarpatta Police Station Road, Magarpatta City, Hadapsar, Pune, Maharashtra 411028, India",
+          "ticket_price": [
+            280,
+            380,
+            400
+          ],
+          "showtimes": [
+            {
+              "time": "13:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "16:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "14:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "17:10 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2,
+                61
+              ]
+            }
+          ]
+        },
+        {
+          "id": "theatre3",
+          "city_id": 1,
+          "movie_id": 1,
+          "name": "INOX: Royal Heritage Mall",
+          "loc_name": "NIBM Ext Royale Heritage Mall, Mohammed Wadi, Next to Vibgyor International School, Pune, Maharashtra 411048, India",
+          "ticket_price": [
+            280,
+            380,
+            400
+          ],
+          "showtimes": [
+            {
+              "time": "13:30 PM",
+              "bookedSeats": [
+                3,
+                4,
+                2,
+                45
+              ]
+            },
+            {
+              "time": "16:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "14:30 PM",
+              "bookedSeats": []
+            },
+            {
+              "time": "17:10 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "20:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                2
+              ]
+            },
+            {
+              "time": "21:10 PM",
+              "bookedSeats": []
+            }
+          ]
+        },
+        {
+          "id": "theatre4",
+          "city_id": 1,
+          "movie_id": 1,
+          "name": "Cinepolis: Viviana Mall, Thane",
+          "loc_name": "Viviana Mall, Eastern Express Highway, Laxmi Nagar, Thane (West), Thane, Maharashtra 400606, India",
+          "ticket_price": [
+            280,
+            380,
+            400
+          ],
+          "showtimes": [
+            {
+              "time": "13:30 PM",
+              "bookedSeats": [
+                3,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "16:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "15:30 PM",
+              "bookedSeats": []
+            },
+            {
+              "time": "17:10 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "20:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                2
+              ]
+            },
+            {
+              "time": "21:10 PM",
+              "bookedSeats": []
+            }
+          ]
+        },
+        {
+          "id": "theatre5",
+          "city_id": 2,
+          "movie_id": 1,
+          "name": "PVR ICON: Phoenix Palladium",
+          "loc_name": "Lower Parel Mumbai High Street Phoenix, Extension of Entry Road to Phoenix, Senapati Bapat Marg, Lower Parel (W), Mumbai, Maharashtra 400013, India",
+          "ticket_price": [
+            280,
+            380,
+            400
+          ],
+          "showtimes": [
+            {
+              "time": "13:30 PM",
+              "bookedSeats": [
+                3,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "16:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "15:30 PM",
+              "bookedSeats": []
+            },
+            {
+              "time": "17:10 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "20:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                2
+              ]
+            },
+            {
+              "time": "21:10 PM",
+              "bookedSeats": []
+            }
+          ]
+        },
+        {
+          "id": "theatre6",
+          "city_id": 2,
+          "movie_id": 1,
+          "name": "PVR: Market City, Kurla (Premiere)",
+          "loc_name": "Phoenix Market City, LBS Marg, Ashok Nagar, Near Kamani Junction, Kurla (W), Mumbai, Maharashtra 400072, India",
+          "ticket_price": [
+            280,
+            380,
+            400
+          ],
+          "showtimes": [
+            {
+              "time": "13:30 PM",
+              "bookedSeats": [
+                3,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "16:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "15:30 PM",
+              "bookedSeats": []
+            },
+            {
+              "time": "17:10 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "20:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                2
+              ]
+            },
+            {
+              "time": "21:10 PM",
+              "bookedSeats": []
+            }
+          ]
+        },
+        {
+          "id": "theatre7",
+          "city_id": 2,
+          "movie_id": 1,
+          "name": "PVR: Vegas Dwarka ",
+          "loc_name": "Vegas Mall, Sector 14 Road, Pocket 1, Sector 14 Dwarka, Kakrola, Delhi, NCR 110078, India",
+          "ticket_price": [
+            280,
+            380,
+            400
+          ],
+          "showtimes": [
+            {
+              "time": "13:30 PM",
+              "bookedSeats": [
+                3,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "16:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "15:30 PM",
+              "bookedSeats": []
+            },
+            {
+              "time": "17:10 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "20:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                2
+              ]
+            },
+            {
+              "time": "21:10 PM",
+              "bookedSeats": []
+            }
+          ]
+        },
+        {
+          "id": "theatre8",
+          "city_id": 3,
+          "movie_id": 1,
+          "name": "PVR: Select City Walk, Delhi",
+          "loc_name": "A-3, 1st Floor, Select City Walk Mall, District Center, Saket, Sector 6, Pushp Vihar, Delhi, NCR 110017, India",
+          "ticket_price": [
+            280,
+            380,
+            400
+          ],
+          "showtimes": [
+            {
+              "time": "13:30 PM",
+              "bookedSeats": [
+                3,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "16:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "15:30 PM",
+              "bookedSeats": []
+            },
+            {
+              "time": "17:10 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "20:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                2
+              ]
+            },
+            {
+              "time": "21:10 PM",
+              "bookedSeats": []
+            }
+          ]
+        },
+        {
+          "id": "theatre9",
+          "city_id": 3,
+          "movie_id": 1,
+          "name": "Cinepolis: Cross River Mall, Shahdara",
+          "loc_name": "Cross River Mall, Central Business,Shahdara, Near Karkardooma Court, Delhi, NCR 110032, India",
+          "ticket_price": [
+            280,
+            380,
+            400
+          ],
+          "showtimes": [
+            {
+              "time": "13:30 PM",
+              "bookedSeats": [
+                3,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "16:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "15:30 PM",
+              "bookedSeats": []
+            },
+            {
+              "time": "17:10 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "20:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                2
+              ]
+            },
+            {
+              "time": "21:10 PM",
+              "bookedSeats": []
+            }
+          ]
+        },
+        {
+          "id": "theatre10",
+          "city_id": 4,
+          "movie_id": 1,
+          "name": "PVR: Nexus Mall Kukatpally",
+          "loc_name": "Hyderabad 4th Floor, Nexus Mall, Plot No S-16, Survey No.1009, KPHB Phase 6, Opp Malaysian Township, Kukatpally, Hyderabad, Telangana 500072, India",
+          "ticket_price": [
+            280,
+            380,
+            400
+          ],
+          "showtimes": [
+            {
+              "time": "13:30 PM",
+              "bookedSeats": [
+                3,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "16:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "15:30 PM",
+              "bookedSeats": []
+            },
+            {
+              "time": "17:10 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "20:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                2
+              ]
+            },
+            {
+              "time": "21:10 PM",
+              "bookedSeats": []
+            }
+          ]
+        },
+        {
+          "id": "theatre11",
+          "city_id": 4,
+          "movie_id": 1,
+          "name": "MovieMax: AMR, ECIL Secunderabad",
+          "loc_name": "AMR Planet Mall,1,Rd,373/1 and 373.3, Trimulgherry, ECIL Road, Extn - Moula Ali, Secunderabad, Extn - Moula Ali, Secunderabad, Hyderabad, Telangana 500040, India",
+          "ticket_price": [
+            280,
+            380,
+            400
+          ],
+          "showtimes": [
+            {
+              "time": "13:30 PM",
+              "bookedSeats": [
+                3,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "16:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "15:30 PM",
+              "bookedSeats": []
+            },
+            {
+              "time": "17:10 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "20:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                2
+              ]
+            },
+            {
+              "time": "21:10 PM",
+              "bookedSeats": []
+            }
+          ]
+        },
+        {
+          "id": "theatre12",
+          "city_id": 4,
+          "movie_id": 1,
+          "name": "Platinum Movietime Cinemas: Ameerpet",
+          "loc_name": "Big Bazar Mall, GS 24 Old Gold Spot Building, Ameerpet Road, Ameerpet, Hyderabad, Telangana 500073, India",
+          "ticket_price": [
+            280,
+            380,
+            400
+          ],
+          "showtimes": [
+            {
+              "time": "13:30 PM",
+              "bookedSeats": [
+                3,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "16:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "15:30 PM",
+              "bookedSeats": []
+            },
+            {
+              "time": "17:10 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "20:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                2
+              ]
+            },
+            {
+              "time": "21:10 PM",
+              "bookedSeats": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "12th Fail",
+      "category": "UA",
+      "banner_img": "../assets/12thfail-banner-image.jfif",
+      "main_img": "../assets/12thfail-main-image.jfif",
+      "duration": "150min",
+      "description": "Based on Anurag Pathak`s bestselling novel of the same name, 12th Fail depicts the true story of an IPS officer Manoj Kumar Sharma hailing from a small town in Chambal, who fearlessly embraced the idea of restarting his academic journey and reclaiming his destiny at a place where millions of students attempt for the world`s toughest competitive exam, UPSC.",
+      "cast": [
+        {
+          "id": 0,
+          "actor_name": "Vikrant Massey",
+          "actor_image": "../assets/acters/vikrant-massey.webp",
+          "occupation": "Actor",
+          "born": "April 3, 1987",
+          "birthplace": "Nagpur, Maharashtra, India",
+          "spouse": "Single",
+          "description": "Started his career in popular television shows and films, Vikrant Massey has now become one of the most sought-after actors in the digital entertainment industry. In his early days of career, he was best remembered for his work in Colors TV`s socio-drama Balika Vadhu."
+        },
+        {
+          "id": 1,
+          "actor_name": "Harish Khanna",
+          "actor_image": "../assets/acters/harish-khanna.webp",
+          "occupation": "Actor",
+          "born": "October 21, 1992",
+          "birthplace": "Rajasthan, India",
+          "spouse": "Single",
+          "description": "Harish Khanna is an Indian film actor. He made his debut with Hazaar Chaurasi Ki Maa (1998). He went on to star in films like Kachche Dhaage (1999), Charas: A Joint Effort (2004) and 7 Islands and a Metro (2006)."
+        },
+        {
+          "id": 2,
+          "actor_name": "Priyanshu Chatterjee",
+          "actor_image": "../assets/acters/priyanshu-chatterjee.webp",
+          "occupation": "Actor",
+          "born": "February 20, 1973",
+          "birthplace": "Delhi, Delhi, India",
+          "spouse": "Malini Sharma",
+          "description": "Priyanshu Chatterjee is an Indian film actor and model who has done notable work in Bollywood and Bengali cinema. After his debut with the 2001 movie Tum Bin, his notable performances were seen in movies such as Bhoothnath, Moner Manush, Julie, and Pinjar."
+        },
+        {
+          "id": 3,
+          "actor_name": "Sanjay Bishnoi",
+          "actor_image": "../assets/acters/sanjay.webp",
+          "occupation": "Actor",
+          "born": "January 28, 1976",
+          "birthplace": "Chennai, Tamil Nadu, India",
+          "spouse": "Avinash, Avinash",
+          "description": "A trained Bharatanatyam dancer, Malavika Avinash has been training in the dance form since she was five years old. During a performance, where she was playing the role of Krishna, she was she was spotted by well-known Tamil director G. V. Iyer, who cast her in his 1988 Kannada movie Krishnavataar."
+        },
+        {
+          "id": 4,
+          "actor_name": "Sukumar Tudu",
+          "actor_image": "../assets/acters/sukumar-tudu.webp",
+          "occupation": "Actor",
+          "born": "June 4, 1984",
+          "birthplace": "Pune, Maharashtra",
+          "spouse": "Single",
+          "description": "Priyamani is a highly respected Indian actress who started her career in the entertainment business as a model. She is been one of the most talented multilingual artists, who has appeared in films across different languages including Kannada, Hindi, Tamil, Telugu, and Malayalam."
+        },
+        {
+          "id": 5,
+          "actor_name": "Medha Shankr",
+          "actor_image": "../assets/acters/medha-shankr.webp",
+          "occupation": "Actor",
+          "born": "October 19, 1988",
+          "birthplace": "Hassan, Karnataka, India",
+          "spouse": "Single",
+          "description": "Vasishta N. Simha is an Indian actor who works primarily in Kannada cinema. He made his acting debut in the 2013 film Arya`s Love and rose to prominence through his portrayal of the main antagonist in the 2014 romantic drama Raja Huli. Since then, Vasishta has appeared in supporting roles in several films, notably Rudra Tandava (2015) and Godhi Banna Sadharana My Kattu (2016), the latter of which won him a Filmfare Award for Best Supporting Actor and a SIIMA Award for Best Actor in a Negative Role."
+        }
+      ],
+      "language": "Hindi",
+      "genre": "Biography, Drama",
+      "theatre": [
+        {
+          "id": "theatre1",
+          "city_id": 1,
+          "movie_id": 1,
+          "name": "INOX: Elpro City Square",
+          "loc_name": "Chinchwad 2nd Floor, Elpro City Square Mall, Pimpri Chinchwad Link Road, Pune, Maharashtra 411033, India",
+          "ticket_price": [
+            280,
+            380,
+            400
+          ],
+          "showtimes": [
+            {
+              "time": "15:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "16:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "20:10 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "19:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2,
+                9
+              ]
+            }
+          ]
+        },
+        {
+          "id": "theatre2",
+          "city_id": 1,
+          "movie_id": 1,
+          "name": "Cinepolis: Seasons Mall",
+          "loc_name": "Pune 3rd Floor, Seasons Mall, Magarpatta Police Station Road, Magarpatta City, Hadapsar, Pune, Maharashtra 411028, India",
+          "ticket_price": [
+            280,
+            380,
+            400
+          ],
+          "showtimes": [
+            {
+              "time": "13:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "16:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "14:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "17:10 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2,
+                61
+              ]
+            }
+          ]
+        },
+        {
+          "id": "theatre3",
+          "city_id": 1,
+          "movie_id": 1,
+          "name": "INOX: Royal Heritage Mall",
+          "loc_name": "NIBM Ext Royale Heritage Mall, Mohammed Wadi, Next to Vibgyor International School, Pune, Maharashtra 411048, India",
+          "ticket_price": [
+            280,
+            380,
+            400
+          ],
+          "showtimes": [
+            {
+              "time": "13:30 PM",
+              "bookedSeats": [
+                3,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "16:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "14:30 PM",
+              "bookedSeats": []
+            },
+            {
+              "time": "17:10 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "20:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                2
+              ]
+            },
+            {
+              "time": "21:10 PM",
+              "bookedSeats": []
+            }
+          ]
+        },
+        {
+          "id": "theatre4",
+          "city_id": 1,
+          "movie_id": 1,
+          "name": "Cinepolis: Viviana Mall, Thane",
+          "loc_name": "Viviana Mall, Eastern Express Highway, Laxmi Nagar, Thane (West), Thane, Maharashtra 400606, India",
+          "ticket_price": [
+            280,
+            380,
+            400
+          ],
+          "showtimes": [
+            {
+              "time": "13:30 PM",
+              "bookedSeats": [
+                3,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "16:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "15:30 PM",
+              "bookedSeats": []
+            },
+            {
+              "time": "17:10 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "20:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                2
+              ]
+            },
+            {
+              "time": "21:10 PM",
+              "bookedSeats": []
+            }
+          ]
+        },
+        {
+          "id": "theatre5",
+          "city_id": 2,
+          "movie_id": 1,
+          "name": "PVR ICON: Phoenix Palladium",
+          "loc_name": "Lower Parel Mumbai High Street Phoenix, Extension of Entry Road to Phoenix, Senapati Bapat Marg, Lower Parel (W), Mumbai, Maharashtra 400013, India",
+          "ticket_price": [
+            280,
+            380,
+            400
+          ],
+          "showtimes": [
+            {
+              "time": "13:30 PM",
+              "bookedSeats": [
+                3,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "16:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "15:30 PM",
+              "bookedSeats": []
+            },
+            {
+              "time": "17:10 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "20:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                2
+              ]
+            },
+            {
+              "time": "21:10 PM",
+              "bookedSeats": []
+            }
+          ]
+        },
+        {
+          "id": "theatre6",
+          "city_id": 2,
+          "movie_id": 1,
+          "name": "PVR: Market City, Kurla (Premiere)",
+          "loc_name": "Phoenix Market City, LBS Marg, Ashok Nagar, Near Kamani Junction, Kurla (W), Mumbai, Maharashtra 400072, India",
+          "ticket_price": [
+            280,
+            380,
+            400
+          ],
+          "showtimes": [
+            {
+              "time": "13:30 PM",
+              "bookedSeats": [
+                3,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "16:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "15:30 PM",
+              "bookedSeats": []
+            },
+            {
+              "time": "17:10 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "20:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                2
+              ]
+            },
+            {
+              "time": "21:10 PM",
+              "bookedSeats": []
+            }
+          ]
+        },
+        {
+          "id": "theatre7",
+          "city_id": 2,
+          "movie_id": 1,
+          "name": "PVR: Vegas Dwarka ",
+          "loc_name": "Vegas Mall, Sector 14 Road, Pocket 1, Sector 14 Dwarka, Kakrola, Delhi, NCR 110078, India",
+          "ticket_price": [
+            280,
+            380,
+            400
+          ],
+          "showtimes": [
+            {
+              "time": "13:30 PM",
+              "bookedSeats": [
+                3,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "16:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "15:30 PM",
+              "bookedSeats": []
+            },
+            {
+              "time": "17:10 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "20:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                2
+              ]
+            },
+            {
+              "time": "21:10 PM",
+              "bookedSeats": []
+            }
+          ]
+        },
+        {
+          "id": "theatre8",
+          "city_id": 3,
+          "movie_id": 1,
+          "name": "PVR: Select City Walk, Delhi",
+          "loc_name": "A-3, 1st Floor, Select City Walk Mall, District Center, Saket, Sector 6, Pushp Vihar, Delhi, NCR 110017, India",
+          "ticket_price": [
+            280,
+            380,
+            400
+          ],
+          "showtimes": [
+            {
+              "time": "13:30 PM",
+              "bookedSeats": [
+                3,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "16:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "15:30 PM",
+              "bookedSeats": []
+            },
+            {
+              "time": "17:10 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "20:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                2
+              ]
+            },
+            {
+              "time": "21:10 PM",
+              "bookedSeats": []
+            }
+          ]
+        },
+        {
+          "id": "theatre9",
+          "city_id": 3,
+          "movie_id": 1,
+          "name": "Cinepolis: Cross River Mall, Shahdara",
+          "loc_name": "Cross River Mall, Central Business,Shahdara, Near Karkardooma Court, Delhi, NCR 110032, India",
+          "ticket_price": [
+            280,
+            380,
+            400
+          ],
+          "showtimes": [
+            {
+              "time": "13:30 PM",
+              "bookedSeats": [
+                3,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "16:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "15:30 PM",
+              "bookedSeats": []
+            },
+            {
+              "time": "17:10 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "20:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                2
+              ]
+            },
+            {
+              "time": "21:10 PM",
+              "bookedSeats": []
+            }
+          ]
+        },
+        {
+          "id": "theatre10",
+          "city_id": 4,
+          "movie_id": 1,
+          "name": "PVR: Nexus Mall Kukatpally",
+          "loc_name": "Hyderabad 4th Floor, Nexus Mall, Plot No S-16, Survey No.1009, KPHB Phase 6, Opp Malaysian Township, Kukatpally, Hyderabad, Telangana 500072, India",
+          "ticket_price": [
+            280,
+            380,
+            400
+          ],
+          "showtimes": [
+            {
+              "time": "13:30 PM",
+              "bookedSeats": [
+                3,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "16:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "15:30 PM",
+              "bookedSeats": []
+            },
+            {
+              "time": "17:10 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "20:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                2
+              ]
+            },
+            {
+              "time": "21:10 PM",
+              "bookedSeats": []
+            }
+          ]
+        },
+        {
+          "id": "theatre11",
+          "city_id": 4,
+          "movie_id": 1,
+          "name": "MovieMax: AMR, ECIL Secunderabad",
+          "loc_name": "AMR Planet Mall,1,Rd,373/1 and 373.3, Trimulgherry, ECIL Road, Extn - Moula Ali, Secunderabad, Extn - Moula Ali, Secunderabad, Hyderabad, Telangana 500040, India",
+          "ticket_price": [
+            280,
+            380,
+            400
+          ],
+          "showtimes": [
+            {
+              "time": "13:30 PM",
+              "bookedSeats": [
+                3,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "16:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "15:30 PM",
+              "bookedSeats": []
+            },
+            {
+              "time": "17:10 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "20:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                2
+              ]
+            },
+            {
+              "time": "21:10 PM",
+              "bookedSeats": []
+            }
+          ]
+        },
+        {
+          "id": "theatre12",
+          "city_id": 4,
+          "movie_id": 1,
+          "name": "Platinum Movietime Cinemas: Ameerpet",
+          "loc_name": "Big Bazar Mall, GS 24 Old Gold Spot Building, Ameerpet Road, Ameerpet, Hyderabad, Telangana 500073, India",
+          "ticket_price": [
+            280,
+            380,
+            400
+          ],
+          "showtimes": [
+            {
+              "time": "13:30 PM",
+              "bookedSeats": [
+                3,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "16:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "15:30 PM",
+              "bookedSeats": []
+            },
+            {
+              "time": "17:10 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "20:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                2
+              ]
+            },
+            {
+              "time": "21:10 PM",
+              "bookedSeats": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Tiger 3",
+      "category": "UA",
+      "banner_img": "../assets/tiger-banner-img.jfif",
+      "main_img": "../assets/tiger-main-img.jfif",
+      "duration": "150min",
+      "description": "Tiger and Zoya are back - to save the country and their family. This time it`s personal!",
+      "cast": [
+        {
+          "id": 0,
+          "actor_name": "Salman Khan",
+          "actor_image": "../assets/acters/salman-khan.webp",
+          "occupation": "Actor • Producer",
+          "born": "December 27, 1965",
+          "birthplace": "Indore, Madhya Pradesh, India",
+          "spouse": "Single",
+          "description": "Known as the bad boy of Bollywood, Salman Khan is one of the most charismatic, flamboyant and commercially successful actors of Hindi cinema. "
+        },
+        {
+          "id": 1,
+          "actor_name": "Katrina Kaif",
+          "actor_image": "../assets/acters/katrina-.webp",
+          "occupation": "Actor • Special Appearances • Dancer",
+          "born": "July 16, 1983",
+          "birthplace": "Hong Kong",
+          "spouse": "Single",
+          "description": "Born on 16th July 1983 in Hong Kong, Katrina Kaif is a British-Indian actress, model, and philanthropist. She is one of the most commercially successful actresses in Bollywood and has acted in a couple of Malayalam and Telugu films as well."
+        },
+        {
+          "id": 2,
+          "actor_name": "Emraan Hashmi",
+          "actor_image": "../assets/acters/emraan-hashmi.webp",
+          "occupation": "Actor • Producer",
+          "born": "March 24, 1979",
+          "birthplace": "Mumbai, Maharashtra, India",
+          "spouse": "Parveen Shahani",
+          "description": "Known as the `serial kisser of Bollywood,` Emraan Anwar Hashmi is one of the most talented and versatile Indian actors who appears in Hindi movie."
+        },
+        {
+          "id": 3,
+          "actor_name": "Revathy",
+          "actor_image": "../assets/acters/malavika-avinash.webp",
+          "occupation": "Director • Actor • Writer",
+          "born": "July 8, 1966",
+          "birthplace": "Kochi, Kerala, India",
+          "spouse": "Suresh Chandra Menon",
+          "description": "Asha Kutty Nair, better known by her stage name Revathy, is a noteworthy film actress and director, known for her work in the South Indian film industry, especially in Tamil and Malayalam cinema. Revathy, with her career spanning more than 30 years, has appeared in more than 100 movies across Tamil, Malayalam, Telugu and Hindi language films. "
+        },
+        {
+          "id": 4,
+          "actor_name": "Maneesh Sharma",
+          "actor_image": "../assets/acters/maneesh-sharma-.webp",
+          "occupation": "Assistant Director • Producer • Director • Writer • Actor",
+          "born": "June 4, 1984",
+          "birthplace": "Delhi, India",
+          "spouse": "Single",
+          "description": "Hailing from Delhi, Maneesh Sharma is an Indian film director, screenwriter, and producer, working in Hindi film industry. He is known for his directorial prowess in Bollywood films such as Band Baja Baraat and Ladies Vs Ricky Behl."
+        },
+        {
+          "id": 5,
+          "actor_name": "Aditya Chopra",
+          "actor_image": "../assets/acters/aditya-chopra.webp",
+          "occupation": "Actor",
+          "born": "May 21, 1971",
+          "birthplace": "Mumbai, Maharashtra, India",
+          "spouse": "Rani Mukerji, Payal Chopra",
+          "description": "One of the most bankable names in the Indian entertainment industry, Aditya Chopra, the son of the legendary Yash Chopra is an Indian director, producer, screenwriter, distributor and the creative head of Yash Raj Films."
+        }
+      ],
+      "language": "Hindi",
+      "genre": "Biography, Drama",
+      "theatre": [
+        {
+          "id": "theatre1",
+          "city_id": 1,
+          "movie_id": 1,
+          "name": "INOX: Elpro City Square",
+          "loc_name": "Chinchwad 2nd Floor, Elpro City Square Mall, Pimpri Chinchwad Link Road, Pune, Maharashtra 411033, India",
+          "ticket_price": [
+            280,
+            380,
+            400
+          ],
+          "showtimes": [
+            {
+              "time": "15:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "16:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "20:10 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "19:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2,
+                9,
+                15,
+                16
+              ]
+            }
+          ]
+        },
+        {
+          "id": "theatre2",
+          "city_id": 1,
+          "movie_id": 1,
+          "name": "Cinepolis: Seasons Mall",
+          "loc_name": "Pune 3rd Floor, Seasons Mall, Magarpatta Police Station Road, Magarpatta City, Hadapsar, Pune, Maharashtra 411028, India",
+          "ticket_price": [
+            280,
+            380,
+            400
+          ],
+          "showtimes": [
+            {
+              "time": "13:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "16:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "14:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "17:10 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2,
+                61
+              ]
+            }
+          ]
+        },
+        {
+          "id": "theatre3",
+          "city_id": 1,
+          "movie_id": 1,
+          "name": "INOX: Royal Heritage Mall",
+          "loc_name": "NIBM Ext Royale Heritage Mall, Mohammed Wadi, Next to Vibgyor International School, Pune, Maharashtra 411048, India",
+          "ticket_price": [
+            280,
+            380,
+            400
+          ],
+          "showtimes": [
+            {
+              "time": "13:30 PM",
+              "bookedSeats": [
+                3,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "16:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "14:30 PM",
+              "bookedSeats": []
+            },
+            {
+              "time": "17:10 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "20:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                2
+              ]
+            },
+            {
+              "time": "21:10 PM",
+              "bookedSeats": []
+            }
+          ]
+        },
+        {
+          "id": "theatre4",
+          "city_id": 1,
+          "movie_id": 1,
+          "name": "Cinepolis: Viviana Mall, Thane",
+          "loc_name": "Viviana Mall, Eastern Express Highway, Laxmi Nagar, Thane (West), Thane, Maharashtra 400606, India",
+          "ticket_price": [
+            280,
+            380,
+            400
+          ],
+          "showtimes": [
+            {
+              "time": "13:30 PM",
+              "bookedSeats": [
+                3,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "16:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "15:30 PM",
+              "bookedSeats": []
+            },
+            {
+              "time": "17:10 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "20:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                2
+              ]
+            },
+            {
+              "time": "21:10 PM",
+              "bookedSeats": []
+            }
+          ]
+        },
+        {
+          "id": "theatre5",
+          "city_id": 2,
+          "movie_id": 1,
+          "name": "PVR ICON: Phoenix Palladium",
+          "loc_name": "Lower Parel Mumbai High Street Phoenix, Extension of Entry Road to Phoenix, Senapati Bapat Marg, Lower Parel (W), Mumbai, Maharashtra 400013, India",
+          "ticket_price": [
+            280,
+            380,
+            400
+          ],
+          "showtimes": [
+            {
+              "time": "13:30 PM",
+              "bookedSeats": [
+                3,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "16:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "15:30 PM",
+              "bookedSeats": []
+            },
+            {
+              "time": "17:10 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "20:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                2
+              ]
+            },
+            {
+              "time": "21:10 PM",
+              "bookedSeats": []
+            }
+          ]
+        },
+        {
+          "id": "theatre6",
+          "city_id": 2,
+          "movie_id": 1,
+          "name": "PVR: Market City, Kurla (Premiere)",
+          "loc_name": "Phoenix Market City, LBS Marg, Ashok Nagar, Near Kamani Junction, Kurla (W), Mumbai, Maharashtra 400072, India",
+          "ticket_price": [
+            280,
+            380,
+            400
+          ],
+          "showtimes": [
+            {
+              "time": "13:30 PM",
+              "bookedSeats": [
+                3,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "16:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "15:30 PM",
+              "bookedSeats": []
+            },
+            {
+              "time": "17:10 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "20:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                2
+              ]
+            },
+            {
+              "time": "21:10 PM",
+              "bookedSeats": []
+            }
+          ]
+        },
+        {
+          "id": "theatre7",
+          "city_id": 2,
+          "movie_id": 1,
+          "name": "PVR: Vegas Dwarka ",
+          "loc_name": "Vegas Mall, Sector 14 Road, Pocket 1, Sector 14 Dwarka, Kakrola, Delhi, NCR 110078, India",
+          "ticket_price": [
+            280,
+            380,
+            400
+          ],
+          "showtimes": [
+            {
+              "time": "13:30 PM",
+              "bookedSeats": [
+                3,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "16:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "15:30 PM",
+              "bookedSeats": []
+            },
+            {
+              "time": "17:10 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "20:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                2
+              ]
+            },
+            {
+              "time": "21:10 PM",
+              "bookedSeats": []
+            }
+          ]
+        },
+        {
+          "id": "theatre8",
+          "city_id": 3,
+          "movie_id": 1,
+          "name": "PVR: Select City Walk, Delhi",
+          "loc_name": "A-3, 1st Floor, Select City Walk Mall, District Center, Saket, Sector 6, Pushp Vihar, Delhi, NCR 110017, India",
+          "ticket_price": [
+            280,
+            380,
+            400
+          ],
+          "showtimes": [
+            {
+              "time": "13:30 PM",
+              "bookedSeats": [
+                3,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "16:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "15:30 PM",
+              "bookedSeats": []
+            },
+            {
+              "time": "17:10 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "20:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                2
+              ]
+            },
+            {
+              "time": "21:10 PM",
+              "bookedSeats": []
+            }
+          ]
+        },
+        {
+          "id": "theatre9",
+          "city_id": 3,
+          "movie_id": 1,
+          "name": "Cinepolis: Cross River Mall, Shahdara",
+          "loc_name": "Cross River Mall, Central Business,Shahdara, Near Karkardooma Court, Delhi, NCR 110032, India",
+          "ticket_price": [
+            280,
+            380,
+            400
+          ],
+          "showtimes": [
+            {
+              "time": "13:30 PM",
+              "bookedSeats": [
+                3,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "16:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "15:30 PM",
+              "bookedSeats": []
+            },
+            {
+              "time": "17:10 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "20:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                2
+              ]
+            },
+            {
+              "time": "21:10 PM",
+              "bookedSeats": []
+            }
+          ]
+        },
+        {
+          "id": "theatre10",
+          "city_id": 4,
+          "movie_id": 1,
+          "name": "PVR: Nexus Mall Kukatpally",
+          "loc_name": "Hyderabad 4th Floor, Nexus Mall, Plot No S-16, Survey No.1009, KPHB Phase 6, Opp Malaysian Township, Kukatpally, Hyderabad, Telangana 500072, India",
+          "ticket_price": [
+            280,
+            380,
+            400
+          ],
+          "showtimes": [
+            {
+              "time": "13:30 PM",
+              "bookedSeats": [
+                3,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "16:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "15:30 PM",
+              "bookedSeats": []
+            },
+            {
+              "time": "17:10 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "20:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                2
+              ]
+            },
+            {
+              "time": "21:10 PM",
+              "bookedSeats": []
+            }
+          ]
+        },
+        {
+          "id": "theatre11",
+          "city_id": 4,
+          "movie_id": 1,
+          "name": "MovieMax: AMR, ECIL Secunderabad",
+          "loc_name": "AMR Planet Mall,1,Rd,373/1 and 373.3, Trimulgherry, ECIL Road, Extn - Moula Ali, Secunderabad, Extn - Moula Ali, Secunderabad, Hyderabad, Telangana 500040, India",
+          "ticket_price": [
+            280,
+            380,
+            400
+          ],
+          "showtimes": [
+            {
+              "time": "13:30 PM",
+              "bookedSeats": [
+                3,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "16:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "15:30 PM",
+              "bookedSeats": []
+            },
+            {
+              "time": "17:10 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "20:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                2
+              ]
+            },
+            {
+              "time": "21:10 PM",
+              "bookedSeats": []
+            }
+          ]
+        },
+        {
+          "id": "theatre12",
+          "city_id": 4,
+          "movie_id": 1,
+          "name": "Platinum Movietime Cinemas: Ameerpet",
+          "loc_name": "Big Bazar Mall, GS 24 Old Gold Spot Building, Ameerpet Road, Ameerpet, Hyderabad, Telangana 500073, India",
+          "ticket_price": [
+            280,
+            380,
+            400
+          ],
+          "showtimes": [
+            {
+              "time": "13:30 PM",
+              "bookedSeats": [
+                3,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "16:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "15:30 PM",
+              "bookedSeats": []
+            },
+            {
+              "time": "17:10 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "20:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                2
+              ]
+            },
+            {
+              "time": "21:10 PM",
+              "bookedSeats": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Interstaller",
+      "category": "UA",
+      "banner_img": "../assets/interstaller-banner-image.webp",
+      "main_img": "../assets/interstaller-main-image.jfif",
+      "duration": "150min",
+      "description": "A team of explorers travel beyond this galaxy through a newly discovered wormhole to discover whether mankind has a future among the stars.",
+      "cast": [
+        {
+          "id": 0,
+          "actor_name": "Matthew McConaughey",
+          "actor_image": "../assets/acters/matthew-mcconaughey.webp",
+          "occupation": "Actor • Producer • Voice Cast • Executive Producer",
+          "born": "November 4, 1969",
+          "birthplace": "Uvalde, Texas, United States Of America",
+          "spouse": "Camila Alves",
+          "description": "Matthew McConaughey is an Academy Award-winning American actor known for starring in several genres including comedy, thrillers, and drama."
+        },
+        {
+          "id": 1,
+          "actor_name": "Anne Hathaway",
+          "actor_image": "../assets/acters/anne-hathaway.webp",
+          "occupation": "Actor • Voice Cast",
+          "born": "November 12, 1982",
+          "birthplace": "New York, U.S.A.",
+          "spouse": "Adam Shulman",
+          "description": "Anne Jacqueline Hathaway, is an American TV and film actress and singer. She has portrayed popular characters in comedy films like The Princess Diaries and Bride Wars, for which she won the Teen Choice Award for Choice Movie Actress - Comedy."
+        },
+        {
+          "id": 2,
+          "actor_name": "Casey Affleck",
+          "actor_image": "../assets/acters/casey-affleck-.webp",
+          "occupation": "Actor • Voice Cast • Producer",
+          "born": "August 12, 1975",
+          "birthplace": "Falmouth, Massachusetts, U.S.A.",
+          "spouse": "Summer Phoenix",
+          "description": "Casey Affleck is an American actor who is the brother of famed actor and director Ben Affleck. He rose to prominence with his roles in Gus Van Sant`s films, including To Die For (1995), Good Will Hunting (1997) and Gerry (2002). Casey was also a part of the super hit Ocean`s Trilogy (2001-2007), appearing as Virgil Malloy. "
+        },
+        {
+          "id": 3,
+          "actor_name": "Michael Caine",
+          "actor_image": "../assets/acters/michael-caine-.webp",
+          "occupation": "Actor • Executive Producer • Voice Cast • Producer",
+          "born": "March 14, 1933",
+          "birthplace": "Bermondsey, United Kingdom",
+          "spouse": "Shakira Baksh, Patricia Haines",
+          "description": "The British film legend, Sir Michael Caine, is an English actor who is known for his peculiar accent. Caine has appeared in over a 100 films in his career which began in the 1960s. Working in the industry for more than five decades, Caine has starred in movies such as Zulu (1964), The Ipcress File (1965), The Italian Job (1969), and Battle of Britain (1969). "
+        },
+        {
+          "id": 4,
+          "actor_name": "Jessica Chastain",
+          "actor_image": "../assets/acters/jessica-chastain-.webp",
+          "occupation": "Actor • Voice Cast • Producer",
+          "born": "March 24, 1977",
+          "birthplace": "California, U.S.A.",
+          "spouse": "Single",
+          "description": "Jessica Michelle Chastain is an American actress and film producer known for movies like The Tree of Life (2011), Zero Dark Thirty (2012) and The Help (2011). She made her acting debut with Dan Ireland`s Jolene (2008). One of her initial big breaks came when she played a young Rachel Singer in the espionage thriller The Debt (2010). "
+        },
+        {
+          "id": 5,
+          "actor_name": "Wes Bentley",
+          "actor_image": "../assets/acters/wes-bentley-.webp",
+          "occupation": "Actor • Voice Cast",
+          "born": "September 4, 1978",
+          "birthplace": "Jonesboro, Arkansas, United States Of America",
+          "spouse": "Jacqui Swedberg, Jennifer Quanz",
+          "description": "Wesley Cook Bentley is an American actor best known for his roles as Ricky Fitts in the comedy-drama movie American Beauty (1999)."
+        }
+      ],
+      "language": "Hindi",
+      "genre": "Biography, Drama",
+      "theatre": [
+        {
+          "id": "theatre1",
+          "city_id": 1,
+          "movie_id": 1,
+          "name": "INOX: Elpro City Square",
+          "loc_name": "Chinchwad 2nd Floor, Elpro City Square Mall, Pimpri Chinchwad Link Road, Pune, Maharashtra 411033, India",
+          "ticket_price": [
+            280,
+            380,
+            400
+          ],
+          "showtimes": [
+            {
+              "time": "15:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "16:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "20:10 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "19:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2,
+                9
+              ]
+            }
+          ]
+        },
+        {
+          "id": "theatre2",
+          "city_id": 1,
+          "movie_id": 1,
+          "name": "Cinepolis: Seasons Mall",
+          "loc_name": "Pune 3rd Floor, Seasons Mall, Magarpatta Police Station Road, Magarpatta City, Hadapsar, Pune, Maharashtra 411028, India",
+          "ticket_price": [
+            280,
+            380,
+            400
+          ],
+          "showtimes": [
+            {
+              "time": "13:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "16:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "14:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "17:10 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2,
+                61
+              ]
+            }
+          ]
+        },
+        {
+          "id": "theatre3",
+          "city_id": 1,
+          "movie_id": 1,
+          "name": "INOX: Royal Heritage Mall",
+          "loc_name": "NIBM Ext Royale Heritage Mall, Mohammed Wadi, Next to Vibgyor International School, Pune, Maharashtra 411048, India",
+          "ticket_price": [
+            280,
+            380,
+            400
+          ],
+          "showtimes": [
+            {
+              "time": "13:30 PM",
+              "bookedSeats": [
+                3,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "16:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "14:30 PM",
+              "bookedSeats": []
+            },
+            {
+              "time": "17:10 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "20:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                2
+              ]
+            },
+            {
+              "time": "21:10 PM",
+              "bookedSeats": []
+            }
+          ]
+        },
+        {
+          "id": "theatre4",
+          "city_id": 1,
+          "movie_id": 1,
+          "name": "Cinepolis: Viviana Mall, Thane",
+          "loc_name": "Viviana Mall, Eastern Express Highway, Laxmi Nagar, Thane (West), Thane, Maharashtra 400606, India",
+          "ticket_price": [
+            280,
+            380,
+            400
+          ],
+          "showtimes": [
+            {
+              "time": "13:30 PM",
+              "bookedSeats": [
+                3,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "16:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "15:30 PM",
+              "bookedSeats": []
+            },
+            {
+              "time": "17:10 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "20:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                2
+              ]
+            },
+            {
+              "time": "21:10 PM",
+              "bookedSeats": []
+            }
+          ]
+        },
+        {
+          "id": "theatre5",
+          "city_id": 2,
+          "movie_id": 1,
+          "name": "PVR ICON: Phoenix Palladium",
+          "loc_name": "Lower Parel Mumbai High Street Phoenix, Extension of Entry Road to Phoenix, Senapati Bapat Marg, Lower Parel (W), Mumbai, Maharashtra 400013, India",
+          "ticket_price": [
+            280,
+            380,
+            400
+          ],
+          "showtimes": [
+            {
+              "time": "13:30 PM",
+              "bookedSeats": [
+                3,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "16:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "15:30 PM",
+              "bookedSeats": []
+            },
+            {
+              "time": "17:10 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "20:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                2
+              ]
+            },
+            {
+              "time": "21:10 PM",
+              "bookedSeats": []
+            }
+          ]
+        },
+        {
+          "id": "theatre6",
+          "city_id": 2,
+          "movie_id": 1,
+          "name": "PVR: Market City, Kurla (Premiere)",
+          "loc_name": "Phoenix Market City, LBS Marg, Ashok Nagar, Near Kamani Junction, Kurla (W), Mumbai, Maharashtra 400072, India",
+          "ticket_price": [
+            280,
+            380,
+            400
+          ],
+          "showtimes": [
+            {
+              "time": "13:30 PM",
+              "bookedSeats": [
+                3,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "16:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "15:30 PM",
+              "bookedSeats": []
+            },
+            {
+              "time": "17:10 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "20:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                2
+              ]
+            },
+            {
+              "time": "21:10 PM",
+              "bookedSeats": []
+            }
+          ]
+        },
+        {
+          "id": "theatre7",
+          "city_id": 2,
+          "movie_id": 1,
+          "name": "PVR: Vegas Dwarka ",
+          "loc_name": "Vegas Mall, Sector 14 Road, Pocket 1, Sector 14 Dwarka, Kakrola, Delhi, NCR 110078, India",
+          "ticket_price": [
+            280,
+            380,
+            400
+          ],
+          "showtimes": [
+            {
+              "time": "13:30 PM",
+              "bookedSeats": [
+                3,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "16:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "15:30 PM",
+              "bookedSeats": []
+            },
+            {
+              "time": "17:10 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "20:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                2
+              ]
+            },
+            {
+              "time": "21:10 PM",
+              "bookedSeats": []
+            }
+          ]
+        },
+        {
+          "id": "theatre8",
+          "city_id": 3,
+          "movie_id": 1,
+          "name": "PVR: Select City Walk, Delhi",
+          "loc_name": "A-3, 1st Floor, Select City Walk Mall, District Center, Saket, Sector 6, Pushp Vihar, Delhi, NCR 110017, India",
+          "ticket_price": [
+            280,
+            380,
+            400
+          ],
+          "showtimes": [
+            {
+              "time": "13:30 PM",
+              "bookedSeats": [
+                3,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "16:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "15:30 PM",
+              "bookedSeats": []
+            },
+            {
+              "time": "17:10 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "20:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                2
+              ]
+            },
+            {
+              "time": "21:10 PM",
+              "bookedSeats": []
+            }
+          ]
+        },
+        {
+          "id": "theatre9",
+          "city_id": 3,
+          "movie_id": 1,
+          "name": "Cinepolis: Cross River Mall, Shahdara",
+          "loc_name": "Cross River Mall, Central Business,Shahdara, Near Karkardooma Court, Delhi, NCR 110032, India",
+          "ticket_price": [
+            280,
+            380,
+            400
+          ],
+          "showtimes": [
+            {
+              "time": "13:30 PM",
+              "bookedSeats": [
+                3,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "16:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "15:30 PM",
+              "bookedSeats": []
+            },
+            {
+              "time": "17:10 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "20:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                2
+              ]
+            },
+            {
+              "time": "21:10 PM",
+              "bookedSeats": []
+            }
+          ]
+        },
+        {
+          "id": "theatre10",
+          "city_id": 4,
+          "movie_id": 1,
+          "name": "PVR: Nexus Mall Kukatpally",
+          "loc_name": "Hyderabad 4th Floor, Nexus Mall, Plot No S-16, Survey No.1009, KPHB Phase 6, Opp Malaysian Township, Kukatpally, Hyderabad, Telangana 500072, India",
+          "ticket_price": [
+            280,
+            380,
+            400
+          ],
+          "showtimes": [
+            {
+              "time": "13:30 PM",
+              "bookedSeats": [
+                3,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "16:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "15:30 PM",
+              "bookedSeats": []
+            },
+            {
+              "time": "17:10 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "20:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                2
+              ]
+            },
+            {
+              "time": "21:10 PM",
+              "bookedSeats": []
+            }
+          ]
+        },
+        {
+          "id": "theatre11",
+          "city_id": 4,
+          "movie_id": 1,
+          "name": "MovieMax: AMR, ECIL Secunderabad",
+          "loc_name": "AMR Planet Mall,1,Rd,373/1 and 373.3, Trimulgherry, ECIL Road, Extn - Moula Ali, Secunderabad, Extn - Moula Ali, Secunderabad, Hyderabad, Telangana 500040, India",
+          "ticket_price": [
+            280,
+            380,
+            400
+          ],
+          "showtimes": [
+            {
+              "time": "13:30 PM",
+              "bookedSeats": [
+                3,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "16:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "15:30 PM",
+              "bookedSeats": []
+            },
+            {
+              "time": "17:10 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "20:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                2
+              ]
+            },
+            {
+              "time": "21:10 PM",
+              "bookedSeats": []
+            }
+          ]
+        },
+        {
+          "id": "theatre12",
+          "city_id": 4,
+          "movie_id": 1,
+          "name": "Platinum Movietime Cinemas: Ameerpet",
+          "loc_name": "Big Bazar Mall, GS 24 Old Gold Spot Building, Ameerpet Road, Ameerpet, Hyderabad, Telangana 500073, India",
+          "ticket_price": [
+            280,
+            380,
+            400
+          ],
+          "showtimes": [
+            {
+              "time": "13:30 PM",
+              "bookedSeats": [
+                3,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "16:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "15:30 PM",
+              "bookedSeats": []
+            },
+            {
+              "time": "17:10 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "20:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                2
+              ]
+            },
+            {
+              "time": "21:10 PM",
+              "bookedSeats": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Star Wars: The Rise of Skywalker",
+      "category": "UA",
+      "banner_img": "../assets/starwar-banner-image.jfif",
+      "main_img": "../assets/starwar-main-image.jfif",
+      "duration": "150min",
+      "description": "The third installment of the Star Wars sequel trilogy, Star Wars : The Rise of Skywalker starts a year after the events of The Last Jedi. ",
+      "cast": [
+        {
+          "id": 0,
+          "actor_name": "Adam Driver",
+          "actor_image": "../assets/acters/adam-driver.webp",
+          "occupation": "Actor",
+          "born": "November 19, 1983",
+          "birthplace": "San Diego, California, United States Of America",
+          "spouse": "Joanne Tucker",
+          "description": "An ex-Marine Corp turned actor, Adam Driver rose to fame for his role as Adam Sackler in the HBO comedy-drama TV show, Girls. The theatre, TV and film actor received three consecutive Primetime Emmy Award nominations for Outstanding Actor in a Comedy Series from 2013 to 2015"
+        },
+        {
+          "id": 1,
+          "actor_name": "Daisy Ridley",
+          "actor_image": "../assets/acters/daisy-ridley.webp",
+          "occupation": "Actor • Voice Cast",
+          "born": "November 12, 1982",
+          "birthplace": "Westminster, England, United Kingdom",
+          "spouse": "Adam Shulman",
+          "description": "Daisy Ridley is a British actress who is best known for essaying the role of Rey in the Star Wars sequel trilogy. She started out on television, appearing in minor roles in shows like Casualty, Youngers and Silent Witness before making her feature film debut in the horror thriller Scrawl (2015)."
+        },
+        {
+          "id": 2,
+          "actor_name": "Keri Russell",
+          "actor_image": "../assets/acters/keri.webp",
+          "occupation": "Actor",
+          "born": "March 23, 1976",
+          "birthplace": "Fountain Valley, California, United States Of America",
+          "spouse": "Shane Deary",
+          "description": "Keri Russell is an American actress, born in Fountain Valley, California. She started her career by joining the Mickey Mouse Club in 1991. "
+        },
+        {
+          "id": 3,
+          "actor_name": "Harrison Ford",
+          "actor_image": "../assets/acters/harrison-ford.webp",
+          "occupation": "Actor • Voice Cast",
+          "born": "July 13, 1942",
+          "birthplace": "Chicago, Illinois, United States",
+          "spouse": "Calista Flockhart, Melissa Mathison, Mary Marquardt",
+          "description": "Born to Dorothy Ford, a homemaker, and former radio actress, and Christopher Ford was an advertising executive and a former actor, Harrison Ford is an American actor and producer. He attended a drama class in his senior year at college to overcome his shyness."
+        },
+        {
+          "id": 4,
+          "actor_name": "Oscar Isaac",
+          "actor_image": "../assets/acters/oscar-isaac.webp",
+          "occupation": "Actor • Voice Cast",
+          "born": "March 9, 1979",
+          "birthplace": "United States Of America",
+          "spouse": "Single",
+          "description": "Oscar Isaac Hernandez Estrada, popularly known as Oscar Isaac, is a Guatemalan-American actor. He first rose to prominence when he portrayed Saint Joseph in the biblical film The Nativity Story (2006), and subsequently appeared in supporting roles in films like Agora (2009), Balibo (2009) and Drive (2011)."
+        },
+        {
+          "id": 5,
+          "actor_name": "Anthony Daniels",
+          "actor_image": "../assets/acters/anthony-daniels.webp",
+          "occupation": "Voice Cast • Actor",
+          "born": "February 21, 1946",
+          "birthplace": "Salisbury, U.K",
+          "spouse": "Rashmika Mandanna",
+          "description": "Best remembered for playing the role of C- 3PO in the Star Wars film series, Anthony Daniels is an English actor and mime artist who is the only actor to have worked in all the major films in the series. The actor has also worked in many of the series` spin-offs."
+        }
+      ],
+      "language": "Hindi",
+      "genre": "Biography, Drama",
+      "theatre": [
+        {
+          "id": "theatre1",
+          "city_id": 1,
+          "movie_id": 1,
+          "name": "INOX: Elpro City Square",
+          "loc_name": "Chinchwad 2nd Floor, Elpro City Square Mall, Pimpri Chinchwad Link Road, Pune, Maharashtra 411033, India",
+          "ticket_price": [
+            280,
+            380,
+            400
+          ],
+          "showtimes": [
+            {
+              "time": "15:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "16:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "20:10 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2,
+                37
+              ]
+            },
+            {
+              "time": "19:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2,
+                9
+              ]
+            }
+          ]
+        },
+        {
+          "id": "theatre2",
+          "city_id": 1,
+          "movie_id": 1,
+          "name": "Cinepolis: Seasons Mall",
+          "loc_name": "Pune 3rd Floor, Seasons Mall, Magarpatta Police Station Road, Magarpatta City, Hadapsar, Pune, Maharashtra 411028, India",
+          "ticket_price": [
+            280,
+            380,
+            400
+          ],
+          "showtimes": [
+            {
+              "time": "13:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "16:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "14:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "17:10 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2,
+                61
+              ]
+            }
+          ]
+        },
+        {
+          "id": "theatre3",
+          "city_id": 1,
+          "movie_id": 1,
+          "name": "INOX: Royal Heritage Mall",
+          "loc_name": "NIBM Ext Royale Heritage Mall, Mohammed Wadi, Next to Vibgyor International School, Pune, Maharashtra 411048, India",
+          "ticket_price": [
+            280,
+            380,
+            400
+          ],
+          "showtimes": [
+            {
+              "time": "13:30 PM",
+              "bookedSeats": [
+                3,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "16:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "14:30 PM",
+              "bookedSeats": []
+            },
+            {
+              "time": "17:10 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "20:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                2
+              ]
+            },
+            {
+              "time": "21:10 PM",
+              "bookedSeats": []
+            }
+          ]
+        },
+        {
+          "id": "theatre4",
+          "city_id": 1,
+          "movie_id": 1,
+          "name": "Cinepolis: Viviana Mall, Thane",
+          "loc_name": "Viviana Mall, Eastern Express Highway, Laxmi Nagar, Thane (West), Thane, Maharashtra 400606, India",
+          "ticket_price": [
+            280,
+            380,
+            400
+          ],
+          "showtimes": [
+            {
+              "time": "13:30 PM",
+              "bookedSeats": [
+                3,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "16:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "15:30 PM",
+              "bookedSeats": []
+            },
+            {
+              "time": "17:10 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "20:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                2
+              ]
+            },
+            {
+              "time": "21:10 PM",
+              "bookedSeats": []
+            }
+          ]
+        },
+        {
+          "id": "theatre5",
+          "city_id": 2,
+          "movie_id": 1,
+          "name": "PVR ICON: Phoenix Palladium",
+          "loc_name": "Lower Parel Mumbai High Street Phoenix, Extension of Entry Road to Phoenix, Senapati Bapat Marg, Lower Parel (W), Mumbai, Maharashtra 400013, India",
+          "ticket_price": [
+            280,
+            380,
+            400
+          ],
+          "showtimes": [
+            {
+              "time": "13:30 PM",
+              "bookedSeats": [
+                3,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "16:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "15:30 PM",
+              "bookedSeats": []
+            },
+            {
+              "time": "17:10 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "20:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                2,
+                13,
+                14,
+                15
+              ]
+            },
+            {
+              "time": "21:10 PM",
+              "bookedSeats": []
+            }
+          ]
+        },
+        {
+          "id": "theatre6",
+          "city_id": 2,
+          "movie_id": 1,
+          "name": "PVR: Market City, Kurla (Premiere)",
+          "loc_name": "Phoenix Market City, LBS Marg, Ashok Nagar, Near Kamani Junction, Kurla (W), Mumbai, Maharashtra 400072, India",
+          "ticket_price": [
+            280,
+            380,
+            400
+          ],
+          "showtimes": [
+            {
+              "time": "13:30 PM",
+              "bookedSeats": [
+                3,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "16:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "15:30 PM",
+              "bookedSeats": []
+            },
+            {
+              "time": "17:10 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "20:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                2
+              ]
+            },
+            {
+              "time": "21:10 PM",
+              "bookedSeats": []
+            }
+          ]
+        },
+        {
+          "id": "theatre7",
+          "city_id": 2,
+          "movie_id": 1,
+          "name": "PVR: Vegas Dwarka ",
+          "loc_name": "Vegas Mall, Sector 14 Road, Pocket 1, Sector 14 Dwarka, Kakrola, Delhi, NCR 110078, India",
+          "ticket_price": [
+            280,
+            380,
+            400
+          ],
+          "showtimes": [
+            {
+              "time": "13:30 PM",
+              "bookedSeats": [
+                3,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "16:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "15:30 PM",
+              "bookedSeats": []
+            },
+            {
+              "time": "17:10 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "20:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                2
+              ]
+            },
+            {
+              "time": "21:10 PM",
+              "bookedSeats": []
+            }
+          ]
+        },
+        {
+          "id": "theatre8",
+          "city_id": 3,
+          "movie_id": 1,
+          "name": "PVR: Select City Walk, Delhi",
+          "loc_name": "A-3, 1st Floor, Select City Walk Mall, District Center, Saket, Sector 6, Pushp Vihar, Delhi, NCR 110017, India",
+          "ticket_price": [
+            280,
+            380,
+            400
+          ],
+          "showtimes": [
+            {
+              "time": "13:30 PM",
+              "bookedSeats": [
+                3,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "16:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "15:30 PM",
+              "bookedSeats": []
+            },
+            {
+              "time": "17:10 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "20:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                2
+              ]
+            },
+            {
+              "time": "21:10 PM",
+              "bookedSeats": []
+            }
+          ]
+        },
+        {
+          "id": "theatre9",
+          "city_id": 3,
+          "movie_id": 1,
+          "name": "Cinepolis: Cross River Mall, Shahdara",
+          "loc_name": "Cross River Mall, Central Business,Shahdara, Near Karkardooma Court, Delhi, NCR 110032, India",
+          "ticket_price": [
+            280,
+            380,
+            400
+          ],
+          "showtimes": [
+            {
+              "time": "13:30 PM",
+              "bookedSeats": [
+                3,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "16:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "15:30 PM",
+              "bookedSeats": []
+            },
+            {
+              "time": "17:10 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "20:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                2
+              ]
+            },
+            {
+              "time": "21:10 PM",
+              "bookedSeats": []
+            }
+          ]
+        },
+        {
+          "id": "theatre10",
+          "city_id": 4,
+          "movie_id": 1,
+          "name": "PVR: Nexus Mall Kukatpally",
+          "loc_name": "Hyderabad 4th Floor, Nexus Mall, Plot No S-16, Survey No.1009, KPHB Phase 6, Opp Malaysian Township, Kukatpally, Hyderabad, Telangana 500072, India",
+          "ticket_price": [
+            280,
+            380,
+            400
+          ],
+          "showtimes": [
+            {
+              "time": "13:30 PM",
+              "bookedSeats": [
+                3,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "16:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "15:30 PM",
+              "bookedSeats": []
+            },
+            {
+              "time": "17:10 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "20:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                2
+              ]
+            },
+            {
+              "time": "21:10 PM",
+              "bookedSeats": []
+            }
+          ]
+        },
+        {
+          "id": "theatre11",
+          "city_id": 4,
+          "movie_id": 1,
+          "name": "MovieMax: AMR, ECIL Secunderabad",
+          "loc_name": "AMR Planet Mall,1,Rd,373/1 and 373.3, Trimulgherry, ECIL Road, Extn - Moula Ali, Secunderabad, Extn - Moula Ali, Secunderabad, Hyderabad, Telangana 500040, India",
+          "ticket_price": [
+            280,
+            380,
+            400
+          ],
+          "showtimes": [
+            {
+              "time": "13:30 PM",
+              "bookedSeats": [
+                3,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "16:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "15:30 PM",
+              "bookedSeats": []
+            },
+            {
+              "time": "17:10 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "20:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                2
+              ]
+            },
+            {
+              "time": "21:10 PM",
+              "bookedSeats": []
+            }
+          ]
+        },
+        {
+          "id": "theatre12",
+          "city_id": 4,
+          "movie_id": 1,
+          "name": "Platinum Movietime Cinemas: Ameerpet",
+          "loc_name": "Big Bazar Mall, GS 24 Old Gold Spot Building, Ameerpet Road, Ameerpet, Hyderabad, Telangana 500073, India",
+          "ticket_price": [
+            280,
+            380,
+            400
+          ],
+          "showtimes": [
+            {
+              "time": "13:30 PM",
+              "bookedSeats": [
+                3,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "16:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "15:30 PM",
+              "bookedSeats": []
+            },
+            {
+              "time": "17:10 PM",
+              "bookedSeats": [
+                3,
+                8,
+                4,
+                2
+              ]
+            },
+            {
+              "time": "20:30 PM",
+              "bookedSeats": [
+                3,
+                8,
+                2
+              ]
+            },
+            {
+              "time": "21:10 PM",
+              "bookedSeats": []
+            }
+          ]
         }
       ]
     }

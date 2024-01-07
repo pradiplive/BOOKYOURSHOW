@@ -1,14 +1,18 @@
 $(document).ready(function () {
   let selectedSeats = [];
-  let bookedSeats = [];
+  // let bookedSeats = [];
   let selectedData = {};
+  let totalAmount = 0;
   let movieData;
 
   async function fetchMovieDetails() {
     try {
-      const response = await axios.get("http://localhost:3000/movies");
-      movieData = response.data[2];
+      let urlParams = new URLSearchParams(window.location.search);
+      let id = urlParams.get("movieId");
+      let city_id = urlParams.get("cityId");
 
+      const response = await axios.get("http://localhost:3000/movies");
+      movieData = response.data[id];
       if (movieData.name) {
         $(".heading2, .title").text(`Movie Name : ${movieData.name}`);
         $(".__movie-name").text(`${movieData.name}`);
@@ -27,13 +31,21 @@ $(document).ready(function () {
   fetchMovieDetails();
 
   function renderTheatres(theatres) {
-    console.log("Theatres:", theatres);
+    const city_id = sessionStorage.getItem("selectedCityId");
+
     const timeSelections = $("#timeSelections");
 
-    theatres.forEach((theatre, index) => {
+    const single_t = theatres.filter((theater) => {
+      if (theater.city_id == city_id) {
+        return theater;
+      }
+    });
+
+    single_t.forEach((theatre, index) => {
+      const showtimes = theatre.showtimes;
+
       if (!theatre.showtimes) {
-        console.log("Skipping Invalid Theatre:", theatre);
-        return; // Skip to the next iteration if the theatre is invalid
+        return;
       }
 
       const timeLi = $("<li>").addClass("time-li");
@@ -42,12 +54,14 @@ $(document).ready(function () {
 
       const timeBtnDiv = $("<div>").addClass("time-btn");
 
-      theatre.showtimes.forEach((showtimes) => {
-        const screenTimeDiv = $("<div>")
-          .addClass("screen-time")
-          .text(showtimes);
+      showtimes.forEach((showtime) => {
+        const time = showtime.time;
+        const bookedSeats = showtime.bookedSeats;
+
+        const screenTimeDiv = $("<div>").addClass("screen-time").text(time); // Display the time
+
         screenTimeDiv.on("click", function () {
-          timeFunction($(this), theatre.bookedSeats);
+          timeFunction($(this), bookedSeats); // Pass time and bookedSeats to timeFunction
         });
 
         timeBtnDiv.append(screenTimeDiv);
@@ -362,7 +376,7 @@ $(document).ready(function () {
     cartItems.append(totalElement);
 
     const ticketAmount = parseInt($(".amount").text(), 10);
-    const totalAmount = ticketAmount + totalFoodAmount;
+    totalAmount = ticketAmount + totalFoodAmount;
 
     $(".food-price").text(`₹ ${totalFoodAmount}`);
     $(".__ticket-price").text(`₹ ${ticketAmount}`);
@@ -395,47 +409,104 @@ $(document).ready(function () {
   });
 
   function updateMoviesJson(updatedMovieData) {
-    if (!movieData) {
-      console.error("Error: movieData is not available");
+    const movieId = updatedMovieData.id; // Assuming there's an 'id' property in your movie data
+
+    if (!movieId) {
+      console.error("Error: Movie ID is not available");
       return;
     }
+
     axios
-      .put("http://localhost:3000/movies/0", updatedMovieData)
+      .put(`http://localhost:3000/movies/${movieId}`, updatedMovieData)
       .then((response) => {
-        console.log(response);
-        console.log("Movies.json updated successfully", response.data);
+        console.log(
+          `Movie with ID ${movieId} updated successfully`,
+          response.data
+        );
       })
       .catch((error) => {
-        console.error("Error updating movies.json", error);
+        console.error(`Error updating movie with ID ${movieId}`, error);
       });
   }
 
   $("#pay_btn").on("click", function () {
-    const selectedTheatreIndex = movieData.theatre.findIndex(
-      (theatre) => theatre.name === selectedData.selectedTheatre
-    );
+    const selectedTheatreIndex = movieData.theatre.findIndex((theatre) => {
+      return (
+        theatre.name.trim().toLowerCase() ===
+        selectedData.selectedTheatre.trim().toLowerCase()
+      );
+    });
 
     if (selectedTheatreIndex !== -1) {
-      // Update movieData locally with the modified bookedSeats
-      movieData.theatre[selectedTheatreIndex].bookedSeats = [
-        ...movieData.theatre[selectedTheatreIndex].bookedSeats,
-        ...selectedSeats.map((seat) => parseInt(seat.slice(1))),
-      ];
+      const selectedTheatre = movieData.theatre[selectedTheatreIndex];
 
-      // Update the bookedSeats array locally
-      bookedSeats = [
-        ...bookedSeats,
-        ...selectedSeats.map((seat) => parseInt(seat.slice(1))),
-      ];
+      const selectedShowtimeIndex = selectedTheatre.showtimes.findIndex(
+        (showtime) => showtime.time.trim() === selectedData.selectedTime
+      );
 
-      // Update movies.json with the modified data
-      updateMoviesJson(movieData);
+      if (selectedShowtimeIndex !== -1) {
+        movieData.theatre[selectedTheatreIndex].showtimes[
+          selectedShowtimeIndex
+        ].bookedSeats = [
+          ...movieData.theatre[selectedTheatreIndex].showtimes[
+            selectedShowtimeIndex
+          ].bookedSeats,
+          ...selectedSeats.map((seat) => parseInt(seat.slice(1))),
+        ];
 
-      // Reset selectedSeats array
-      selectedSeats = [];
+        updateMoviesJson(movieData);
+        saveBookingToDb();
+        selectedSeats = [];
 
-      alert("Ticket Booking Successful!");
-      // window.location.href = "../HTML/home.html";
+        alert("Ticket Booking Successful!");
+      } else {
+        console.log("Invalid Showtime");
+      }
     }
   });
+
+  function saveBookingToDb() {
+    // const bookingId = getLatestBookingId() + 1;
+    const bookingData = {
+      // id: bookingId,
+      name: movieData.name,
+      main_img: movieData.main_img,
+      theater: selectedData.selectedTheatre,
+      no_of_tickets: selectedSeats.length,
+      selected_seats: selectedSeats,
+      selected_date: selectedData.selectedDate,
+      selected_time: selectedData.selectedTime,
+      selected_meals: getSelectedMeals(),
+      total_expense: totalAmount,
+    };
+
+    console.log(bookingData);
+    const userId = sessionStorage.getItem("id");
+    axios
+      .get(`http://localhost:3001/users/${userId}`)
+      .then((userResponse) => {
+        const userData = userResponse.data;
+
+        // Append the new booking data to the "bookings" array
+        userData.bookings = userData.bookings || [];
+        userData.bookings.push(bookingData);
+
+        // Update the user data with the new booking
+        return axios.patch(`http://localhost:3001/users/${userId}`, userData);
+      })
+      .then((response) => {
+        console.log("Booking saved successfully", response.data);
+      })
+      .catch((error) => {
+        console.error("Error saving booking", error);
+      });
+  }
+  function getSelectedMeals() {
+    // Implement a logic to get the selected meals from the cart
+    return cart.map((item) => ({
+      id: item.id,
+      meal_name: item.name,
+      meal_price: item.price * item.quantity,
+    }));
+  }
 });
