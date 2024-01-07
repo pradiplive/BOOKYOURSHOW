@@ -3,10 +3,12 @@
   --black: #000000;
   --lightBlack: #1a1a1a;
 }
-
 .movie-container-box {
   width: 90%;
+  /* height: 1100px; */
+  /* background-color: aquamarine; */
   margin: auto;
+  /* border: 2px solid black; */
   box-sizing: border-box;
   display: flex;
   flex-direction: row;
@@ -24,22 +26,10 @@ hr {
   padding: 10px 10px 0 10px;
 }
 
-.movie-container-2 {
-  width: 90%;
-  margin: auto;
-  box-sizing: border-box;
-  display: flex;
-  flex-direction: column;
-  margin-top: 2rem;
-  height: 100%;
-  width: 100%;
-}
-
-h2 {
+.movie-container-1 h2 {
   margin: 0 0 20px 10px;
   color: var(--red);
 }
-
 .movie-container-2 h2 {
   color: var(--red);
   margin-left: 20px;
@@ -72,7 +62,6 @@ input {
   width: 20px;
   margin-bottom: 10px;
 }
-
 input ~ span {
   color: white;
 }
@@ -91,6 +80,10 @@ input ~ span {
   display: none;
 }
 
+.movie-container-2 {
+  height: 100%;
+  width: 100%;
+}
 .fa-user {
   color: var(--red);
   font-size: 2rem;
@@ -106,13 +99,15 @@ input ~ span {
     width: 100%;
   }
   .movie-container-2 {
+    /* display: block; */
     width: 100%;
   }
 }
+
 @media only screen and (max-width: 978px) {
   .fa-user {
     font-size: 1.5rem;
     margin-top: 10px;
     float: left;
   }
-}/*# sourceMappingURL=movies.css.map */
+}
