@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Movie Filter</title>
+  <style>
+    /* Add your styles here */
+  </style>
+</head>
+<body>
+
+  <h1>Movies</h1>
+
+  <fieldset>
+    <legend>Languages:</legend>
+    <label>
+      <input type="checkbox" id="englishCheckbox" onchange="filterMovies()"> English
+    </label>
+    <label>
+      <input type="checkbox" id="hindiCheckbox" onchange="filterMovies()"> Hindi
+    </label>
+    <label>
+      <input type="checkbox" id="tamilCheckbox" onchange="filterMovies()"> Tamil
+    </label>
+    <label>
+      <input type="checkbox" id="teluguCheckbox" onchange="filterMovies()"> Telugu
+    </label>
+  </fieldset>
+
+  <fieldset>
+    <legend>Genres:</legend>
+    <label>
+      <input type="checkbox" id="actionCheckbox" onchange="filterMovies()"> Action
+    </label>
+    <label>
+      <input type="checkbox" id="fantasyCheckbox" onchange="filterMovies()"> Fantasy
+    </label>
+    <label>
+      <input type="checkbox" id="superheroCheckbox" onchange="filterMovies()"> Superhero
+    </label>
+    <label>
+      <input type="checkbox" id="romanticCheckbox" onchange="filterMovies()"> Romantic
+    </label>
+  </fieldset>
+
+  <div id="movieList">
+    <!-- Filtered movie names will be dynamically added here -->
+  </div>
+
+  <script>
+    // Function to fetch movies data from a JSON file
+    async function fetchMoviesData() {
+      const response = await fetch('../database/movie.json');
+      const data = await response.json();
+      return data.movies;
+    }
+
+    // Load movies data on page load
+    fetchMoviesData().then(moviesData => {
+      // Initial load of all movies
+      displayMovies(moviesData);
+    });
+
+    // Function to filter movies based on selected checkboxes
+    function filterMovies() {
+      const englishFilter = document.getElementById('englishCheckbox').checked;
+      const hindiFilter = document.getElementById('hindiCheckbox').checked;
+      const tamilFilter = document.getElementById('tamilCheckbox').checked;
+      const teluguFilter = document.getElementById('teluguCheckbox').checked;
+
+      const actionFilter = document.getElementById('actionCheckbox').checked;
+      const fantasyFilter = document.getElementById('fantasyCheckbox').checked;
+      const superheroFilter = document.getElementById('superheroCheckbox').checked;
+      const romanticFilter = document.getElementById('romanticCheckbox').checked;
+
+      fetchMoviesData().then(moviesData => {
+        
+        const filteredMovies = moviesData.filter(movie => {
+          const languageMatch =
+            (englishFilter && movie.language.toLowerCase().includes('english')) ||
+            (hindiFilter && movie.language.toLowerCase().includes('hindi')) ||
+            (tamilFilter && movie.language.toLowerCase().includes('tamil')) ||
+            (teluguFilter && movie.language.toLowerCase().includes('telugu'));
+
+          const genreMatch =
+            (actionFilter && movie.genre.toLowerCase().includes('action')) ||
+            (fantasyFilter && movie.genre.toLowerCase().includes('fantasy')) ||
+            (superheroFilter && movie.genre.toLowerCase().includes('superhero')) ||
+            (romanticFilter && movie.genre.toLowerCase().includes('romantic'));
+
+          return languageMatch || genreMatch;
+        });
+
+        displayMovies(filteredMovies);
+      });
+    }
+
+    let 
+
+    // Function to display movies or "No Result Found" on the webpage
+    function displayMovies(movies) {
+        console.log(movies);
+      const movieListContainer = document.getElementById('movieList');
+      movieListContainer.innerHTML = '';
+
+      
+      if (movies.length === 0) {
+        const noResultMessage = document.createElement('p');
+        noResultMessage.textContent = 'No Result Found';
+        movieListContainer.appendChild(noResultMessage);
+      } else {
+        movies.forEach(movie => {
+          const movieName = document.createElement('p');
+          movieName.textContent = movie.id;
+          movieListContainer.appendChild(movieName);
+
+        });
+      }
+    }
+  </script>
+
+</body>
+</html>

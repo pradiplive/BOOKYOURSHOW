@@ -1,0 +1,54 @@
+/* body {
+  font-family: "poppins";
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+} */
+
+
+/* input[data-search] {
+  padding: 10px 10px 5px 10px;
+  width: 300px;
+  font-size: 16px;
+  margin-bottom: -5px;
+} */
+
+/* Add this style to hide the search list initially */
+/* .search-results-list {
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+  margin: auto;
+  
+} */
+.search-results-list{
+  width: 100%;
+}
+.search-suggestion-list{
+  position: absolute;
+  /* top: 77px; */
+  width: 100%;
+  z-index: 300;
+}
+
+
+
+.search-results-list-item {
+  background-color: #fff;
+  padding: 5px;
+  text-align: left;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 5px;
+  max-width: 500px;
+  margin: auto;
+  transition: background-color 0.001s ease;
+  cursor: pointer;
+}
+
+.search-results-list-item:hover,
+.search-results-list-item.selected {
+  /* Apply background color to the selected item */
+  background-color: crimson;
+}
