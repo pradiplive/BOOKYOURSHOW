@@ -96,7 +96,7 @@ $(document).ready(function () {
         handleDateSelection($(this));
       });
 
-      var dateNumeric = currentDate.getDate();
+      var dateNumeric = currentDate.getDate() + 1;
       var dayOfMonth = currentDate.toLocaleDateString("en-US", {
         month: "long",
       });

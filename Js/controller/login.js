@@ -159,24 +159,43 @@ $(document).ready(function () {
     const email = $("#email").val();
     const token = generateToken();
 
-    if (flag) {
-      axios
-        .post("http://localhost:3001/users", {
-          fname,
-          username,
-          password,
-          mobile,
-          email,
-        })
-        .then((response) => {
-          console.log("Registration successful:", response.data);
-          alert("Registration successful. Please log in.");
-          window.location.replace("login.html");
-        })
-        .catch((error) => {
-          console.log("Registration failed:", error);
-          setError(loginError, "Registration failed. Please try again.");
-        });
-    }
+    // Make an API call to check if the email already exists
+    axios
+      .get(`http://localhost:3001/users?email=${email}`)
+      .then((response) => {
+        // If email already exists, show an error message
+        if (response.data.length > 0) {
+          setError(
+            registerError,
+            "Email is already registered. Please use a different email."
+          );
+        } else if (flag) {
+          // If email doesn't exist, proceed with registration
+          axios
+            .post("http://localhost:3001/users", {
+              fname,
+              username,
+              password,
+              mobile,
+              email,
+            })
+            .then((response) => {
+              console.log("Registration successful:", response.data);
+              alert("Registration successful. Please log in.");
+              window.location.replace("login.html");
+            })
+            .catch((error) => {
+              console.log("Registration failed:", error);
+              setError(loginError, "Registration failed. Please try again.");
+            });
+        }
+      })
+      .catch((error) => {
+        console.log("Error checking email existence:", error);
+        setError(
+          loginError,
+          "Error checking email existence. Please try again."
+        );
+      });
   });
 });

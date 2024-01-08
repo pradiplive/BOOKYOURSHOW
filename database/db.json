@@ -612,119 +612,62 @@
   "users": [
     {
       "fname": "Manav Pandey",
-      "username": "manav",
-      "password": "manav@1234",
-      "mobile": "7894561235",
+      "username": "manavp",
+      "password": "heymanav@123",
+      "mobile": "9890989099",
       "email": "manav@gmail.com",
       "id": 1,
       "bookings": [
         {
-          "name": "Aquaman And The Lost Kingdom",
-          "main_img": "../assets/aquaman-banner-img.webp",
-          "no_of_tickets": 2,
-          "selected_seats": [
-            "S70",
-            "S71"
-          ],
-          "selected_date": "10 January 2024",
-          "selected_time": "20:30 PM",
-          "selected_meals": [
-            {
-              "id": 1,
-              "meal_name": "Burger",
-              "meal_price": 160
-            }
-          ],
-          "total_expense": 560
-        },
-        {
           "name": "Sam Bahadur",
           "main_img": "../assets/sam-bahadur.jpg",
-          "theater": "PVR: Market City, Kurla (Premiere)",
-          "no_of_tickets": 2,
-          "selected_seats": [
-            "G14",
-            "G15"
-          ],
-          "selected_date": "15 January 2024",
-          "selected_time": "20:30 PM",
-          "selected_meals": [
-            {
-              "id": 1,
-              "meal_name": "Burger",
-              "meal_price": 80
-            },
-            {
-              "id": 2,
-              "meal_name": "Pizza",
-              "meal_price": 100
-            }
-          ],
-          "total_expense": 780
-        }
-      ]
-    },
-    {
-      "fname": "Nehal Saonekar",
-      "username": "nehalk",
-      "password": "nehal@1234",
-      "email": "nehal@cybage.com",
-      "mobile": "1234567890",
-      "id": 3,
-      "bookings": []
-    },
-    {
-      "fname": "Pradip Sanap",
-      "username": "pradips",
-      "password": "Pradip@123",
-      "mobile": "9898987765",
-      "email": "pradip@gmail.com",
-      "id": 4,
-      "bookings": [
-        {
-          "name": "Dunki",
-          "main_img": "../assets/dunki.jpg",
-          "theater": "Cinepolis: Viviana Mall, Thane",
+          "theater": "INOX: Elpro City Square",
           "no_of_tickets": 2,
           "selected_seats": [
             "G16",
             "G17"
           ],
-          "selected_date": "11 January 2024",
-          "selected_time": "20:30 PM",
+          "selected_date": "13 January 2024",
+          "selected_time": "19:30 PM",
           "selected_meals": [
             {
               "id": 1,
               "meal_name": "Burger",
               "meal_price": 80
-            },
-            {
-              "id": 3,
-              "meal_name": "Salad",
-              "meal_price": 60
             }
           ],
-          "total_expense": 740
+          "total_expense": 680
+        },
+        {
+          "name": "Aquaman And The Lost Kingdom",
+          "main_img": "../assets/aquaman-banner-img.webp",
+          "theater": "Cinepolis: Viviana Mall, Thane",
+          "no_of_tickets": 1,
+          "selected_seats": [
+            "G24"
+          ],
+          "selected_date": "9 January 2024",
+          "selected_time": "13:30 PM",
+          "selected_meals": [
+            {
+              "id": 1,
+              "meal_name": "Burger",
+              "meal_price": 80
+            }
+          ],
+          "total_expense": 380
         }
       ]
-    },
-    {
-      "fname": "Sourabh Dohare",
-      "username": "sourabh",
-      "password": "manav@123",
-      "mobile": "9890989099",
-      "email": "sourabh@gmail.com",
-      "id": 5
     }
   ],
   "feedback": [
     {
-      "_userName": "pradip",
-      "_userEmail": "pradip.employee007@gmail.com",
-      "_rating": "4",
-      "_userFeedback": "Best Movie",
+      "_userName": "harsh",
+      "_userEmail": "harsh@gmail.com",
+      "_rating": "5",
+      "_userFeedback": ".",
       "_recommendation": "yes",
-      "id": 2
+      "id": 1
     }
   ]
 }

@@ -800,7 +800,8 @@
             {
               "time": "19:30 PM",
               "bookedSeats": [
-                5
+                5,
+                17
               ]
             }
           ]
@@ -1942,7 +1943,10 @@
             },
             {
               "time": "21:10 PM",
-              "bookedSeats": []
+              "bookedSeats": [
+                17,
+                18
+              ]
             }
           ]
         },
@@ -5052,7 +5056,10 @@
             },
             {
               "time": "21:10 PM",
-              "bookedSeats": []
+              "bookedSeats": [
+                15,
+                16
+              ]
             }
           ]
         },
@@ -5550,7 +5557,9 @@
             },
             {
               "time": "21:10 PM",
-              "bookedSeats": []
+              "bookedSeats": [
+                18
+              ]
             }
           ]
         },
